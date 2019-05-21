@@ -207,6 +207,8 @@
     -   Part 5: <https://youtu.be/oGMy4FJLKy4>
 -   Online Lessons
     -   <https://frc-west.github.io/>
+    -   FRC & Java <https://stemrobotics.cs.pdx.edu/node/4196?root=4196>
+    -   AP CS principles <https://www.khanacademy.org/computing/ap-computer-science-principles>
 -   Command Based Programming
     -   TODO these needs sorting
     -   <https://wpilib.screenstepslive.com/s/currentCS/m/java/c/88893>
@@ -231,3 +233,10 @@
     -   <https://www.strykeforce.org/resources/Mechanical_Design_Description_of_Stryke_Force_Swerve_Drive_Units.pdf>
     -   <https://github.com/strykeforce/cookiecutter-robot>
     -   <https://www.chiefdelphi.com/t/paper-4-wheel-independent-drive-independent-steering-swerve/107383>
+-   Related Chief Delphi threads:
+    -   <https://www.chiefdelphi.com/t/your-team-sucks-at-programming-heres-why/358026>
+-   Misc Programming Resources:
+    -   Python FRC robot simulator <https://github.com/robotpy/pyrobottraining>
+-   Advanced Programming (not FRC specific):
+    -   <https://www.toptal.com/robotics/programming-a-robot-an-introductory-tutorial>
+    -   <https://www.coursera.org/learn/mobile-robot/>
