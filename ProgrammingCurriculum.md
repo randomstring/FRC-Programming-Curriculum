@@ -12,9 +12,12 @@
 <li><a href="#sec-8">8. Driver station</a></li>
 <li><a href="#sec-9">9. Networking Basics</a></li>
 <li><a href="#sec-10">10. General Computer Science</a></li>
-<li><a href="#sec-11">11. Basic Physics</a></li>
-<li><a href="#sec-12">12. Electronics, Wiring, and Control Systems</a></li>
-<li><a href="#sec-13">13. Resources</a></li>
+<li><a href="#sec-11">11. Debugging code</a></li>
+<li><a href="#sec-12">12. What is it like to be a Programmer?</a></li>
+<li><a href="#sec-13">13. Basic Physics</a></li>
+<li><a href="#sec-14">14. Electronics, Wiring, and Control Systems</a></li>
+<li><a href="#sec-15">15. Suggested Programming Calendar</a></li>
+<li><a href="#sec-16">16. Resources</a></li>
 </ul>
 </div>
 </div>
@@ -168,7 +171,34 @@
     -   adopt a style
         -   automatic java style on file save w/ VSCode
 
-# Basic Physics<a id="sec-11" name="sec-11"></a>
+# Debugging code<a id="sec-11" name="sec-11"></a>
+
+-   print to the console
+    -   print values, weird conditions, errors
+-   check for expected and unexpected values (assert statements)
+-   defensive programming (ignore bad input, or just STOP)
+-   check your assumptions
+-   If you are confused about what the code is doing, then you don't
+    understand the code or you don't understand what's going
+    on. LEARN what's really happening, don't keep changing the code.
+
+# What is it like to be a Programmer?<a id="sec-12" name="sec-12"></a>
+
+-   alway backup your code
+    -   ABC: Always Be Commiting. Use version control (github for example)
+-   Use branches
+    -   bookmark working code, keep experimental code off the main branch
+-   nothing ever works the first time
+-   every line of code is an opportunity for a bug
+    -   off by one errors ( < vs <= )
+-   study other peoples code
+-   copy from the best
+-   learning how to debug
+    -   ask for help
+    -   explain your problem to someone (or rubber duck)
+-   typing skills are important
+
+# Basic Physics<a id="sec-13" name="sec-13"></a>
 
 -   speed, acceleration, gravity, motion
     -   newton's laws
@@ -180,7 +210,7 @@
 -   Elastic vs Inelastic collisions (?)
     -   <https://www.khanacademy.org/science/physics/linear-momentum/elastic-and-inelastic-collisions/v/elastic-and-inelastic-collisions>
 
-# Electronics, Wiring, and Control Systems<a id="sec-12" name="sec-12"></a>
+# Electronics, Wiring, and Control Systems<a id="sec-14" name="sec-14"></a>
 
 -   RoboRio anatomy
     -   layout
@@ -193,12 +223,43 @@
     -   debugging
 -   Example wiring diagrams
 
-# Resources<a id="sec-13" name="sec-13"></a>
+# Suggested Programming Calendar<a id="sec-15" name="sec-15"></a>
+
+-   Pre-Season
+    -   practice robot, with basic drive and a few sensors
+-   week -2
+    -   update software for new season
+        = driverstation
+        = firmware for roborio, radio
+        = VSCode
+        = motor contoller firmware
+        = everything
+-   Week 0
+    -   survey build teams, make list of components
+    -   plan subsystems, basic commands,
+    -   create code for drivable robot
+    -   plan Driverstation layout
+    -   plan vision systems and camera placement
+    -   start writing subsystem (even if just stubs)
+    -   pic CAN bus, IO assignments for sensors, etc.
+    -   Give specs to Control subteam
+-   Week 1
+-   Week 2
+-   Week 3
+-   Week 4
+-   Week 5
+-   Week n+1
+
+# Resources<a id="sec-16" name="sec-16"></a>
 
 -   General
     -   <http://wpilib.screenstepslive.com/s/currentCS>
+    -   <https://frc-docs.readthedocs.io/en/latest/>
     -   <https://www.team254.com/resources/>
     -   <https://betawolves.org/resources/>
+-   Places to Ask for Help
+    -   <https://www.chiefdelphi.com/tags/programming>
+    -   <https://discord.gg/frc>
 -   Intro to Command Based Programming (VS Code & Java)
     -   Part 1: <https://youtu.be/wW_djLkD1B8>
     -   Part 2: <https://youtu.be/9MpJgUUsLZw>
@@ -206,6 +267,7 @@
     -   Part 4: <https://youtu.be/YNluD_TNj5E>
     -   Part 5: <https://youtu.be/oGMy4FJLKy4>
 -   Online Lessons
+    -   <https://github.com/FRCTeam3255/FRC-Java-Tutorial>
     -   <https://frc-west.github.io/>
     -   FRC & Java <https://stemrobotics.cs.pdx.edu/node/4196?root=4196>
     -   AP CS principles <https://www.khanacademy.org/computing/ap-computer-science-principles>
