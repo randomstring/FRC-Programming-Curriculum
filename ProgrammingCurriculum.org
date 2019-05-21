@@ -161,6 +161,8 @@
    + Part 3: https://youtu.be/5Zr7K_2mnrw
    + Part 4: https://youtu.be/YNluD_TNj5E
    + Part 5: https://youtu.be/oGMy4FJLKy4
+ - Online Lessons
+   + https://frc-west.github.io/
  - Command Based Programming
    + TODO these needs sorting
    + https://wpilib.screenstepslive.com/s/currentCS/m/java/c/88893
