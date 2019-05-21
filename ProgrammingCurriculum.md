@@ -16,8 +16,9 @@
 <li><a href="#sec-12">12. What is it like to be a Programmer?</a></li>
 <li><a href="#sec-13">13. Basic Physics</a></li>
 <li><a href="#sec-14">14. Electronics, Wiring, and Control Systems</a></li>
-<li><a href="#sec-15">15. Suggested Programming Calendar</a></li>
-<li><a href="#sec-16">16. Resources</a></li>
+<li><a href="#sec-15">15. Programming Projects</a></li>
+<li><a href="#sec-16">16. Suggested Programming Calendar</a></li>
+<li><a href="#sec-17">17. Resources</a></li>
 </ul>
 </div>
 </div>
@@ -72,10 +73,14 @@
         -   vs. WPI lib PID controller
     -   lead-follow  (speed and position)
     -   motion magic
+-   OI
+    -   WhenPressed, WhilePressed, Toggle, etc
+    -   instantiating of commands classes
 -   WPI Sensors
     -   Gyro
     -   distance sensors
     -   Hall effect, etc&#x2026;
+-   WPI USBCamera class
 -   LimeLight
     -   walk through limelight's very good examples
 -   Pixy cam
@@ -168,6 +173,11 @@
         -   name variables for what they are
         -   \_foo for local variables
         -   other conventions
+    -   comments
+        -   need to be accurate and up to date
+        -   add to the code to increase understanding
+        -   comments should explain WHY not WHAT, the what should be obvious from your code.
+        -   include refernces to documentation, API, etc
     -   adopt a style
         -   automatic java style on file save w/ VSCode
 
@@ -184,19 +194,20 @@
 
 # What is it like to be a Programmer?<a id="sec-12" name="sec-12"></a>
 
--   alway backup your code
-    -   ABC: Always Be Commiting. Use version control (github for example)
--   Use branches
-    -   bookmark working code, keep experimental code off the main branch
--   nothing ever works the first time
--   every line of code is an opportunity for a bug
-    -   off by one errors ( < vs <= )
--   study other peoples code
--   copy from the best
--   learning how to debug
-    -   ask for help
-    -   explain your problem to someone (or rubber duck)
--   typing skills are important
+-   expect to spend lots of time googling and reading webpages
+    -   alway backup your code
+        -   ABC: Always Be Commiting. Use version control (github for example)
+    -   Use branches
+        -   bookmark working code, keep experimental code off the main branch
+    -   nothing ever works the first time
+    -   every line of code is an opportunity for a bug
+        -   off by one errors ( < vs <= )
+    -   study other peoples code
+    -   copy from the best
+    -   learning how to debug
+        -   ask for help
+        -   explain your problem to someone (or rubber duck)
+    -   typing skills are important
 
 # Basic Physics<a id="sec-13" name="sec-13"></a>
 
@@ -223,7 +234,12 @@
     -   debugging
 -   Example wiring diagrams
 
-# Suggested Programming Calendar<a id="sec-15" name="sec-15"></a>
+# Programming Projects<a id="sec-15" name="sec-15"></a>
+
+-   the best way to learn is to have a project, a reason to learn and use the skills
+-   Clean room program last year's robot from scratch
+
+# Suggested Programming Calendar<a id="sec-16" name="sec-16"></a>
 
 -   Pre-Season
     -   practice robot, with basic drive and a few sensors
@@ -250,7 +266,7 @@
 -   Week 5
 -   Week n+1
 
-# Resources<a id="sec-16" name="sec-16"></a>
+# Resources<a id="sec-17" name="sec-17"></a>
 
 -   General
     -   <http://wpilib.screenstepslive.com/s/currentCS>

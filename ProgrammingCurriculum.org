@@ -39,10 +39,14 @@
       - vs. WPI lib PID controller
     + lead-follow  (speed and position)
     + motion magic
+  - OI
+    + WhenPressed, WhilePressed, Toggle, etc
+    + instantiating of commands classes
   - WPI Sensors
     + Gyro
     + distance sensors
     + Hall effect, etc...
+  - WPI USBCamera class
   - LimeLight
     + walk through limelight's very good examples
   - Pixy cam
@@ -125,6 +129,11 @@
       - name variables for what they are
       - _foo for local variables
       - other conventions
+    + comments
+      - need to be accurate and up to date
+      - add to the code to increase understanding
+      - comments should explain WHY not WHAT, the what should be obvious from your code. 
+      - include refernces to documentation, API, etc
     + adopt a style
       - automatic java style on file save w/ VSCode
 * Debugging code
@@ -137,6 +146,7 @@
      understand the code or you don't understand what's going
      on. LEARN what's really happening, don't keep changing the code.
 * What is it like to be a Programmer?
+  - expect to spend lots of time googling and reading webpages
    - alway backup your code
      + ABC: Always Be Commiting. Use version control (github for example)
    - Use branches
@@ -172,6 +182,9 @@
    + debugging
  - Example wiring diagrams
 
+* Programming Projects
+  - the best way to learn is to have a project, a reason to learn and use the skills
+  - Clean room program last year's robot from scratch
 * Suggested Programming Calendar
  - Pre-Season
    + practice robot, with basic drive and a few sensors
