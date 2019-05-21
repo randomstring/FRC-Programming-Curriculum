@@ -1,0 +1,189 @@
+* Account setup
+  - github (join team group)
+  - trello
+  - slack (and channels, #programming)
+  - MS Teams
+* Software Installation & Tool Setup
+  - github
+  - VS Code
+  - WPI libs install
+  - Driver Station
+  - motor controller utilities
+  - flashing firmware Roborio, Limelight, radio
+  - How to update software
+* WPI lib 
+  - API overview
+  - Command based robot
+    + Robot.java
+    + RobotMap.java
+    + OI.java (xbox controllers)
+    + subsystems
+    + commands
+    + command Groups
+    + controlling motors
+    + sensor input
+    + drivetrains (tank, arcade style)
+    + Network tables (reading/writing values) 
+    + subsystems and command interaction (scheduler)
+* PID controllers
+ - Bang-Bang controller
+ - define P, I, and D
+ - arm example
+ - speed example
+ - steering
+* Motor Controllers and WPI built-in functions
+  - motor control
+    + setting motor settings
+    + get position
+    + direct PID control from motor controller
+      - vs. WPI lib PID controller
+    + lead-follow  (speed and position)
+    + motion magic
+  - WPI Sensors
+    + Gyro
+    + distance sensors
+    + Hall effect, etc...
+  - LimeLight
+    + walk through limelight's very good examples
+  - Pixy cam
+    + object detection
+    + line follow
+  - Pathfollowing basics
+    + position & orientation, start and desired target
+    + path selection
+    + path follow (motor speeds)
+    + tracking changes
+    + adapting to errors
+  - Pathfollow libraries
+    + Pure Pursuit
+    + Chezy Drive
+* Advanced Git and Github
+  - branching
+  - pull requests
+  - merging
+* VS Code
+  - work flow
+  - quick commands for building, saving, 
+  - Github integration
+    + pull, branch, code, commit, push
+  - Build and Gradle
+  - installing libraries
+  - updating libraries
+  - special files
+    .gitignore .vscode vendordeps
+* Driver station 
+  - install
+  - setup
+  - networktables
+    + reading values
+    + writing values
+  - exampe PID tuning with DS parameters
+* Networking Basics
+  - Wired vs WiFi
+  - Switches, routers, Radios, Mesh Networks
+  - Network wiring
+  - TCP, UDP, HTTP, HTTPS
+  - bandwidth, latency, packet loss
+  - WiFi
+    + 2.4Ghz vs 5Ghz
+    + WiFi interference
+* General Computer Science
+  - data structures
+    + basic types, int, float double, char, strings
+    + lists/arrays
+    + structures
+    + enum (?)
+  - Constants
+  - Abstract Data Types and functions
+    + Java classes 
+      - basic differences between public and private
+    + Java class organization
+      - one per file
+      - how to import
+      - initialization
+      - constructors
+      - destructures
+      - ADVANCED: garbage collection
+    + accessing Java methods and variables
+      - dot notation ClassName.methodName() Classname.variableName
+    + Class inheritance
+      - base classes for Robot subsystem, command, etc
+      - interation with constructors
+      - scheduling methods you don't see under the hood
+  - logic
+    + if, then, else
+    + while
+    + for
+  - function calls
+    + parameter passing
+    + return values
+    + side effects
+  - Style
+    + code readability
+    + variable naming, camel case, unerscores, captiralization, prefixes
+      - no funny joke names
+      - name variables for what they are
+      - _foo for local variables
+      - other conventions
+    + adopt a style
+      - automatic java style on file save w/ VSCode
+* Basic Physics
+ - speed, acceleration, gravity, motion
+   + newton's laws
+ - force, momentum, energy  
+ - levers
+ - Vectors
+   + adding force and motion vectors
+ - Friction (?)
+ - Elastic vs Inelastic collisions (?)
+   + https://www.khanacademy.org/science/physics/linear-momentum/elastic-and-inelastic-collisions/v/elastic-and-inelastic-collisions
+* Electronics, Wiring, and Control Systems
+ - RoboRio anatomy
+   + layout
+   + power 
+   + CPU
+   + input/output (CAN, digital IO, USB)
+   + USB camera
+ - CAN bus 
+   + wiring
+   + debugging
+ - Example wiring diagrams
+
+
+* Resources
+ - General
+   + http://wpilib.screenstepslive.com/s/currentCS
+   + https://www.team254.com/resources/
+   + https://betawolves.org/resources/
+ - Intro to Command Based Programming (VS Code & Java)
+   + Part 1: https://youtu.be/wW_djLkD1B8
+   + Part 2: https://youtu.be/9MpJgUUsLZw
+   + Part 3: https://youtu.be/5Zr7K_2mnrw
+   + Part 4: https://youtu.be/YNluD_TNj5E
+   + Part 5: https://youtu.be/oGMy4FJLKy4
+ - Command Based Programming
+   + TODO these needs sorting
+   + https://wpilib.screenstepslive.com/s/currentCS/m/java/c/88893
+   + https://wpilib.screenstepslive.com/s/currentCS/m/java/l/599745-scheduling-commands
+ - Code Examples:
+   + Motor controllers
+   + https://github.com/CrossTheRoadElec/Phoenix-Examples-Languages/tree/master/Java
+   + https://github.com/REVrobotics/SPARK-MAX-Examples
+ - Control:
+   + https://www.team254.com/documents/control/
+ - Vision:
+   + https://www.team254.com/documents/vision-control/
+   + http://docs.limelightvision.io/en/latest/  (in particular Programming section)
+ - Path Planning:
+   + Intro: https://wpilib.screenstepslive.com/s/currentCS/m/84338
+   + https://www.youtube.com/watch?v=8319J1BEHwM
+   + SLIDES: https://docs.google.com/presentation/d/1xjtQ5m3Ay4AYxS_SfloF2n_vWZnCU25aXZuu9A59xPY/pub?start=false&loop=false&delayms=3000&slide=id.p
+   + pure pursuit: https://www.chiefdelphi.com/t/paper-implementation-of-the-adaptive-pure-pursuit-controller/166552
+   + https://github.com/Dawgma-1712/FRC-2018/wiki/pure-pursuit
+ - Swerve Drive Resources:
+   + https://www.chiefdelphi.com/t/team-4048-swerve-drive-code-release/166605
+   + https://www.strykeforce.org/resources/Mechanical_Design_Description_of_Stryke_Force_Swerve_Drive_Units.pdf
+   + https://github.com/strykeforce/cookiecutter-robot
+   + https://www.chiefdelphi.com/t/paper-4-wheel-independent-drive-independent-steering-swerve/107383
+
+
