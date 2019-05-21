@@ -7,10 +7,14 @@
 <li><a href="#sec-3">3. WPI lib</a></li>
 <li><a href="#sec-4">4. PID controllers</a></li>
 <li><a href="#sec-5">5. Motor Controllers and WPI built-in functions</a></li>
-<li><a href="#sec-6">6. Networking Basics</a></li>
-<li><a href="#sec-7">7. Basic Physics</a></li>
-<li><a href="#sec-8">8. Electronics, Wiring, and Control Systems</a></li>
-<li><a href="#sec-9">9. Resources</a></li>
+<li><a href="#sec-6">6. Advanced Git and Github</a></li>
+<li><a href="#sec-7">7. VS Code</a></li>
+<li><a href="#sec-8">8. Driver station</a></li>
+<li><a href="#sec-9">9. Networking Basics</a></li>
+<li><a href="#sec-10">10. General Computer Science</a></li>
+<li><a href="#sec-11">11. Basic Physics</a></li>
+<li><a href="#sec-12">12. Electronics, Wiring, and Control Systems</a></li>
+<li><a href="#sec-13">13. Resources</a></li>
 </ul>
 </div>
 </div>
@@ -84,7 +88,34 @@
     -   Pure Pursuit
     -   Chezy Drive
 
-# Networking Basics<a id="sec-6" name="sec-6"></a>
+# Advanced Git and Github<a id="sec-6" name="sec-6"></a>
+
+-   branching
+-   pull requests
+-   merging
+
+# VS Code<a id="sec-7" name="sec-7"></a>
+
+-   work flow
+-   quick commands for building, saving,
+-   Github integration
+    -   pull, branch, code, commit, push
+-   Build and Gradle
+-   installing libraries
+-   updating libraries
+-   special files
+    .gitignore .vscode vendordeps
+
+# Driver station<a id="sec-8" name="sec-8"></a>
+
+-   install
+-   setup
+-   networktables
+    -   reading values
+    -   writing values
+-   exampe PID tuning with DS parameters
+
+# Networking Basics<a id="sec-9" name="sec-9"></a>
 
 -   Wired vs WiFi
 -   Switches, routers, Radios, Mesh Networks
@@ -95,7 +126,49 @@
     -   2.4Ghz vs 5Ghz
     -   WiFi interference
 
-# Basic Physics<a id="sec-7" name="sec-7"></a>
+# General Computer Science<a id="sec-10" name="sec-10"></a>
+
+-   data structures
+    -   basic types, int, float double, char, strings
+    -   lists/arrays
+    -   structures
+    -   enum (?)
+-   Constants
+-   Abstract Data Types and functions
+    -   Java classes 
+        -   basic differences between public and private
+    -   Java class organization
+        -   one per file
+        -   how to import
+        -   initialization
+        -   constructors
+        -   destructures
+        -   ADVANCED: garbage collection
+    -   accessing Java methods and variables
+        -   dot notation ClassName.methodName() Classname.variableName
+    -   Class inheritance
+        -   base classes for Robot subsystem, command, etc
+        -   interation with constructors
+        -   scheduling methods you don't see under the hood
+-   logic
+    -   if, then, else
+    -   while
+    -   for
+-   function calls
+    -   parameter passing
+    -   return values
+    -   side effects
+-   Style
+    -   code readability
+    -   variable naming, camel case, unerscores, captiralization, prefixes
+        -   no funny joke names
+        -   name variables for what they are
+        -   \_foo for local variables
+        -   other conventions
+    -   adopt a style
+        -   automatic java style on file save w/ VSCode
+
+# Basic Physics<a id="sec-11" name="sec-11"></a>
 
 -   speed, acceleration, gravity, motion
     -   newton's laws
@@ -107,7 +180,7 @@
 -   Elastic vs Inelastic collisions (?)
     -   <https://www.khanacademy.org/science/physics/linear-momentum/elastic-and-inelastic-collisions/v/elastic-and-inelastic-collisions>
 
-# Electronics, Wiring, and Control Systems<a id="sec-8" name="sec-8"></a>
+# Electronics, Wiring, and Control Systems<a id="sec-12" name="sec-12"></a>
 
 -   RoboRio anatomy
     -   layout
@@ -120,10 +193,28 @@
     -   debugging
 -   Example wiring diagrams
 
-# Resources<a id="sec-9" name="sec-9"></a>
+# Resources<a id="sec-13" name="sec-13"></a>
 
 -   General
+    -   <http://wpilib.screenstepslive.com/s/currentCS>
     -   <https://www.team254.com/resources/>
+    -   <https://betawolves.org/resources/>
+-   Intro to Command Based Programming (VS Code & Java)
+    -   Part 1: <https://youtu.be/wW_djLkD1B8>
+    -   Part 2: <https://youtu.be/9MpJgUUsLZw>
+    -   Part 3: <https://youtu.be/5Zr7K_2mnrw>
+    -   Part 4: <https://youtu.be/YNluD_TNj5E>
+    -   Part 5: <https://youtu.be/oGMy4FJLKy4>
+-   Online Lessons
+    -   <https://frc-west.github.io/>
+-   Command Based Programming
+    -   TODO these needs sorting
+    -   <https://wpilib.screenstepslive.com/s/currentCS/m/java/c/88893>
+    -   <https://wpilib.screenstepslive.com/s/currentCS/m/java/l/599745-scheduling-commands>
+-   Code Examples:
+    -   Motor controllers
+    -   <https://github.com/CrossTheRoadElec/Phoenix-Examples-Languages/tree/master/Java>
+    -   <https://github.com/REVrobotics/SPARK-MAX-Examples>
 -   Control:
     -   <https://www.team254.com/documents/control/>
 -   Vision:
