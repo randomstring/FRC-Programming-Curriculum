@@ -113,6 +113,8 @@
 -   updating libraries
 -   special files
     .gitignore .vscode vendordeps
+-   <https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf>
+-   <https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf>
 
 # Driver station<a id="sec-8" name="sec-8"></a>
 
@@ -295,6 +297,9 @@
     -   Motor controllers
     -   <https://github.com/CrossTheRoadElec/Phoenix-Examples-Languages/tree/master/Java>
     -   <https://github.com/REVrobotics/SPARK-MAX-Examples>
+    -   Sensors/Gyro
+    -   <https://pdocs.kauailabs.com/navx-mxp/examples/automatic-balancing/> (sample code)
+    -   <https://pdocs.kauailabs.com/navx-mxp/>
 -   Control:
     -   <https://www.team254.com/documents/control/>
 -   Vision:
@@ -315,6 +320,8 @@
     -   <https://www.chiefdelphi.com/t/your-team-sucks-at-programming-heres-why/358026>
 -   Misc Programming Resources:
     -   Python FRC robot simulator <https://github.com/robotpy/pyrobottraining>
+-   Other online FRC Courses/Lectures/Notes
+    -   <https://www.citruscircuits.org/fall-workshops.html> (<&#x2014; THIS!)
 -   Advanced Programming (not FRC specific):
     -   <https://www.toptal.com/robotics/programming-a-robot-an-introductory-tutorial>
     -   <https://www.coursera.org/learn/mobile-robot/>
