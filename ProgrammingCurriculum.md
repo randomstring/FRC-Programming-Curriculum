@@ -33,6 +33,8 @@
 # Software Installation & Tool Setup<a id="sec-2" name="sec-2"></a>
 
 -   github
+-   <https://help.github.com/en/desktop/getting-started-with-github-desktop>
+-   <https://frc-docs.readthedocs.io/en/latest/docs/software/getting-started/offline-installation-preperations.html>
 -   VS Code
 -   WPI libs install
 -   Driver Station
@@ -76,6 +78,10 @@
 -   OI
     -   WhenPressed, WhilePressed, Toggle, etc
     -   instantiating of commands classes
+-   CAN Bus
+    -   Pneumatic: Compressor, Solenoid, DoubleSolenoid
+    -   Electrical: PowerDistributionPanel
+    -   3rd Party: Talon SRX, Victor SPX, SPARK MAX, Pideon IMU
 -   WPI Sensors
     -   Gyro
     -   distance sensors
@@ -135,6 +141,14 @@
 -   WiFi
     -   2.4Ghz vs 5Ghz
     -   WiFi interference
+-   FRC specific network setup
+    -   <https://frc-docs.readthedocs.io/en/latest/docs/networking/ip-networking.html>
+    -   10.29.30.1/24  subnet
+    -   mDNS
+    -   assinged IP addresses for radio, roborio, driverstation
+    -   allowed ports
+    -   allowed bandwitch
+    -   effects of dropped packets & latency
 
 # General Computer Science<a id="sec-10" name="sec-10"></a>
 
@@ -234,12 +248,21 @@
 -   CAN bus 
     -   wiring
     -   debugging
+    -   Phoenix Tuner CAN debugging tool
+    -   <https://phoenix-documentation.readthedocs.io/en/latest/ch03_PrimerPhoenixSoft.html#what-is-phoenix-tuner>
 -   Example wiring diagrams
 
 # Programming Projects<a id="sec-15" name="sec-15"></a>
 
 -   the best way to learn is to have a project, a reason to learn and use the skills
 -   Clean room program last year's robot from scratch
+-   add features to 2019 Robot
+    -   gyro for level climb
+    -   gyro for drive straight, field alignment
+    -   limit switch or hall effect for arm or stilt
+    -   fully autonomous hatch placement
+    -   pathweaver or other path planning
+    -   autonomous 2 hatch & one cargo pickup sandstorm
 
 # Suggested Programming Calendar<a id="sec-16" name="sec-16"></a>
 
@@ -259,7 +282,7 @@
     -   plan Driverstation layout
     -   plan vision systems and camera placement
     -   start writing subsystem (even if just stubs)
-    -   pic CAN bus, IO assignments for sensors, etc.
+    -   pic CAN bus id, digital IO assignments for sensors, etc.
     -   Give specs to Control subteam
 -   Week 1
 -   Week 2
@@ -290,7 +313,7 @@
     -   FRC & Java <https://stemrobotics.cs.pdx.edu/node/4196?root=4196>
     -   AP CS principles <https://www.khanacademy.org/computing/ap-computer-science-principles>
 -   Command Based Programming
-    -   TODO these needs sorting
+    -   <https://frc-docs.readthedocs.io/en/develop/software.html#command-based-programming> (GOOD!)
     -   <https://wpilib.screenstepslive.com/s/currentCS/m/java/c/88893>
     -   <https://wpilib.screenstepslive.com/s/currentCS/m/java/l/599745-scheduling-commands>
 -   Code Examples:
@@ -300,6 +323,10 @@
     -   Sensors/Gyro
     -   <https://pdocs.kauailabs.com/navx-mxp/examples/automatic-balancing/> (sample code)
     -   <https://pdocs.kauailabs.com/navx-mxp/>
+-   CAN Bus programming:
+    -   <https://frc-docs.readthedocs.io/en/develop/software.html#can-devices>
+    -   Cross the Road Electronics documentation, CAN, APIs, installation
+    -   <https://phoenix-documentation.readthedocs.io/en/latest/index.html>
 -   Control:
     -   <https://www.team254.com/documents/control/>
 -   Vision:
