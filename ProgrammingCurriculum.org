@@ -42,6 +42,7 @@
     + lead-follow  (speed and position)
     + motion magic
   - OI
+    + https://frc-docs.readthedocs.io/en/develop/docs/software/commandbased/binding-commands-to-triggers.html
     + WhenPressed, WhilePressed, Toggle, etc
     + instantiating of commands classes
   - CAN Bus
@@ -151,6 +152,7 @@
       - comments should explain WHY not WHAT, the what should be obvious from your code. 
       - include refernces to documentation, API, etc
     + adopt a style
+      - https://wpilib.screenstepslive.com/s/currentCS/m/java/l/145309-java-conventions-for-objects-methods-and-variables
       - automatic java style on file save w/ VSCode
 * Debugging code
    - print to the console
@@ -206,9 +208,12 @@
     + gyro for level climb
     + gyro for drive straight, field alignment
     + limit switch or hall effect for arm or stilt
+    + only idle intake after running intake and until eject
     + fully autonomous hatch placement
     + pathweaver or other path planning 
     + autonomous 2 hatch & one cargo pickup sandstorm
+    + add LED lights
+    + monitor for brownout (alert w/ LED, turn something off, reduce power to motors)
 * Suggested Programming Calendar
  - Pre-Season
    + practice robot, with basic drive and a few sensors
@@ -263,6 +268,7 @@
    + https://github.com/CrossTheRoadElec/Phoenix-Examples-Languages/tree/master/Java
    + https://github.com/REVrobotics/SPARK-MAX-Examples
    + Sensors/Gyro
+   + https://wpilib.screenstepslive.com/s/currentCS/m/java/c/88895
    + https://pdocs.kauailabs.com/navx-mxp/examples/automatic-balancing/ (sample code)
    + https://pdocs.kauailabs.com/navx-mxp/
  - CAN Bus programming:
