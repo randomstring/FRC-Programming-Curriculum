@@ -257,6 +257,7 @@
  - Online Lessons
    + https://github.com/FRCTeam3255/FRC-Java-Tutorial
    + https://frc-west.github.io/
+   + http://team2363.org/2016/11/command-based-java-for-frc/
    + FRC & Java https://stemrobotics.cs.pdx.edu/node/4196?root=4196
    + AP CS principles https://www.khanacademy.org/computing/ap-computer-science-principles
  - Command Based Programming
