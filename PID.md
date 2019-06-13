@@ -14,6 +14,7 @@
 <li><a href="#sec-10">10. Introducing I</a></li>
 <li><a href="#sec-11">11. P + I controllers</a></li>
 <li><a href="#sec-12">12. D controllers</a></li>
+<li><a href="#sec-13">13. Resources</a></li>
 </ul>
 </div>
 </div>
@@ -138,18 +139,21 @@ K for "Kostant"
 Throttle = Ki \* total<sub>error</sub>
 
 -   <graph>
-
 -   what does this do? If our controller get's stuck, the accumulated error pushes us towards the right throttle.
-
 -   don't use just I controllers
 
 # P + I controllers<a id="sec-11" name="sec-11"></a>
 
 -   P controllers are pretty good by themselves
 -   I element can help speed up when we're far off the target and give that final nudge when P can't finish the job
-
 -   <graph comparing, P, I, and P +I>
 
 # D controllers<a id="sec-12" name="sec-12"></a>
 
--
+-   
+
+# Resources<a id="sec-13" name="sec-13"></a>
+
+-   <https://www.youtube.com/watch?v=UR0hOmjaHp0>
+-   <https://www.youtube.com/watch?v=XfAt6hNV8XM>
+-   <https://www.youtube.com/watch?v=pTuPhJ0DJB8>
