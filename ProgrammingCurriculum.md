@@ -57,6 +57,45 @@
     -   drivetrains (tank, arcade style)
     -   Network tables (reading/writing values)
     -   subsystems and command interaction (scheduler)
+-   Missing Documentation
+    -   Commands
+        -   Command()
+            -   constructor will have the same name as your Command
+            -   call requires() for every subsystem used, to prevent
+                conflicts. more than one command cannot use the same
+                subsystem at the same time
+            -   CAREFUL: do not put initialization code here, it belongs in initialize()
+        -   initialize()
+            -   Anything that would need to happen before the command starts.
+            -   Example: Getting the starting position from an encoder.
+            -   CAREFUL: not to put initialize code into execute, if it only needs to be run once
+                it should be in initialize() not execute()
+        -   execute()
+            -   The action that needs to be repeated over and over again.
+            -   Treat this method as a single iteration of a loop.
+            -   will keep getting called every time through the scheduler, until 
+                1.  isFinished() returns true OR
+                2.  the command is interupted, another command that requires the same subsystem
+            -   CAUTION: While this command's execute() is running, no other
+                code is being run.  if this code takes too long (say more
+                than 10ms) it will make other parts of the robot have
+                problems. Drive may stutter. Sensors won't update quickly
+                enough. controls will be sluggish and erratic. Waiting for
+                input, highly iterative code, slow computation are all a
+                no-no.
+            -   Example: Reading the values from a joystick and sending them to the drivetrain.
+        -   isFinished()
+            -   is checked after every execute()
+            -   default commands should always return False
+            -   if execute() only runs once, then should always return True
+        -   end()
+            -   This method will run after the isFinished() method returns a true value.
+            -   This should contain anything that needs to happen after a command finishes.
+            -   Example: Set the drivetrain motors to stop.
+        -   interrupted()
+            -   This command will run if another command takes control of a subsystem that this command was using.
+            -   may be different action than end() may be the same
+            -   Example: Setting a motor to stop
 
 # PID controllers<a id="sec-4" name="sec-4"></a>
 
@@ -76,6 +115,7 @@
     -   lead-follow  (speed and position)
     -   motion magic
 -   OI
+    -   <https://frc-docs.readthedocs.io/en/develop/docs/software/commandbased/binding-commands-to-triggers.html>
     -   WhenPressed, WhilePressed, Toggle, etc
     -   instantiating of commands classes
 -   CAN Bus
@@ -195,6 +235,7 @@
         -   comments should explain WHY not WHAT, the what should be obvious from your code.
         -   include refernces to documentation, API, etc
     -   adopt a style
+        -   <https://wpilib.screenstepslive.com/s/currentCS/m/java/l/145309-java-conventions-for-objects-methods-and-variables>
         -   automatic java style on file save w/ VSCode
 
 # Debugging code<a id="sec-11" name="sec-11"></a>
@@ -260,9 +301,12 @@
     -   gyro for level climb
     -   gyro for drive straight, field alignment
     -   limit switch or hall effect for arm or stilt
+    -   only idle intake after running intake and until eject
     -   fully autonomous hatch placement
     -   pathweaver or other path planning
     -   autonomous 2 hatch & one cargo pickup sandstorm
+    -   add LED lights
+    -   monitor for brownout (alert w/ LED, turn something off, reduce power to motors)
 
 # Suggested Programming Calendar<a id="sec-16" name="sec-16"></a>
 
@@ -310,6 +354,7 @@
 -   Online Lessons
     -   <https://github.com/FRCTeam3255/FRC-Java-Tutorial>
     -   <https://frc-west.github.io/>
+    -   <http://team2363.org/2016/11/command-based-java-for-frc/>
     -   FRC & Java <https://stemrobotics.cs.pdx.edu/node/4196?root=4196>
     -   AP CS principles <https://www.khanacademy.org/computing/ap-computer-science-principles>
 -   Command Based Programming
@@ -321,6 +366,7 @@
     -   <https://github.com/CrossTheRoadElec/Phoenix-Examples-Languages/tree/master/Java>
     -   <https://github.com/REVrobotics/SPARK-MAX-Examples>
     -   Sensors/Gyro
+    -   <https://wpilib.screenstepslive.com/s/currentCS/m/java/c/88895>
     -   <https://pdocs.kauailabs.com/navx-mxp/examples/automatic-balancing/> (sample code)
     -   <https://pdocs.kauailabs.com/navx-mxp/>
 -   CAN Bus programming:

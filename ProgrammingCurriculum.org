@@ -27,6 +27,46 @@
     + drivetrains (tank, arcade style)
     + Network tables (reading/writing values) 
     + subsystems and command interaction (scheduler)
+  - Missing Documentation
+    + Commands
+      - Command()
+        + constructor will have the same name as your Command
+        + call requires() for every subsystem used, to prevent
+          conflicts. more than one command cannot use the same
+          subsystem at the same time
+	+ CAREFUL: do not put initialization code here, it belongs in initialize()
+      - initialize()
+        + Anything that would need to happen before the command starts.
+        + Example: Getting the starting position from an encoder.
+	+ CAREFUL: not to put initialize code into execute, if it only needs to be run once
+	  it should be in initialize() not execute()
+      - execute()
+        + The action that needs to be repeated over and over again.
+        + Treat this method as a single iteration of a loop.
+        + will keep getting called every time through the scheduler, until 
+           1) isFinished() returns true OR
+	   2) the command is interupted, another command that requires the same subsystem
+        + CAUTION: While this command's execute() is running, no other
+          code is being run.  if this code takes too long (say more
+          than 10ms) it will make other parts of the robot have
+          problems. Drive may stutter. Sensors won't update quickly
+          enough. controls will be sluggish and erratic. Waiting for
+          input, highly iterative code, slow computation are all a
+          no-no.
+        + Example: Reading the values from a joystick and sending them to the drivetrain.
+      - isFinished()
+	+ is checked after every execute()
+        + default commands should always return False
+        + if execute() only runs once, then should always return True
+      - end()
+        + This method will run after the isFinished() method returns a true value.
+        + This should contain anything that needs to happen after a command finishes.
+        + Example: Set the drivetrain motors to stop.
+      - interrupted()
+        + This command will run if another command takes control of a subsystem that this command was using.
+	+ may be different action than end() may be the same
+        + Example: Setting a motor to stop
+
 * PID controllers
  - Bang-Bang controller
  - define P, I, and D
