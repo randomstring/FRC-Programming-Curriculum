@@ -28,7 +28,8 @@
     + Network tables (reading/writing values) 
     + subsystems and command interaction (scheduler)
   - Missing Documentation
-    + Commands
+    + Source material:
+    + Command.java
       - Command()
         + constructor will have the same name as your Command
         + call requires() for every subsystem used, to prevent
@@ -66,7 +67,18 @@
         + This command will run if another command takes control of a subsystem that this command was using.
 	+ may be different action than end() may be the same
         + Example: Setting a motor to stop
-
+    + OI.java
+      - button.whenPressed(new ExampleCommand());
+	Will execute when the button is first pressed down
+      - button.whenReleased(new ExampleCommand());
+	Will execute when the button is first released
+      - button.whileHeld(new ExampleCommand());
+	Will repeatedly execute while the button is held down. The interrupted() method of the command will be called when the button is released.
+      - OTHERS?
+    + RobotMap.java
+      - This is where you can set up all of your device port configurations.
+      - This allows you to have all of your configuration information in one place.
+      - This is also a good place to set up constant values to use in your code.
 * PID controllers
  - Bang-Bang controller
  - define P, I, and D
@@ -301,7 +313,9 @@
    + FRC & Java https://stemrobotics.cs.pdx.edu/node/4196?root=4196
    + AP CS principles https://www.khanacademy.org/computing/ap-computer-science-principles
  - Command Based Programming
-   + https://frc-docs.readthedocs.io/en/develop/software.html#command-based-programming (GOOD!)
+   + https://frc-docs.readthedocs.io/en/develop/docs/software/commandbased/index.html (GOOD, offical FRC docs)
+   + https://docs.google.com/presentation/d/1kVDppzkow4M19QsfyUDZrhe_evU_ATksjlAW-aqYXe8/edit (GOOD! slides)
+   + https://docs.google.com/presentation/d/11xui-66VAjulfWKHVRLzJZ1m9SdGiW3B3Cz6o3vX-os/edit (GOOD! slides)
    + https://wpilib.screenstepslive.com/s/currentCS/m/java/c/88893
    + https://wpilib.screenstepslive.com/s/currentCS/m/java/l/599745-scheduling-commands
  - Code Examples:
