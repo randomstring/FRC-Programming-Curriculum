@@ -157,6 +157,7 @@
 
 # Advanced Git and Github<a id="sec-6" name="sec-6"></a>
 
+-   <https://learngitbranching.js.org/>
 -   branching
 -   pull requests
 -   merging
@@ -358,6 +359,10 @@
 -   Places to Ask for Help
     -   <https://www.chiefdelphi.com/tags/programming>
     -   <https://discord.gg/frc>
+-   Programming
+    -   <https://dev.to/javinpaul/top-20-websites-to-learn-coding-with-java-python-sql-algorithms-and-git-for-free-in-2019-best-of-lot-l2l>
+    -   <https://www.udemy.com/java-tutorial/> Java Tutorial for Complete Beginners
+    -
 -   Intro to Command Based Programming (VS Code & Java)
     -   Part 1: <https://youtu.be/wW_djLkD1B8>
     -   Part 2: <https://youtu.be/9MpJgUUsLZw>
