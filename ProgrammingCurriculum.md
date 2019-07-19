@@ -152,8 +152,14 @@
     -   tracking changes
     -   adapting to errors
 -   Pathfollow libraries
+    -   PathWeaver
     -   Pure Pursuit
     -   Chezy Drive
+-   PathWeaver
+    -   Overview <https://wpilib.screenstepslive.com/s/currentCS/m/84338>
+    -   <https://wpilib.screenstepslive.com/s/currentCS/m/84338/l/1021628-creating-a-pathweaver-project>
+    -   <http://wpilib.screenstepslive.com/s/currentCS/m/84338/l/1021631-integrating-path-following-into-a-robot-program>
+    -   Chief Delphi thread <https://www.chiefdelphi.com/t/help-with-pathweaver/342464>
 
 # Advanced Git and Github<a id="sec-6" name="sec-6"></a>
 
