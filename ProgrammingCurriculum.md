@@ -137,6 +137,7 @@
     -   3rd Party: Talon SRX, Victor SPX, SPARK MAX, Pideon IMU
 -   WPI Sensors
     -   Gyro
+        -   <https://pdocs.kauailabs.com/navx-mxp/examples/automatic-balancing/>
     -   distance sensors
     -   Hall effect, etc&#x2026;
 -   WPI USBCamera class
@@ -261,7 +262,11 @@
 # Debugging code<a id="sec-11" name="sec-11"></a>
 
 -   print to the console
-    -   print values, weird conditions, errors
+    -   print values, weird conditions, errors, println()
+-   BETTER: display values to Smartdashboard
+    -   <https://wpilib.screenstepslive.com/s/currentCS/m/smartdashboard/c/92705>
+-   debug commands and subsystems:
+    -   <https://wpilib.screenstepslive.com/s/currentCS/m/smartdashboard/l/255422-displaying-the-status-of-commands-and-subsystems>
 -   check for expected and unexpected values (assert statements)
 -   defensive programming (ignore bad input, or just STOP)
 -   check your assumptions
