@@ -22,8 +22,8 @@ Next up, start creating a curriculum, slides, notes, and a leason plan for instr
 
 Example robot programs. Have students clone a repo, complete the missing code segments, build the code, and test thier robot. 
 
-### Modified Command Based Robot Template
-### Command Based Robot w/ Arcade Drive
-### One motor & encoder subsystem with a PID tunable task
-### Display values to SmartDashboard for debugging
-### NetworkTables to have editable variables (PID tuning)
+1. Modified Command Based Robot Template
+2. Command Based Robot w/ Arcade Drive
+3. One motor & encoder subsystem with a PID tunable task
+4. Display values to SmartDashboard for debugging
+5. NetworkTables to have editable variables (PID tuning)
