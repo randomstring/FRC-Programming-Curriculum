@@ -165,6 +165,7 @@
 
 # Advanced Git and Github<a id="sec-6" name="sec-6"></a>
 
+-   Github Cheat Sheet <https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf>
 -   <https://learngitbranching.js.org/>
 -   branching
 -   pull requests
@@ -303,6 +304,7 @@
 -   learning how to debug
     -   ask for help
     -   explain your problem to someone (or rubber duck)
+-   Peter Norvig on how to be a good programmer: <http://norvig.com/21-days.html>
 
 # Basic Physics<a id="sec-14" name="sec-14"></a>
 
@@ -384,9 +386,10 @@
     -   <https://www.chiefdelphi.com/tags/programming>
     -   <https://discord.gg/frc>
 -   Programming
-    -   <https://dev.to/javinpaul/top-20-websites-to-learn-coding-with-java-python-sql-algorithms-and-git-for-free-in-2019-best-of-lot-l2l>
+    -   <https://www.codecademy.com/learn/learn-java>
     -   <https://www.udemy.com/java-tutorial/> Java Tutorial for Complete Beginners
-    -
+    -   Practice: <https://codingbat.com/java>
+    -   <https://dev.to/javinpaul/top-20-websites-to-learn-coding-with-java-python-sql-algorithms-and-git-for-free-in-2019-best-of-lot-l2l>
 -   Intro to Command Based Programming (VS Code & Java)
     -   Part 1: <https://youtu.be/wW_djLkD1B8>
     -   Part 2: <https://youtu.be/9MpJgUUsLZw>
@@ -435,6 +438,8 @@
     -   <https://www.chiefdelphi.com/t/paper-4-wheel-independent-drive-independent-steering-swerve/107383>
 -   Related Chief Delphi threads:
     -   <https://www.chiefdelphi.com/t/your-team-sucks-at-programming-heres-why/358026>
+    -   <https://www.chiefdelphi.com/t/what-is-the-best-way-to-teach-incoming-freshmen/362661/16>
+    -   <https://www.chiefdelphi.com/t/what-is-the-best-way-to-teach-incoming-freshmen/362661/23>
 -   Misc Programming Resources:
     -   Python FRC robot simulator <https://github.com/robotpy/pyrobottraining>
 -   Other online FRC Courses/Lectures/Notes

@@ -8,6 +8,21 @@
   Possible host office hours (Skype or in person)
 
 * Weeks:
+0. Classroom: Meta
+   - What is the job of a programmer on an FRC team.
+   - Discuss strategies for learning programming
+     + Meetings are primarily for learning concept specific to
+       programming the robot or working on the robot.
+     + requires learning general programming concepts on your own time
+   - Discuss future lesson plans
+     + focused on doing
+   - Discuss strageties for learning to code
+     + no substitue for practice
+     + pick a project and code it
+     + learn to touch type
+   - Review season calendar, programming goals, pre-season prep and learning
+   - Pep talk: This is a lot of work, but you can do it! 
+   - list resources for learning programming
 1. Homework: Software Setup
    - students will be provided with instructions on how to install all the needed software.
    - YouTube Videos
