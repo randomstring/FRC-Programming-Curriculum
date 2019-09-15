@@ -13,13 +13,12 @@
 <li><a href="#sec-9">9. Networking Basics</a></li>
 <li><a href="#sec-10">10. General Computer Science</a></li>
 <li><a href="#sec-11">11. Debugging code</a></li>
-<li><a href="#sec-12">12. Best Practices</a></li>
-<li><a href="#sec-13">13. What is it like to be a Programmer?</a></li>
-<li><a href="#sec-14">14. Basic Physics</a></li>
-<li><a href="#sec-15">15. Electronics, Wiring, and Control Systems</a></li>
-<li><a href="#sec-16">16. Programming Projects</a></li>
-<li><a href="#sec-17">17. Suggested Programming Calendar</a></li>
-<li><a href="#sec-18">18. Resources</a></li>
+<li><a href="#sec-12">12. What is it like to be a Programmer?</a></li>
+<li><a href="#sec-13">13. Basic Physics</a></li>
+<li><a href="#sec-14">14. Electronics, Wiring, and Control Systems</a></li>
+<li><a href="#sec-15">15. Programming Projects</a></li>
+<li><a href="#sec-16">16. Suggested Programming Calendar</a></li>
+<li><a href="#sec-17">17. Resources</a></li>
 </ul>
 </div>
 </div>
@@ -276,37 +275,25 @@
     understand the code or you don't understand what's going
     on. LEARN what's really happening, don't keep changing the code.
 
-# Best Practices<a id="sec-12" name="sec-12"></a>
+# What is it like to be a Programmer?<a id="sec-12" name="sec-12"></a>
 
--   read the code, read the APIs
--   review every checkin
-    -   understand
-    -   look for bugs
-    -   ask questions
-    -   make constructive criticism.
--   Pair programming, work closely with a buddy. Take turns typing.
-    -   helps to catch bugs and typos
-
-# What is it like to be a Programmer?<a id="sec-13" name="sec-13"></a>
-
--   Learn to touch type
-    -   the better and faster you can type the more efficient you will be
 -   expect to spend lots of time googling and reading webpages
--   alway backup your code
-    -   ABC: Always Be Commiting. Use version control (github for example)
--   Use branches
-    -   bookmark working code, keep experimental code off the main branch
--   nothing ever works the first time
--   every line of code is an opportunity for a bug
-    -   off by one errors ( < vs <= )
--   study other peoples code
--   copy from the best
--   learning how to debug
-    -   ask for help
-    -   explain your problem to someone (or rubber duck)
+    -   alway backup your code
+        -   ABC: Always Be Commiting. Use version control (github for example)
+    -   Use branches
+        -   bookmark working code, keep experimental code off the main branch
+    -   nothing ever works the first time
+    -   every line of code is an opportunity for a bug
+        -   off by one errors ( < vs <= )
+    -   study other peoples code
+    -   copy from the best
+    -   learning how to debug
+        -   ask for help
+        -   explain your problem to someone (or rubber duck)
+-   typing skills are important
 -   Peter Norvig on how to be a good programmer: <http://norvig.com/21-days.html>
 
-# Basic Physics<a id="sec-14" name="sec-14"></a>
+# Basic Physics<a id="sec-13" name="sec-13"></a>
 
 -   speed, acceleration, gravity, motion
     -   newton's laws
@@ -318,7 +305,7 @@
 -   Elastic vs Inelastic collisions (?)
     -   <https://www.khanacademy.org/science/physics/linear-momentum/elastic-and-inelastic-collisions/v/elastic-and-inelastic-collisions>
 
-# Electronics, Wiring, and Control Systems<a id="sec-15" name="sec-15"></a>
+# Electronics, Wiring, and Control Systems<a id="sec-14" name="sec-14"></a>
 
 -   RoboRio anatomy
     -   layout
@@ -333,7 +320,7 @@
     -   <https://phoenix-documentation.readthedocs.io/en/latest/ch03_PrimerPhoenixSoft.html#what-is-phoenix-tuner>
 -   Example wiring diagrams
 
-# Programming Projects<a id="sec-16" name="sec-16"></a>
+# Programming Projects<a id="sec-15" name="sec-15"></a>
 
 -   the best way to learn is to have a project, a reason to learn and use the skills
 -   Clean room program last year's robot from scratch
@@ -348,7 +335,7 @@
     -   add LED lights
     -   monitor for brownout (alert w/ LED, turn something off, reduce power to motors)
 
-# Suggested Programming Calendar<a id="sec-17" name="sec-17"></a>
+# Suggested Programming Calendar<a id="sec-16" name="sec-16"></a>
 
 -   Pre-Season
     -   practice robot, with basic drive and a few sensors
@@ -375,7 +362,7 @@
 -   Week 5
 -   Week n+1
 
-# Resources<a id="sec-18" name="sec-18"></a>
+# Resources<a id="sec-17" name="sec-17"></a>
 
 -   General
     -   <http://wpilib.screenstepslive.com/s/currentCS>

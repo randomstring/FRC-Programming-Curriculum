@@ -228,31 +228,21 @@
    - If you are confused about what the code is doing, then you don't
      understand the code or you don't understand what's going
      on. LEARN what's really happening, don't keep changing the code.
-* Best Practices
-  - read the code, read the APIs
-  - review every checkin
-    + understand
-    + look for bugs
-    + ask questions
-    + make constructive criticism.
-  - Pair programming, work closely with a buddy. Take turns typing.
-    + helps to catch bugs and typos
 * What is it like to be a Programmer?
-  - Learn to touch type
-     + the better and faster you can type the more efficient you will be
   - expect to spend lots of time googling and reading webpages
-  - alway backup your code
+   - alway backup your code
      + ABC: Always Be Commiting. Use version control (github for example)
-  - Use branches
+   - Use branches
      + bookmark working code, keep experimental code off the main branch
-  - nothing ever works the first time
-  - every line of code is an opportunity for a bug
+   - nothing ever works the first time
+   - every line of code is an opportunity for a bug
      + off by one errors ( < vs <= )
-  - study other peoples code
-  - copy from the best
-  - learning how to debug
+   - study other peoples code
+   - copy from the best
+   - learning how to debug
      + ask for help
      + explain your problem to someone (or rubber duck)
+  - typing skills are important
   - Peter Norvig on how to be a good programmer: http://norvig.com/21-days.html
 * Basic Physics
  - speed, acceleration, gravity, motion
