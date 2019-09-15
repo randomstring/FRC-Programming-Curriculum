@@ -29,8 +29,8 @@ Possible host office hours (Skype or in person)
         -   requires learning general programming concepts on your own time
     -   Discuss future lesson plans
         -   focused on doing
-    -   Discuss strageties for learning to code
-        -   no substitue for practice
+    -   Discuss strategies for learning to code
+        -   no substitute for practice
         -   pick a project and code it
         -   learn to touch type
     -   Review season calendar, programming goals, pre-season prep and learning
@@ -72,7 +72,7 @@ Possible host office hours (Skype or in person)
         -   everyone deploys their code to the robot and drives it
     -   REQUIREMENTS:
         -   robot
-        -   multiple RoboRios (test deploy)
+        -   multiple roboRIOs (test deploy)
 6.  Homework: Robot subsystem
     -   add subsystem & command for arm control
         -   safety code, stop motor if it goes to far
@@ -89,7 +89,7 @@ Possible host office hours (Skype or in person)
     -   Give everyone a chance to deploy code test PID tuning
     -   REQUIREMENTS:
         -   robot
-        -   or RoboRio with motor controller and motor, anything requiring PID
+        -   or roboRIO with motor controller and motor, anything requiring PID
 8.  Homework: Study Last Year's Code
     -   GOAL:
         -   every student has a list of questions about how/why code works

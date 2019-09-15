@@ -39,7 +39,7 @@
 -   WPI libs install
 -   Driver Station
 -   motor controller utilities
--   flashing firmware Roborio, Limelight, radio
+-   flashing firmware roboRIO, Limelight, radio
 -   How to update software
 
 # WPI lib<a id="sec-3" name="sec-3"></a>
@@ -76,7 +76,7 @@
             -   Treat this method as a single iteration of a loop.
             -   will keep getting called every time through the scheduler, until 
                 1.  isFinished() returns true OR
-                2.  the command is interupted, another command that requires the same subsystem
+                2.  the command is interrupted, another command that requires the same subsystem
             -   CAUTION: While this command's execute() is running, no other
                 code is being run.  if this code takes too long (say more
                 than 10ms) it will make other parts of the robot have
@@ -207,9 +207,9 @@
     -   <https://frc-docs.readthedocs.io/en/latest/docs/networking/ip-networking.html>
     -   10.29.30.1/24  subnet
     -   mDNS
-    -   assinged IP addresses for radio, roborio, driverstation
+    -   assigned IP addresses for radio, roboRIO, driver station
     -   allowed ports
-    -   allowed bandwitch
+    -   allowed bandwidth
     -   effects of dropped packets & latency
 
 # General Computer Science<a id="sec-10" name="sec-10"></a>
@@ -228,13 +228,13 @@
         -   how to import
         -   initialization
         -   constructors
-        -   destructures
+        -   destructors
         -   ADVANCED: garbage collection
     -   accessing Java methods and variables
         -   dot notation ClassName.methodName() Classname.variableName
     -   Class inheritance
         -   base classes for Robot subsystem, command, etc
-        -   interation with constructors
+        -   interaction with constructors
         -   scheduling methods you don't see under the hood
 -   logic
     -   if, then, else
@@ -246,7 +246,7 @@
     -   side effects
 -   Style
     -   code readability
-    -   variable naming, camel case, unerscores, captiralization, prefixes
+    -   variable naming, camel case, underscores, capitalization, prefixes
         -   no funny joke names
         -   name variables for what they are
         -   \_foo for local variables
@@ -255,7 +255,7 @@
         -   need to be accurate and up to date
         -   add to the code to increase understanding
         -   comments should explain WHY not WHAT, the what should be obvious from your code.
-        -   include refernces to documentation, API, etc
+        -   include references to documentation, API, etc
     -   adopt a style
         -   <https://wpilib.screenstepslive.com/s/currentCS/m/java/l/145309-java-conventions-for-objects-methods-and-variables>
         -   automatic java style on file save w/ VSCode
@@ -277,9 +277,9 @@
 
 # What is it like to be a Programmer?<a id="sec-12" name="sec-12"></a>
 
--   expect to spend lots of time googling and reading webpages
-    -   alway backup your code
-        -   ABC: Always Be Commiting. Use version control (github for example)
+-   expect to spend lots of time googling and reading web pages
+    -   always backup your code
+        -   ABC: Always Be Committing. Use version control (github for example)
     -   Use branches
         -   bookmark working code, keep experimental code off the main branch
     -   nothing ever works the first time
@@ -307,7 +307,7 @@
 
 # Electronics, Wiring, and Control Systems<a id="sec-14" name="sec-14"></a>
 
--   RoboRio anatomy
+-   roboRIO anatomy
     -   layout
     -   power
     -   CPU
@@ -330,7 +330,7 @@
     -   limit switch or hall effect for arm or stilt
     -   only idle intake after running intake and until eject
     -   fully autonomous hatch placement
-    -   pathweaver or other path planning
+    -   PathWeaver or other path planning
     -   autonomous 2 hatch & one cargo pickup sandstorm
     -   add LED lights
     -   monitor for brownout (alert w/ LED, turn something off, reduce power to motors)
@@ -342,9 +342,9 @@
 -   week -2
     -   update software for new season
         = driverstation
-        = firmware for roborio, radio
+        = firmware for roboRIO, radio
         = VSCode
-        = motor contoller firmware
+        = motor controller firmware
         = everything
 -   Week 0
     -   survey build teams, make list of components
@@ -354,7 +354,7 @@
     -   plan vision systems and camera placement
     -   start writing subsystem (even if just stubs)
     -   pic CAN bus id, digital IO assignments for sensors, etc.
-    -   Give specs to Control subteam
+    -   Give specs to Control sub-team
 -   Week 1
 -   Week 2
 -   Week 3
@@ -390,7 +390,7 @@
     -   FRC & Java <https://stemrobotics.cs.pdx.edu/node/4196?root=4196>
     -   AP CS principles <https://www.khanacademy.org/computing/ap-computer-science-principles>
 -   Command Based Programming
-    -   <https://frc-docs.readthedocs.io/en/develop/docs/software/commandbased/index.html> (GOOD, offical FRC docs)
+    -   <https://frc-docs.readthedocs.io/en/develop/docs/software/commandbased/index.html> (GOOD, official FRC docs)
     -   <https://docs.google.com/presentation/d/1kVDppzkow4M19QsfyUDZrhe_evU_ATksjlAW-aqYXe8/edit> (GOOD! slides)
     -   <https://docs.google.com/presentation/d/11xui-66VAjulfWKHVRLzJZ1m9SdGiW3B3Cz6o3vX-os/edit> (GOOD! slides)
     -   <https://wpilib.screenstepslive.com/s/currentCS/m/java/c/88893>
