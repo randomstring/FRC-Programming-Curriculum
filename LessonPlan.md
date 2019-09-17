@@ -65,7 +65,9 @@ Possible host office hours (Skype or in person)
         -   generate robot code from template
         -   Every student creates a GitHub repo checks in code
         -   modify base robot to drive
-5.  Classroom: Hands on with Robot 
+5.  Classroom: Hands on with Robot
+    -   Lecture & discussion of Command based programming
+        -   <https://www.chiefdelphi.com/t/what-is-the-best-way-to-teach-incoming-freshmen/362661/39>
     -   deploy code you built the week before
     -   debug code
     -   GOAL:
