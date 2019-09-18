@@ -1,10 +1,6 @@
 # FRC-Programming-Curriculum
 An effort to outline a curriculum and resources for learning programming FRC robots.
 
-## File Formats
-
-Source files for outlines, notes, and slides are in .org [Emacs Org-mode](https://orgmode.org/) and all markdown files (.md) are generated from the .org file of the same name.
-
 
 ## 0. Outline: [ProgrammingCurriculum](ProgrammingCurriculum.md)
 
@@ -19,11 +15,8 @@ Here, my goal is to organize where the good, accurate, and well structured FRC p
 
 Crash course to get students to the point that they can write, build, deploy, run, and debug robot code. 
 
-## 2. Slides
 
-Next up, start creating a curriculum, slides, notes, and a lesson plan for instruction.
-
-## 3. Examples
+## 2. Examples
 
 Example robot programs. Have students clone a repo, complete the missing code segments, build the code, and test their robot. 
 
