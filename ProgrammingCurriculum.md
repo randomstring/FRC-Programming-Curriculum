@@ -23,6 +23,8 @@
 </div>
 </div>
 
+
+
 # Account setup<a id="sec-1" name="sec-1"></a>
 
 -   github (join team group)
@@ -369,13 +371,18 @@
     -   <https://frc-docs.readthedocs.io/en/latest/>
     -   <https://www.team254.com/resources/>
     -   <https://betawolves.org/resources/>
+    -   <https://github.com/FRCTeam3255/FRC-Java-Tutorial>
 -   Places to Ask for Help
     -   <https://www.chiefdelphi.com/tags/programming>
     -   <https://discord.gg/frc>
--   Programming
+-   Programming Java
     -   <https://www.codecademy.com/learn/learn-java>
     -   <https://www.udemy.com/java-tutorial/> Java Tutorial for Complete Beginners
+    -   <https://frc-pdr.readthedocs.io/en/latest/>
     -   Practice: <https://codingbat.com/java>
+    -   Practice: <https://practiceit.cs.washington.edu/>
+    -   Online Textbook: <http://math.hws.edu/javanotes/>
+    -   Textbook: <https://www.amazon.com/Building-Java-Programs-Basics-Approach/dp/0136091814/>
     -   <https://dev.to/javinpaul/top-20-websites-to-learn-coding-with-java-python-sql-algorithms-and-git-for-free-in-2019-best-of-lot-l2l>
 -   Intro to Command Based Programming (VS Code & Java)
     -   Part 1: <https://youtu.be/wW_djLkD1B8>
@@ -383,6 +390,9 @@
     -   Part 3: <https://youtu.be/5Zr7K_2mnrw>
     -   Part 4: <https://youtu.be/YNluD_TNj5E>
     -   Part 5: <https://youtu.be/oGMy4FJLKy4>
+-   FRC Robobuilder Tool
+    -   Brad Miller, 6 part video series
+        <https://www.youtube.com/playlist?list=PLYA9eZLlgz7t9Oleid2wtlgnvhGObeKzp>
 -   Online Lessons
     -   <https://github.com/FRCTeam3255/FRC-Java-Tutorial>
     -   <https://frc-west.github.io/>
