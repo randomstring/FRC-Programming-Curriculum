@@ -21,10 +21,6 @@ our code and to communicate with our fellow programmers.
 
 1.  [Github](<https://github.com/>) to store our code, track changes,
     and collaborate
-2.  [Slack](<https://slack.com/>) is a chat service used by our team,
-    we have a #programming channel for sharing programming
-    announements, discussion, and asking for help. Our team also uses
-    Slack to communicate during events and competitions.
 
 Start by going to <https://github.com/join> and creating an
 account. When choosing an account name and avatar, keep in mind your
@@ -34,24 +30,9 @@ email your github username to your programming lead and/or mentor so
 they can grant you access to your team's Github repositories (that's
 what Github calls aproject folder).
 
-Next is joinging Slack and the #programming subchannel. The easiest
-way to do this is to email the team (sonicsquirrels@gmail.com) and
-ask to be added. Make sure you include your name and email in the
-message so the admin knows who you are.
-
-If you already have a Slack account and are on the Team Slack
-workspace <https://sonicsquirrels.slack.com/> then add yourself to the
-programming channel by sending the slack message "/join
-\\#programming". 
-
-Slack has a desktop app and also native apps for the iPhone and
-Android.
-
 While you're waiting to get added to the team's accounts, take a
-moment to browse your team's code on Github. Team 2930's code
-resides at <https://github.com/FRC-Sonic-Squirrels/> and last year's
-robot code is at
-<https://github.com/FRC-Sonic-Squirrels/FRC-2019-Public>
+moment to browse your team's code on Github. Team 5113's code
+resides at <https://github.com/FRC5113/> 
 
 If you're on a different team, try Googling "FRC <your team nuber>
 github.com"
