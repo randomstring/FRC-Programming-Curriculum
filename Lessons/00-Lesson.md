@@ -98,7 +98,7 @@ environment so you can write code and run it on a FRC robot.
       computer and operating system. To do this scroll down to the
       section of the page that looks like this:
 
-[[![img](//raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/master/Lessons/imgs/Download_Links.png "Download links look like this.")]]
+![Download links look like this](https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/master/Lessons/imgs/Download_Links.png)
 
 Here is a direct link to the detailed instructions from screenstepslive.com:
 <https://wpilib.screenstepslive.com/s/currentCS/m/getting_started/l/999999-installing-c-and-java-development-tools-for-frc>
