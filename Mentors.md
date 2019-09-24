@@ -16,6 +16,8 @@
     -   <https://www.chiefdelphi.com/t/what-is-the-best-way-to-teach-incoming-freshmen/362661/23>
     -   Rookie, Junior, Senior
 -   Encourage students to teach students
+-   Create a pipeline of talent
+-   encourage multiple students to contribute to the coding of the robot
 
 # Resources<a id="sec-2" name="sec-2"></a>
 
