@@ -70,10 +70,16 @@ Next we need to setup the development environment on your
         the scenes.
     
 To install the software you'll need a computer. Pretty much any PC,
-      Mac, or Linux will work. Ideally a laptop you can bring to
-      programming meetings. Almost any laptop, even very old and slow
-      ones, will work. The team has a few laptops that can be
-      shared. The team can help you setup an old cast off laptop.
+      Mac, or Linux computer or laptop will work. A laptop you can
+      bring to programming meetings is ideal. Almost any laptop, even
+      very old and slow ones, will work. The team has a few laptops
+      that can be shared. The team can help you setup an old cast off
+      laptop. 
+	  
+If you don't have a laptop, we're working on possible solutions to
+allow students to keep their working envirnment on a portable thumb
+drive. If this sounds useful to you, speak up so we can put time into
+making this solution work for anyone.
     
 Your laptop will need WiFi in order to connect to the school network
       and also to connect to the robot. A USB 2.0/3.0 port is useful
