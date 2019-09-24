@@ -121,17 +121,6 @@ Next install the GitHub desktop software:
 
 <https://help.github.com/en/desktop/getting-started-with-github-desktop/installing-github-desktop>
 
-# Next Steps
-
-## Getting a Copy of the Robot Code
-
-Clone the repo. 
-
-## Build the Robot Code
-
-Instructions for building the robot code go here.
-
- 
 # Advanced Topics
     
 If you don't have a laptop you can try to install all the software
