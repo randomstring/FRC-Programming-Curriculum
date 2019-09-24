@@ -19,6 +19,8 @@ Here, my goal is to organize where the good, accurate, and well structured FRC p
 
 Crash course to get students to the point that they can write, build, deploy, run, and debug robot code. 
 
+### [Lesson 0](Lessons/00-Lesson.md) Software Installation
+
 ## 2. Slides
 
 Next up, start creating a curriculum, slides, notes, and a lesson plan for instruction.
