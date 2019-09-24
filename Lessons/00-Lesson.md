@@ -31,8 +31,7 @@ Start by going to <https://github.com/join> and creating an
     
 If you already have a Slack account and are on the Team Slack work
     space <https://sonicsquirrels.slack.com/> then add yourself to the
-    programming channel by sending the slack message "/join
-    \\#programming".
+    programming channel by sending the slack message "/join #programming".
     
 Slack has a desktop app and also native apps for the iPhone and
     Android.
