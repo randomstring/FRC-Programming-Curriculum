@@ -19,7 +19,7 @@ Our team uses several different services to store and track changes in
     
 Start by going to <https://github.com/join> and creating an
     account. When choosing an account name and avatar, keep in mind
-    your github account will be visible to all. Github is also a good
+    your GitHub account will be visible to all. Github is also a good
     way to share your work with others and can act as a coding
     resume. Next email your GitHub username to your programming lead
     and/or mentor so they can grant you access to your team's Github
@@ -42,7 +42,7 @@ While you're waiting to get added to the team's accounts, take a
     year's robot code is
     at <https://github.com/FRC-Sonic-Squirrels/FRC-2019-Public>
     
-If you're on a different team, try Googling "frc YOURTEAMNUMBER
+If you're on a different team, try Googling "FRC YOURTEAMNUMBER
 github.com"
 
 # Software Installation Requirements
@@ -77,7 +77,7 @@ To install the software you'll need a computer. Pretty much any PC,
       laptop. 
 	  
 If you don't have a laptop, we're working on possible solutions to
-allow students to keep their working envirnment on a portable thumb
+allow students to keep their working environment on a portable thumb
 drive. If this sounds useful to you, speak up so we can put time into
 making this solution work for anyone.
     
