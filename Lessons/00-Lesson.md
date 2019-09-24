@@ -1,9 +1,15 @@
 # Lesson 0
 
-The goal of this homework assignment is to have a working development
-environment so you can write code and run it on a FRC robot.
+The goal of this homework assignment is to create a working
+development environment so you can write code and run it on a FRC
+robot. 
 
-If you get stuck or aren't sure how to proceed ask for help!
+If you don't have access to a computer at home, the team and the
+schools have computers for use durings meetings and in their libraries
+or computer labs.
+
+If you get stuck or aren't sure how to proceed, ask me or the rest of
+the subteam for help!
 
 # Account setup
     
@@ -12,35 +18,35 @@ Our team uses several different services to store and track changes in
     
 1.  [Github](<https://github.com/>) to store our code, track changes,
         and collaborate
-2.  [Slack](<https://slack.com/>) is a chat service used by our team,
-        we have a #programming channel for sharing programming
-        announcements, discussion, and asking for help. Our team also uses
+2.  [Slack](<https://slack.com/>) is a chat service used by our whole robotics team. We have a dedicated #programming channel for sharing programming
+        announcements, discussions, and asking for help. Our team also uses
         Slack to communicate during events and competitions.
     
 Start by going to <https://github.com/join> and creating an
-    account. When choosing an account name and avatar, keep in mind
-    your GitHub account will be visible to all. Github is also a good
-    way to share your work with others and can act as a coding
-    resume. Next email your GitHub username to your programming lead
-    and/or mentor so they can grant you access to your team's Github
-    repositories (that's what Github calls a project folder).  Next is
-    joining Slack and the #programming sub-channel. The easiest way to
-    do this is to email the team (sonicsquirrels@gmail.com) and ask to
-    be added. Make sure you include your name and email in the message
-    so the admin knows who you are.
+account. When choosing an account name and avatar, keep in mind your
+GitHub account will be visible to all and should meet team and school
+standards. Github is also a good way to share your work with others
+and can act as a coding resume. Next, email your GitHub username to
+your programming lead and/or mentor so they can grant you access to
+your team's Github repositories (that's what Github calls a project
+folder).
+	
+Next, you will need to join Slack and the #programming
+sub-channel. The easiest way to do this is to email the team
+(sonicsquirrels@gmail.com) and ask to be added. Make sure you include
+your name and email in the message so the admin knows who you are.
     
 If you already have a Slack account and are on the Team Slack work
-    space <https://sonicsquirrels.slack.com/> then add yourself to the
-    programming channel by sending the slack message "/join #programming".
+space <https://sonicsquirrels.slack.com/> then add yourself to the
+programming channel by sending the slack message "/join #programming".
     
 Slack has a desktop app and also native apps for the iPhone and
-    Android.
+Android.
     
 While you're waiting to get added to the team's accounts, take a
-    moment to browse your team's code on Github. Team 2930's code
-    resides at <https://github.com/FRC-Sonic-Squirrels/> and last
-    year's robot code is
-    at <https://github.com/FRC-Sonic-Squirrels/FRC-2019-Public>
+moment to browse your team's code on Github. Team 2930's code resides
+at <https://github.com/FRC-Sonic-Squirrels/> and last year's robot
+code is at <https://github.com/FRC-Sonic-Squirrels/FRC-2019-Public>
     
 If you're on a different team, try Googling "FRC YOURTEAMNUMBER
 github.com"
@@ -60,8 +66,8 @@ Next we need to setup the development environment on your
         robot programs using an interactive GUI (Graphical User
         Interface), a robot path planner, WPIlib (code that controls
         the robots motors and sensors), a Java Runtime Environment,
-        and Shuffleboard a tool for monitoring what's happening on the
-        robot. Don't worry about the details. What you need to know is
+        and Shuffleboard (a tool for monitoring what's happening on the
+        robot.) Don't worry about the details yet. What you need to know is
         this is code that gets used by VS Code and the robot and makes
         our work *much* easier.
 3.  *GitHub desktop* This is a GUI for working with code stored on
@@ -69,28 +75,29 @@ Next we need to setup the development environment on your
         by VS Code and this installs the programs VS Code will use behind
         the scenes.
     
-To install the software you'll need a computer. Pretty much any PC,
-      Mac, or Linux computer or laptop will work. A laptop you can
-      bring to programming meetings is ideal. Almost any laptop, even
-      very old and slow ones, will work. The team has a few laptops
-      that can be shared. The team can help you setup an old cast off
-      laptop. 
+To install the software you'll need a computer or access to
+one. Pretty much any PC, Mac, or Linux computer or laptop will work. A
+laptop you can bring to programming meetings is ideal. Almost any
+laptop, even very old and slow ones, will work. The team has a few
+laptops that can be shared. The team can help you setup an old cast
+off laptop. And our high schools have libraries and computer labs for
+after-school computer time.
 	  
-If you don't have a laptop, we're working on possible solutions to
-allow students to keep their working environment on a portable thumb
-drive. If this sounds useful to you, speak up so we can put time into
-making this solution work for anyone.
+If you don't have a laptop that you can bring to meetings, we're
+working on possible solutions to allow students to keep their working
+environment on a portable thumb drive. If this sounds useful to you,
+speak up so we can put time into making this solution work for anyone.
     
 Your laptop will need WiFi in order to connect to the school network
-      and also to connect to the robot. A USB 2.0/3.0 port is useful
-      for hardwired connections to the robot. Having an Ethernet port,
-      or USB-to-Ethernet adapter, is a nice to have but not necessary.
+and also to connect to the robot. A USB 2.0/3.0 port is useful for
+hardwired connections to the robot. Having an Ethernet port, or
+USB-to-Ethernet adapter, is a nice to have but not necessary.
 
 ## Software Installation
     
 Follow the instructions outlined here. Note, the main instruction is
-      to follow the link to wpilib.screenstepslive.com and follow the
-      detailed instructions there.
+to follow the link to wpilib.screenstepslive.com and follow the
+detailed instructions there.
     
 <https://github.com/wpilibsuite/allwpilib/releases>
     
