@@ -1,13 +1,3 @@
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#sec-1">1. Homework Lesson 1</a></li>
-</ul>
-</div>
-</div>
-
-
 # Homework Lesson 1
 
 The goal of this homework assignment is to have a working development
@@ -53,8 +43,8 @@ While you're waiting to get added to the team's accounts, take a
     year's robot code is
     at <https://github.com/FRC-Sonic-Squirrels/FRC-2019-Public>
     
-If you're on a different team, try Googling "FRC <your team number>
-    github.com"
+If you're on a different team, try Googling "frc YOURTEAMNUMBER
+github.com"
 
 # Software Installation Requirements
     
