@@ -8,13 +8,14 @@
 </div>
 
 
-
-# Homework Lesson 1<a id="sec-1" name="sec-1"></a>
+# Homework Lesson 1
 
 The goal of this homework assignment is to have a working development
 environment so you can write code and run it on a FRC robot.
 
-1.  Account setup
+If you get stuck or aren't sure how to proceed ask for help!
+
+## Account setup
     
     Our team uses several different services to store and track changes
     in our code and to communicate with our fellow programmers.
@@ -48,14 +49,14 @@ environment so you can write code and run it on a FRC robot.
     
     While you're waiting to get added to the team's accounts, take a
     moment to browse your team's code on Github. Team 2930's code
-    resides at <https://github.com/FRC-Sonic-Squirrels/> and last year's
-    robot code is at
-    <https://github.com/FRC-Sonic-Squirrels/FRC-2019-Public>
+    resides at <https://github.com/FRC-Sonic-Squirrels/> and last
+    year's robot code is
+    at <https://github.com/FRC-Sonic-Squirrels/FRC-2019-Public>
     
     If you're on a different team, try Googling "FRC <your team number>
     github.com"
 
-1.  Software Installation Requirements
+## Software Installation Requirements
     
     Next we need to setup the development environment on your
       computer. This is a set of tools for editing, building, testing,
@@ -66,10 +67,14 @@ environment so you can write code and run it on a FRC robot.
         is a file editor with added intelligence that understands the code
         you write and helps automates much of the process of editing,
         debugging, and running programs.
-    2.  FIRST supplied tools. These include programs for generating robot
-        codes using and interactive GUI (Graphical User Interface), a
-        robot path planner, and Shuffleboard a tool for monitoring what's
-        happening on the robot.
+    2.  FIRST supplied tools. These include programs for generating
+        robot programs using an interactive GUI (Graphical User
+        Interface), a robot path planner, WPIlib (code that controls
+        the robots motors and sensors), a Java Runtime Environment,
+        and Shuffleboard a tool for monitoring what's happening on the
+        robot. Don't worry about the details. What you need to know is
+        this is code that gets used by VS Code and the robot and makes
+        our work *much* easier.
     3.  GitHub desktop. This is a GUI for working with code stored on
         github.com. Most of your interactions with GitHub will be handled
         by VS Code and this installs the programs VS Code will use behind
@@ -86,7 +91,7 @@ environment so you can write code and run it on a FRC robot.
       hardwired connections to the robot. Having an Ethernet port, or
       USB-to-Ethernet adapter, is a nice to have but not necessary.
 
-2.  Software Installation
+### Software Installation
     
     Follow the instructions outlined here. Note, the main instruction is
       to follow the link to wpilib.screenstepslive.com and follow the
@@ -100,21 +105,32 @@ environment so you can write code and run it on a FRC robot.
 
 ![Download links look like this](https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/master/Lessons/imgs/Download_Links.png)
 
-Here is a direct link to the detailed instructions from screenstepslive.com:
+Here is a direct link to the detailed instructions from screenstepslive.com: 
 <https://wpilib.screenstepslive.com/s/currentCS/m/getting_started/l/999999-installing-c-and-java-development-tools-for-frc>
 
-Then install the GitHub desktop software:
+Here's a YouTube video installation
+guide: <https://www.youtube.com/watch?v=AWf_4dxKpT8> NOTE: This video
+is from January 2019, some file names will have changed due to new
+software releases.
+
+#### GitHub Desktop
+
+Next install the GitHub desktop software:
 
 <https://help.github.com/en/desktop/getting-started-with-github-desktop/installing-github-desktop>
 
--   URL instruction, just follow directions
--   hints on which bundles you want to download
--   warnings about potential problems
-    -   don't wait to download at school, network is slow
-    -   installing Java
--   reminder to ask for help
+## Next Steps
 
-1.  Advanced Topics
+### Getting a Copy of the Robot Code
+
+ Clone the repo. 
+
+### Build the Robot Code
+
+ Instructions for building the robot code go here.
+
+ 
+## Advanced Topics
     
     If you don't have a laptop you can try to install all the software
       onto a portable thumb drive or some other type of portable
@@ -124,16 +140,6 @@ Then install the GitHub desktop software:
       school has sets of classroom laptops we could use for this purpose.
     
     WARNING: We haven't actually tried this yet!
-    
+
     <https://www.chiefdelphi.com/t/portable-vscode-install/356115>
 
-
--   students will be provided with instructions on how to install all the needed software.
--   YouTube Videos
--   GOALS:
-    -   FRC utilities installed
-    -   VS Code installed
-    -   GitHub account
-    -   clone Robot code
-    -   build Robot code
-    -   run driver station
