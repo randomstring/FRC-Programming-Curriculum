@@ -92,7 +92,7 @@ environment so you can write code and run it on a FRC robot.
   
 #+CAPTION: Download links look like this.
 #+NAME:   fig:download-links
-[[[[./imgs/Download_Links.jpg]]]]
+[[[[https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/master/Lessons/imgs/Download_Links.png]]]]
 
  Here is a direct link to the detailed instructions from screenstepslive.com:
  https://wpilib.screenstepslive.com/s/currentCS/m/getting_started/l/999999-installing-c-and-java-development-tools-for-frc
