@@ -1,4 +1,4 @@
-# Homework Lesson 1
+# Lesson 0
 
 The goal of this homework assignment is to have a working development
 environment so you can write code and run it on a FRC robot.
