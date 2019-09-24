@@ -10,9 +10,9 @@ If you get stuck or aren't sure how to proceed ask for help!
 Our team uses several different services to store and track changes in
     our code and to communicate with our fellow programmers.
     
-	1.  [Github](<https://github.com/>) to store our code, track changes,
+1.  [Github](<https://github.com/>) to store our code, track changes,
         and collaborate
-    2.  [Slack](<https://slack.com/>) is a chat service used by our team,
+2.  [Slack](<https://slack.com/>) is a chat service used by our team,
         we have a #programming channel for sharing programming
         announcements, discussion, and asking for help. Our team also uses
         Slack to communicate during events and competitions.
