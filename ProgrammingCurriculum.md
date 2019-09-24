@@ -36,7 +36,7 @@
 
 -   github
 -   <https://help.github.com/en/desktop/getting-started-with-github-desktop>
--   <https://frc-docs.readthedocs.io/en/latest/docs/software/getting-started/offline-installation-preperations.html>
+-   <https://frc-docs.readthedocs.io/en/latest/docs/software/getting-started/offline-installation-preparations.html>
 -   VS Code
 -   WPI libs install
 -   Driver Station
