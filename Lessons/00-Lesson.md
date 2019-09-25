@@ -107,8 +107,8 @@ You start by downloading the appropriate software bundle for your
 
 ![Download links look like this](https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/master/Lessons/imgs/Download_Links.png)
 
-Here is a direct link to the detailed instructions from screenstepslive.com: 
-<https://wpilib.screenstepslive.com/s/currentCS/m/getting_started/l/999999-installing-c-and-java-development-tools-for-frc>
+Here is a direct link to the newer instructions from frc-readthedocs.io site:
+<https://frc-docs.readthedocs.io/en/latest/docs/software/getting-started/index.html>
 
 Here's a YouTube video installation
 guide: <https://www.youtube.com/watch?v=AWf_4dxKpT8> NOTE: This video
