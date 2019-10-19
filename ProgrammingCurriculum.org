@@ -365,9 +365,10 @@
  - Vision:
    + https://www.team254.com/documents/vision-control/
    + http://docs.limelightvision.io/en/latest/  (in particular Programming section)
- - Motion Profiling:
+ - Motion Profiling, Motion Control:
    + https://www.youtube.com/watch?v=i_6eh1C_1V8
-   + 
+   + https://www.youtube.com/watch?v=4rbT-oscpx0
+   + https://www.youtube.com/watch?v=VqhAtgtoB-8
  - Path Planning:
    + Intro: https://wpilib.screenstepslive.com/s/currentCS/m/84338
    + https://www.youtube.com/watch?v=8319J1BEHwM
