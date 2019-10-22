@@ -127,6 +127,8 @@
     -   get position
     -   direct PID control from motor controller
         -   vs. WPI lib PID controller
+    -   Motion Profiling
+        -   setting max acceleration for motors
     -   lead-follow  (speed and position)
     -   motion magic
 -   OI
@@ -420,8 +422,14 @@
 -   Control:
     -   <https://www.team254.com/documents/control/>
 -   Vision:
+    -   <https://wpilib.screenstepslive.com/s/currentCS/m/vision>
     -   <https://www.team254.com/documents/vision-control/>
     -   <http://docs.limelightvision.io/en/latest/>  (in particular Programming section)
+    -   <https://chameleon-vision.gitlab.io/chameleon-site/>
+-   Motion Profiling, Motion Control:
+    -   <https://www.youtube.com/watch?v=i_6eh1C_1V8>
+    -   <https://www.youtube.com/watch?v=4rbT-oscpx0> (part 1)
+    -   <https://www.youtube.com/watch?v=VqhAtgtoB-8> (part 2)
 -   Path Planning:
     -   Intro: <https://wpilib.screenstepslive.com/s/currentCS/m/84338>
     -   <https://www.youtube.com/watch?v=8319J1BEHwM>
