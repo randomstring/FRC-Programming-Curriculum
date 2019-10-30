@@ -36,7 +36,7 @@
 
 -   github
 -   <https://help.github.com/en/desktop/getting-started-with-github-desktop>
--   <https://frc-docs.readthedocs.io/en/latest/docs/software/getting-started/offline-installation-preparations.html>
+-   <https://frc-docs.readthedocs.io/en/latest/docs/getting-started/getting-started-frc-control-system/wpilib-setup.html>
 -   VS Code
 -   WPI libs install
 -   Driver Station
@@ -168,6 +168,7 @@
 
 # Advanced Git and Github<a id="sec-6" name="sec-6"></a>
 
+-   <https://docs.wpilib.org/en/latest/docs/software/basic-programming/git-getting-started.html>
 -   Github Cheat Sheet <https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf>
 -   <https://learngitbranching.js.org/>
 -   branching
@@ -187,6 +188,7 @@
     .gitignore .vscode vendordeps
 -   <https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf>
 -   <https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf>
+-   Java formatting <https://github.com/redhat-developer/vscode-java/wiki/Formatter-settings>
 
 # Driver station<a id="sec-8" name="sec-8"></a>
 
@@ -199,6 +201,7 @@
 
 # Networking Basics<a id="sec-9" name="sec-9"></a>
 
+-   <https://frc-docs.readthedocs.io/en/latest/docs/networking/networking-introduction/index.html>
 -   Wired vs WiFi
 -   Switches, routers, Radios, Mesh Networks
 -   Network wiring

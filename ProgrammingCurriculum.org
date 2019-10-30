@@ -7,7 +7,7 @@
 * Software Installation & Tool Setup
   - github
   - https://help.github.com/en/desktop/getting-started-with-github-desktop
-  - https://frc-docs.readthedocs.io/en/latest/docs/software/getting-started/offline-installation-preparations.html
+  - https://frc-docs.readthedocs.io/en/latest/docs/getting-started/getting-started-frc-control-system/wpilib-setup.html
   - VS Code
   - WPI libs install
   - Driver Station
@@ -131,6 +131,7 @@
     + http://wpilib.screenstepslive.com/s/currentCS/m/84338/l/1021631-integrating-path-following-into-a-robot-program
     + Chief Delphi thread https://www.chiefdelphi.com/t/help-with-pathweaver/342464
 * Advanced Git and Github
+  - https://docs.wpilib.org/en/latest/docs/software/basic-programming/git-getting-started.html
   - Github Cheat Sheet https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
   - https://learngitbranching.js.org/
   - branching
@@ -148,6 +149,7 @@
     .gitignore .vscode vendordeps
   - https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
   - https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf
+  - Java formatting https://github.com/redhat-developer/vscode-java/wiki/Formatter-settings
 * Driver station 
   - install
   - setup
@@ -156,6 +158,7 @@
     + writing values
   - exampe PID tuning with DS parameters
 * Networking Basics
+  - https://frc-docs.readthedocs.io/en/latest/docs/networking/networking-introduction/index.html
   - Wired vs WiFi
   - Switches, routers, Radios, Mesh Networks
   - Network wiring
