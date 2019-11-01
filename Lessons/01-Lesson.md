@@ -1,21 +1,43 @@
 # Lesson 1
 
-THIS IS JUST A ROUGH OUTLINE.
-
 The goal of this lesson is to use VS Code and its automated code
 generation tool to create a new robot project, add our own custom
 code, build that program, and deploy it to a robot!
 
+You will also publish this code to your GitHub account.
+
 Don't worry if you can't code (yet). This exercises is about getting
 familiar with the tools you'll be using.
 
-# Building a Test Project
+## Building a Test Project
 
-- open VS CODE
-- navigate to create new project
-- fill in details for drive train
-- build code
-- fix any problems
+1. open VS CODE. 
+
+If you used the PC installer, it should have a shortcut link on the desktop.
+
+2. press Control-Shift-P (or it may be Command-Shift-P on a Mac) This will open the Command Palette. 
+
+![VS Code Command Palette](https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/master/Lessons/imgs/Command_Palette.png)
+
+This is a text window where you can execute commands to build code, update vendor libraries, set your team number, change the the JAVA library path, and many other tasks. Most of the time it's easier to just click on menu, files, and icons, but sometimes the command palette is the easiest way and sometimes the only way to run certain commands.
+
+3. In the Command Palette, type "WPILib: Create a new project" and hit return.
+   The command Palette will try to autocomplete and guess what command. So you can just type "new project" for instance and then select "WPILib: Create a new project" from the list of suggestions.
+- fill in details of the 
+
+
+- build code, there shouldn't be any errors yet.
+
+  image about where to look for errors
+
+- push code to github
+  - git init
+  - create repo on github.com
+  - add
+
+
+- add changes for your robot: motor ids
+- build code, fix any problems?
 - deploy code to robot (in class)
 
 # Resources
@@ -33,12 +55,15 @@ familiar with the tools you'll be using.
    + https://docs.google.com/presentation/d/11xui-66VAjulfWKHVRLzJZ1m9SdGiW3B3Cz6o3vX-os/edit (GOOD! slides)
    + https://wpilib.screenstepslive.com/s/currentCS/m/java/c/88893 (old offical FRC Docs)
 
+ - VS Code
+   + keyboard shortcuts: https://code.visualstudio.com/docs/getstarted/keybindings#_keyboard-shortcuts-reference
+
 
 # In Class
 
 - discuss the parts of the robot
 
-# Pic a Directory for Keeping your Code
+# Pick a Directory for Keeping your Code
 
 On the PC clone files into your Documents/GitHub directory. Having a
 common directory for all your GitHub repos is a good idea. You want to
@@ -76,5 +101,8 @@ put instructions here w/ screen shots
 # Build the Robot Code
 
 Instructions for building the robot code go here.
+
+
+
 
  
