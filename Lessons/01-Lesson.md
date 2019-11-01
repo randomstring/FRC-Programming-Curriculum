@@ -84,24 +84,35 @@ Now you can publish your changes back to GitHub.com. Just click the little cloud
 
 You will be prompted for your github username and password by VS Code.
 
+The next step has to be done from the command line. The easiest way is to access the built in terminal in VS Code.
+
+In the VS Code terminal (from the top menu select View > Terminal or perss Ctrl+` ) then run the following two commands:
+
  git remote add origin https://github.com/YOUR_USERNAME/MyFirstRobot.git
  git push -u origin master
 
+You have now pushed your code to GitHub! You can now go to your
+github.com page and navigate to your new online repo.
 
 5. Customize the code
 
-- add changes for your robot: motor ids
+TODO: modify the code to use the correct motor classes and motor ids as our actual robot. These will differ from those in the example code.
 
+Open src/main/java/frc/robot/Robot.java and scroll down to the function robotInit()
 
+TODO: new code, explination
 
-6. build code, fix any problems?
+6. build code
+
+From the command pallet type "build" and select "WPILib: Build Robot Code"
+
+TODO: Check for errors. 
 
 7. Commit changes
 
 commit changes and push to github.com
 
 8. deploy code to robot (in class)
-
 
 
 # Resources
@@ -132,44 +143,14 @@ commit changes and push to github.com
 
 # Pick a Directory for Keeping your Code
 
-On the PC clone files into your Documents/GitHub directory. Having a
-common directory for all your GitHub repos is a good idea. You want to
-be able to find them again quickly, so placing your "GitHub" directy
-in a directory that shows up in sidebar of your PC's File Explorer (or
-Finder on the Mac) will save you hunting around later.
- 
-
-# Create Your First Robot Program
-
- 1. make a new directory in your GitHub directory for your code. Call it
-    Documents/GitHub/MyFirstRobot for instance
- 2. run VS Code
- 3. instructions for code generation
- 4. instructions for adding drive code, arcade drive & motor ids 
- 5. instructinos for building the code
- 6. deploy, deploy, deploy!
- 7. drive the robot
-
 # Getting a Copy of the Team's Robot Code
 
 Next is to download the team's current robot code and building that.
 
 ## Clone the repo. 
 
-### Command line:
-
- cd ~/Documents/Github
- git clone https://github.com/FRC-Sonic-Squirrels/FRC-2019-Public.git
-
-### Use the GitHub Desktop tool
-
-put instructions here w/ screen shots
-
-# Build the Robot Code
-
-Instructions for building the robot code go here.
+In VS Code open a new window (Control-Shift-N) and then in the command
+palette type "git clone" and give the url
+https://github.com/FRC-Sonic-Squirrels/FRC-2019-Public.git
 
 
-
-
- 
