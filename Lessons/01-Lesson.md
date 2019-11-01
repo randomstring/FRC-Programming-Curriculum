@@ -26,7 +26,7 @@ Next open a new window by pressing Ctrl+Shift+N (or Command+Shift+N on the mac)
 This is a text window where you can execute commands to build code, update vendor libraries, set your team number, change the the Java library path, and many other tasks. Most of the time it's easier to just click on menu, files, and icons, but sometimes the command palette is the easiest way and sometimes the only way to run certain commands.
 
 3. In the Command Palette, type "WPILib: Create a new project" and hit return.
-   The command Palette will try to autocomplete and guess what command. So you can just type "new project" for instance and then select "WPILib: Create a new project" from the list of suggestions.
+   The command Palette will try to auto-complete and guess what command. So you can just type "new project" for instance and then select "WPILib: Create a new project" from the list of suggestions.
 
 ![WPILib Project Creator](https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/master/Lessons/imgs/WPILib_Project_Creator.png)
 
@@ -52,27 +52,27 @@ Things should look like this:
 
 Next we're going to initialize our git repo and push code to github.com. We do this now so that we record the initial state of the code before we start making changes. This way we can track every change we make and if want to revert back to an earlier working copy of the code, we can do that.
 
-GitHub also acts as a backup of our code so we don't lose it. GitHub also let's us share our code with other members of the team so we can colaborate.
+GitHub also acts as a backup of our code so we don't lose it. GitHub also let's us share our code with other members of the team so we can collaborate.
 
 ![Initialize local directory to use git](https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/master/Lessons/imgs/Git_init.png)
 
-Open the VS Code command palette and type "git init" and select the "Git: Initialze Repository" option. Select the current directory (should be called MyFirstRobot).
+Open the VS Code command palette and type "git init" and select the "Git: Initialize Repository" option. Select the current directory (should be called MyFirstRobot).
 
-Goto GitHub.com, make sure you're logged in and navigate to your Repositories page/tab. In the upper right of the page there should be a green "New" button for creating a new repo. Click it.
+Go to GitHub.com, make sure you're logged in and navigate to your Repositories page/tab. In the upper right of the page there should be a green "New" button for creating a new repo. Click it.
 
 ![New GitHub repo](https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/master/Lessons/imgs/GitHub_new_repo.png)
 
-Fill out the form just like it is in the picture. The repository name should match the name of the local project directory. In this case "MyFirstRobot". The other fields are not critical, but it is good practice to give a good one sentice description for your projects. Leave the setting the ".gitignore" option to "None."
+Fill out the form just like it is in the picture. The repository name should match the name of the local project directory. In this case "MyFirstRobot". The other fields are not critical, but it is good practice to give a good one sentence description for your projects. Leave the setting the ".gitignore" option to "None."
 
 Click the green "Clone or download" button and copy the URL. You'll need that for the next step. For me the URL looks like "https://github.com/randomstring/MyFirstRobot.git" yours will have your own username instead of "randmstring." 
 
-Go back to your MyFirstRobot window in VS Code. In the command palette type: "git add remote." The remote name is MyFirstRobot and the remote url is the one you copied from GitHub.com in the previous step.
+Go back to your MyFirstRobot window in VS Code. In the command palette type: "git add remote." The remote name is MyFirstRobot and the remote URL is the one you copied from GitHub.com in the previous step.
 
 5. Commit your Code
 
 For your first commit message use "WPILib generated code"
 
-When commiting code to github, you first you stage the changes. In VS Code you just click the "+" (plus icon) for the files and this sets the checkin message for each of your files. You can click the big "+" icon at the top to commit all the changed files at once. 
+When committing code to github, you first you stage the changes. In VS Code you just click the "+" (plus icon) for the files and this sets the check in message for each of your files. You can click the big "+" icon at the top to commit all the changed files at once. 
 
 Next you click the check mark at the top to finish the commit. 
 
@@ -86,7 +86,7 @@ You will be prompted for your github username and password by VS Code.
 
 The next step has to be done from the command line. The easiest way is to access the built in terminal in VS Code.
 
-In the VS Code terminal (from the top menu select View > Terminal or perss Ctrl+` ) then run the following two commands:
+In the VS Code terminal (from the top menu select View > Terminal or press Ctrl+` ) then run the following two commands:
 
  git remote add origin https://github.com/YOUR_USERNAME/MyFirstRobot.git
  git push -u origin master
@@ -100,7 +100,7 @@ TODO: modify the code to use the correct motor classes and motor ids as our actu
 
 Open src/main/java/frc/robot/Robot.java and scroll down to the function robotInit()
 
-TODO: new code, explination
+TODO: new code, explanation
 
 6. build code
 
@@ -133,6 +133,6 @@ building that.
 
 Start by creating a new window. In VS Code open a new window
 (Control-Shift-N) and then in the command palette type "git clone" and
-give the url
+give the URL
 https://github.com/FRC-Sonic-Squirrels/FRC-2019-Public.git
 
