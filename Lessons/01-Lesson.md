@@ -11,11 +11,15 @@ familiar with the tools you'll be using.
 
 ## Building a Test Project
 
-1. open VS CODE. 
+1. Launch VS Code and create a new project
 
-If you used the PC installer, it should have a shortcut link on the desktop.
+If you used the PC installer, it should have a shortcut link on the desktop top run VS Code.
 
-2. press Control-Shift-P (or it may be Command-Shift-P on a Mac) This will open the Command Palette. 
+Next open a new window by pressing Ctrl+Shift+N (or Command+Shift+N on the mac)
+
+![VS Code New Window](https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/master/Lessons/imgs/VSCode_New_Window.png)
+
+2. Press Control+Shift+P (or it may be Command+Shift+P on a Mac) This will open the Command Palette. Or just click on the "W" in a red hexagon icon in the upper right corner.
 
 ![VS Code Command Palette](https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/master/Lessons/imgs/Command_Palette.png)
 
@@ -23,22 +27,80 @@ This is a text window where you can execute commands to build code, update vendo
 
 3. In the Command Palette, type "WPILib: Create a new project" and hit return.
    The command Palette will try to autocomplete and guess what command. So you can just type "new project" for instance and then select "WPILib: Create a new project" from the list of suggestions.
-- fill in details of the 
 
+![WPILib Project Creator](https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/master/Lessons/imgs/WPILib_Project_Creator.png)
 
-- build code, there shouldn't be any errors yet.
+Work your way through the options, feel free to explore, but for this lesson select:
+  Project Type: example
+  Language: Java
+  Project Base: tank drive
+  Select a folder to place your project into. This should be your local "GitHub" directory, for instance your "Documents/GitHub" directory that you set up in lesson 0. This should *NOT* include the name of your project, that directory will get automatically created when you click the "Generate Project" button at the bottom.
+  Project Name: MyFirstRobot
+  Team Number: 2930
+  
+  Then click on "Generate Project"
 
-  image about where to look for errors
+![WPILib New Project](https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/master/Lessons/imgs/WPILib_New_Project.png)
 
-- push code to github
-  - git init
-  - create repo on github.com
-  - add
+VS Code will ask you if you want to open the project. Select "Yes (Current Window)"
 
+Things should look like this:
+
+![WPILib project init](https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/master/Lessons/imgs/WPILib_init.png)
+
+4. Initialize Git and Save to GitHub.com
+
+Next we're going to initialize our git repo and push code to github.com. We do this now so that we record the initial state of the code before we start making changes. This way we can track every change we make and if want to revert back to an earlier working copy of the code, we can do that.
+
+GitHub also acts as a backup of our code so we don't lose it. GitHub also let's us share our code with other members of the team so we can colaborate.
+
+![Initialize local directory to use git](https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/master/Lessons/imgs/Git_init.png)
+
+Open the VS Code command palette and type "git init" and select the "Git: Initialze Repository" option. Select the current directory (should be called MyFirstRobot).
+
+Goto GitHub.com, make sure you're logged in and navigate to your Repositories page/tab. In the upper right of the page there should be a green "New" button for creating a new repo. Click it.
+
+![New GitHub repo](https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/master/Lessons/imgs/GitHub_new_repo.png)
+
+Fill out the form just like it is in the picture. The repository name should match the name of the local project directory. In this case "MyFirstRobot". The other fields are not critical, but it is good practice to give a good one sentice description for your projects. The setting the ".gitignore" option to "Java" tells git to ignore temporary files that might get created and shouldn't be stored in git.
+
+Click the green "Clone or download" button and copy the URL. You'll need that for the next step. For me the URL looks like "https://github.com/randomstring/MyFirstRobot.git" yours will have your own username instead of "randmstring." 
+
+Go back to your MyFirstRobot window in VS Code. In the command palette type: "git add remote." The remote name is MyFirstRobot and the remote url is the one you copied from GitHub.com in the previous step.
+
+5. Commit your Code
+
+For your first commit message use "WPILib generated code"
+
+When commiting code to github, you first you stage the changes. In VS Code you just click the "+" (plus icon) for the files and this sets the checkin message for each of your files. You can click the big "+" icon at the top to commit all the changed files at once. 
+
+Next you click the check mark at the top to finish the commit. 
+
+![Git commit](https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/master/Lessons/imgs/VSCode_git_commit.png)
+
+Now you can publish your changes back to GitHub.com. Just click the little cloud icon in the lower left.
+
+![Publish changes to GitHub](https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/master/Lessons/imgs/VSCode_git_publish.png)
+
+You will be prompted for your github username and password by VS Code.
+
+TODO: Broken????
+
+5. Customize the code
 
 - add changes for your robot: motor ids
-- build code, fix any problems?
-- deploy code to robot (in class)
+
+
+
+6. build code, fix any problems?
+
+7. Commit changes
+
+commit changes and push to github.com
+
+8. deploy code to robot (in class)
+
+
 
 # Resources
 
