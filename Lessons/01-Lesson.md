@@ -117,19 +117,6 @@ commit changes and push to github.com
 
 # Resources
 
-- YouTube Tutorials: Intro to Command Based Programming (VS Code & Java)
-   + Part 1: https://youtu.be/wW_djLkD1B8
-   + Part 2: https://youtu.be/9MpJgUUsLZw
-   + Part 3: https://youtu.be/5Zr7K_2mnrw
-   + Part 4: https://youtu.be/YNluD_TNj5E
-   + Part 5: https://youtu.be/oGMy4FJLKy4
-
-- Command Based Programming documentation
-   + https://frc-docs.readthedocs.io/en/latest/docs/software/commandbased/index.html (GOOD, official FRC docs)
-   + https://docs.google.com/presentation/d/1kVDppzkow4M19QsfyUDZrhe_evU_ATksjlAW-aqYXe8/edit (GOOD! slides)
-   + https://docs.google.com/presentation/d/11xui-66VAjulfWKHVRLzJZ1m9SdGiW3B3Cz6o3vX-os/edit (GOOD! slides)
-   + https://wpilib.screenstepslive.com/s/currentCS/m/java/c/88893 (old offical FRC Docs)
-
  - VS Code
    + keyboard shortcuts: https://code.visualstudio.com/docs/getstarted/keybindings#_keyboard-shortcuts-reference
 
@@ -137,20 +124,15 @@ commit changes and push to github.com
    + pushing a new repo to GitHub.com https://gist.github.com/c0ldlimit/4089101
 
 
-# In Class
+# Next Steps
 
-- discuss the parts of the robot
+## Getting a Copy of the Team's Robot Code
 
-# Pick a Directory for Keeping your Code
+The next thing to try is to download the team's current robot code and
+building that.
 
-# Getting a Copy of the Team's Robot Code
-
-Next is to download the team's current robot code and building that.
-
-## Clone the repo. 
-
-In VS Code open a new window (Control-Shift-N) and then in the command
-palette type "git clone" and give the url
+Start by creating a new window. In VS Code open a new window
+(Control-Shift-N) and then in the command palette type "git clone" and
+give the url
 https://github.com/FRC-Sonic-Squirrels/FRC-2019-Public.git
-
 
