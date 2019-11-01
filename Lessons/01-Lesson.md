@@ -23,7 +23,7 @@ Next open a new window by pressing Ctrl+Shift+N (or Command+Shift+N on the mac)
 
 ![VS Code Command Palette](https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/master/Lessons/imgs/Command_Palette.png)
 
-This is a text window where you can execute commands to build code, update vendor libraries, set your team number, change the the JAVA library path, and many other tasks. Most of the time it's easier to just click on menu, files, and icons, but sometimes the command palette is the easiest way and sometimes the only way to run certain commands.
+This is a text window where you can execute commands to build code, update vendor libraries, set your team number, change the the Java library path, and many other tasks. Most of the time it's easier to just click on menu, files, and icons, but sometimes the command palette is the easiest way and sometimes the only way to run certain commands.
 
 3. In the Command Palette, type "WPILib: Create a new project" and hit return.
    The command Palette will try to autocomplete and guess what command. So you can just type "new project" for instance and then select "WPILib: Create a new project" from the list of suggestions.
@@ -62,7 +62,7 @@ Goto GitHub.com, make sure you're logged in and navigate to your Repositories pa
 
 ![New GitHub repo](https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/master/Lessons/imgs/GitHub_new_repo.png)
 
-Fill out the form just like it is in the picture. The repository name should match the name of the local project directory. In this case "MyFirstRobot". The other fields are not critical, but it is good practice to give a good one sentice description for your projects. The setting the ".gitignore" option to "Java" tells git to ignore temporary files that might get created and shouldn't be stored in git.
+Fill out the form just like it is in the picture. The repository name should match the name of the local project directory. In this case "MyFirstRobot". The other fields are not critical, but it is good practice to give a good one sentice description for your projects. Leave the setting the ".gitignore" option to "None."
 
 Click the green "Clone or download" button and copy the URL. You'll need that for the next step. For me the URL looks like "https://github.com/randomstring/MyFirstRobot.git" yours will have your own username instead of "randmstring." 
 
@@ -84,7 +84,9 @@ Now you can publish your changes back to GitHub.com. Just click the little cloud
 
 You will be prompted for your github username and password by VS Code.
 
-TODO: Broken????
+ git remote add origin https://github.com/YOUR_USERNAME/MyFirstRobot.git
+ git push -u origin master
+
 
 5. Customize the code
 
@@ -119,6 +121,9 @@ commit changes and push to github.com
 
  - VS Code
    + keyboard shortcuts: https://code.visualstudio.com/docs/getstarted/keybindings#_keyboard-shortcuts-reference
+
+ - GitHub
+   + pushing a new repo to GitHub.com https://gist.github.com/c0ldlimit/4089101
 
 
 # In Class
