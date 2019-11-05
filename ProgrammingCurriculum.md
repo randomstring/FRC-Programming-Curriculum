@@ -405,6 +405,7 @@
     -   FRC & Java <https://stemrobotics.cs.pdx.edu/node/4196?root=4196>
     -   AP CS principles <https://www.khanacademy.org/computing/ap-computer-science-principles>
 -   Command Based Programming
+    -   <https://docs.wpilib.org/en/latest/docs/software/commandbased/command-based-changes.html> (changes for 2020)
     -   <https://frc-docs.readthedocs.io/en/develop/docs/software/commandbased/index.html> (GOOD, official FRC docs)
     -   <https://docs.google.com/presentation/d/1kVDppzkow4M19QsfyUDZrhe_evU_ATksjlAW-aqYXe8/edit> (GOOD! slides)
     -   <https://docs.google.com/presentation/d/11xui-66VAjulfWKHVRLzJZ1m9SdGiW3B3Cz6o3vX-os/edit> (GOOD! slides)
