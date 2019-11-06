@@ -123,7 +123,8 @@ TODO: Check for errors.
    + keyboard shortcuts: https://code.visualstudio.com/docs/getstarted/keybindings#_keyboard-shortcuts-reference
 
  - GitHub
-   + pushing a new repo to GitHub.com https://gist.github.com/c0ldlimit/4089101
+   + pushing a new repo to GitHub.com:  https://gist.github.com/c0ldlimit/4089101
+   + about remote repos:  https://help.github.com/en/github/using-git/managing-remote-repositories
 
 
 # Next Steps
