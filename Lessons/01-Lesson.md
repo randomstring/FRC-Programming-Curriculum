@@ -48,7 +48,7 @@ Things should look like this:
 
 ![WPILib project init](https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/master/Lessons/imgs/WPILib_init.png)
 
-4. Initialize Git and Save to GitHub.com
+4. Initialize Git and Connect your repo to GitHub.com
 
 Next we're going to initialize our git repo and push code to github.com. We do this now so that we record the initial state of the code before we start making changes. This way we can track every change we make and if want to revert back to an earlier working copy of the code, we can do that.
 
@@ -66,9 +66,17 @@ Fill out the form just like it is in the picture. The repository name should mat
 
 Click the green "Clone or download" button and copy the URL. You'll need that for the next step. For me the URL looks like "https://github.com/randomstring/MyFirstRobot.git" yours will have your own username instead of "randmstring." 
 
-Go back to your MyFirstRobot window in VS Code. In the command palette type: "git add remote." The remote name is MyFirstRobot and the remote URL is the one you copied from GitHub.com in the previous step.
+
+In the VS Code terminal (from the top menu select View > Terminal or press Ctrl+` ) then run the following two commands:
+
+`
+git remote add origin https://github.com/YOUR_USERNAME/MyFirstRobot.git
+`
+
+This command connects your local git repository where you will be making changes, to your remote repository hosted on github.com. 
 
 5. Commit your Code
+
 
 For your first commit message use "WPILib generated code"
 
@@ -86,10 +94,6 @@ You will be prompted for your github username and password by VS Code.
 
 The next step has to be done from the command line. The easiest way is to access the built in terminal in VS Code.
 
-In the VS Code terminal (from the top menu select View > Terminal or press Ctrl+` ) then run the following two commands:
-
- git remote add origin https://github.com/YOUR_USERNAME/MyFirstRobot.git
- git push -u origin master
 
 You have now pushed your code to GitHub! You can now go to your
 github.com page and navigate to your new online repo.
