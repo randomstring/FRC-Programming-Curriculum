@@ -40,13 +40,14 @@ select "WPILib: Create a new project" from the list of suggestions.
 ![WPILib Project Creator](https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/master/Lessons/imgs/WPILib_Project_Creator.png)
 
 Work your way through the options, feel free to explore, but for this lesson select:
-'
+
+`
   Project Type: example
   Language: Java
   Project Base: tank drive
   Project Name: MyFirstRobot
   Team Number: 2930
-'
+`
 
 Select a folder to place your project into. This should be your local
 "GitHub" directory, for instance your "Documents/GitHub" directory
