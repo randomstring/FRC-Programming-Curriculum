@@ -234,6 +234,7 @@
    - If you are confused about what the code is doing, then you don't
      understand the code or you don't understand what's going
      on. LEARN what's really happening, don't keep changing the code.
+   - debug tool for robot https://github.com/wpilibsuite/robot-characterization
 * What is it like to be a Programmer?
   - expect to spend lots of time googling and reading web pages
    - always backup your code
