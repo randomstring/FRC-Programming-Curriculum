@@ -41,13 +41,13 @@ select "WPILib: Create a new project" from the list of suggestions.
 
 Work your way through the options, feel free to explore, but for this lesson select:
 
-`
+```
   Project Type: example
   Language: Java
   Project Base: tank drive
   Project Name: MyFirstRobot
   Team Number: 2930
-`
+```
 
 Select a folder to place your project into. This should be your local
 "GitHub" directory, for instance your "Documents/GitHub" directory
@@ -103,9 +103,9 @@ your own username instead of "randmstring."
 
 In the VS Code terminal (from the top menu select View > Terminal or press Ctrl+` ) then run the following command:
 
-`
+```bash
 git remote add origin https://github.com/YOUR_USERNAME/MyFirstRobot.git
-`
+```
 
 This command connects your local git repository where you will be
 making changes, to your remote repository hosted on github.com.
