@@ -394,7 +394,7 @@
  - Misc Programming Resources:
    + Python FRC robot simulator https://github.com/robotpy/pyrobottraining
  - Other online FRC Courses/Lectures/Notes
-   + https://www.citruscircuits.org/fall-workshops.html (<--- THIS!)
+   + https://www.citruscircuits.org/fallworkshops.html A collection of videos and slides
  - Robot Control Theory
    + https://file.tavsys.net/control/controls-engineering-in-frc.pdf
  - Advanced Programming (not FRC specific):
