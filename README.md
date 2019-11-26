@@ -3,7 +3,11 @@ An effort to outline a curriculum and resources for learning programming FRC rob
 
 ## File Formats
 
-Source files for outlines, notes, and slides are in .org [Emacs Org-mode](https://orgmode.org/) and all markdown files (.md) are generated from the .org file of the same name.
+Some source files for outlines, notes, and slides are in
+.org [Emacs Org-mode](https://orgmode.org/). Some of the .md
+(Markdown) files are generated from the .org files by Emacs. Most of
+the README and lesson files are directly edited markdown files, as it
+is easier to get the links and embedded images correct that way.
 
 
 ## 0. Outline: [ProgrammingCurriculum](ProgrammingCurriculum.md)
