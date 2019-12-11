@@ -281,6 +281,7 @@
 -   If you are confused about what the code is doing, then you don't
     understand the code or you don't understand what's going
     on. LEARN what's really happening, don't keep changing the code.
+-   debug tool for robot <https://github.com/wpilibsuite/robot-characterization>
 
 # What is it like to be a Programmer?<a id="sec-12" name="sec-12"></a>
 
@@ -395,6 +396,9 @@
     -   Part 3: <https://youtu.be/5Zr7K_2mnrw>
     -   Part 4: <https://youtu.be/YNluD_TNj5E>
     -   Part 5: <https://youtu.be/oGMy4FJLKy4>
+-   Installing 3rd Party Software
+    -   <https://phoenix-documentation.readthedocs.io/en/latest/ch05a_CppJava.html>
+    -   <https://wpilib.screenstepslive.com/s/currentCS/m/getting_started/l/682619-3rd-party-libraries>
 -   FRC Robobuilder Tool
     -   Brad Miller, 6 part video series
         <https://www.youtube.com/playlist?list=PLYA9eZLlgz7t9Oleid2wtlgnvhGObeKzp>
@@ -452,7 +456,7 @@
 -   Misc Programming Resources:
     -   Python FRC robot simulator <https://github.com/robotpy/pyrobottraining>
 -   Other online FRC Courses/Lectures/Notes
-    -   <https://www.citruscircuits.org/fall-workshops.html> (<&#x2014; THIS!)
+    -   <https://www.citruscircuits.org/fallworkshops.html> A collection of videos and slides
 -   Robot Control Theory
     -   <https://file.tavsys.net/control/controls-engineering-in-frc.pdf>
 -   Advanced Programming (not FRC specific):
