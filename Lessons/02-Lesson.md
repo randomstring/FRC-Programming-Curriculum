@@ -29,7 +29,7 @@ https://frc-docs.readthedocs.io/ for the correct page *and let me
 know* so I can update this lesson.
 
 * Latest Official FRC docs on Command Based Programming
-   + https://frc-docs.readthedocs.io/en/latest/docs/software/commandbased/index.htmlhttps://frc-docs.readthedocs.io/en/latest/docs/software/commandbased/index.html 
+   + https://frc-docs.readthedocs.io/en/latest/docs/software/commandbased/index.html
 * Slides explaining Command Based Programming
    + https://docs.google.com/presentation/d/1kVDppzkow4M19QsfyUDZrhe_evU_ATksjlAW-aqYXe8/edit
 * Slides: slightly more advanced Command Based topics
