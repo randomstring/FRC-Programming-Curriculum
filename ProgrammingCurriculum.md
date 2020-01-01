@@ -142,6 +142,8 @@
 -   WPI Sensors
     -   Gyro
         -   <https://pdocs.kauailabs.com/navx-mxp/examples/automatic-balancing/>
+    -   Gyro + Accelerometer + Magnetometer
+        -   <https://pdocs.kauailabs.com/navx-mxp/guidance/terminology/>
     -   distance sensors
     -   Hall effect, etc&#x2026;
 -   WPI USBCamera class
