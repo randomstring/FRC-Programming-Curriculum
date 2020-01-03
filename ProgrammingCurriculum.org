@@ -381,6 +381,10 @@
    + https://www.youtube.com/watch?v=i_6eh1C_1V8
    + https://www.youtube.com/watch?v=4rbT-oscpx0 (part 1)
    + https://www.youtube.com/watch?v=VqhAtgtoB-8 (part 2)
+   + https://www.chiefdelphi.com/t/a-deep-dive-into-wpilib-trajectories/367057
+   + https://pietroglyph.github.io/trajectory-presentation/#/
+   + https://www.youtube.com/watch?v=fEVU7dVc8B4
+   + http://www2.informatik.uni-freiburg.de/~lau/students/Sprunk2008.pdf
  - Path Planning:
    + Intro: https://wpilib.screenstepslive.com/s/currentCS/m/84338
    + https://www.youtube.com/watch?v=8319J1BEHwM
