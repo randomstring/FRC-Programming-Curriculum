@@ -1,38 +1,38 @@
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#sec-1">1. Account setup</a></li>
-<li><a href="#sec-2">2. Software Installation &amp; Tool Setup</a></li>
-<li><a href="#sec-3">3. WPI lib</a></li>
-<li><a href="#sec-4">4. PID controllers</a></li>
-<li><a href="#sec-5">5. Motor Controllers and WPI built-in functions</a></li>
-<li><a href="#sec-6">6. Advanced Git and Github</a></li>
-<li><a href="#sec-7">7. VS Code</a></li>
-<li><a href="#sec-8">8. Driver station</a></li>
-<li><a href="#sec-9">9. Networking Basics</a></li>
-<li><a href="#sec-10">10. General Computer Science</a></li>
-<li><a href="#sec-11">11. Debugging code</a></li>
-<li><a href="#sec-12">12. What is it like to be a Programmer?</a></li>
-<li><a href="#sec-13">13. Basic Physics</a></li>
-<li><a href="#sec-14">14. Electronics, Wiring, and Control Systems</a></li>
-<li><a href="#sec-15">15. Programming Projects</a></li>
-<li><a href="#sec-16">16. Suggested Programming Calendar</a></li>
-<li><a href="#sec-17">17. Resources</a></li>
-</ul>
-</div>
-</div>
+
+# Table of Contents
+
+1.  [Account setup](#orgb26ef4c)
+2.  [Software Installation & Tool Setup](#orgec8e12d)
+3.  [WPI lib](#orgc59ce52)
+4.  [PID controllers](#org3e07edf)
+5.  [Motor Controllers and WPI built-in functions](#org5707bcd)
+6.  [Advanced Git and Github](#orgfad67de)
+7.  [VS Code](#orgdff8698)
+8.  [Driver station](#orgaad8d8b)
+9.  [Networking Basics](#org4138e15)
+10. [General Computer Science](#org2095214)
+11. [Debugging code](#org19f0d5e)
+12. [What is it like to be a Programmer?](#org1caa8d4)
+13. [Basic Physics](#orge65e44a)
+14. [Electronics, Wiring, and Control Systems](#org86bdce2)
+15. [Programming Projects](#org9a9df10)
+16. [Suggested Programming Calendar](#org8796786)
+17. [Resources](#org5efa846)
 
 
+<a id="orgb26ef4c"></a>
 
-# Account setup<a id="sec-1" name="sec-1"></a>
+# Account setup
 
 -   github (join team group)
 -   trello
 -   slack (and channels, #programming)
 -   MS Teams
 
-# Software Installation & Tool Setup<a id="sec-2" name="sec-2"></a>
+
+<a id="orgec8e12d"></a>
+
+# Software Installation & Tool Setup
 
 -   github
 -   <https://help.github.com/en/desktop/getting-started-with-github-desktop>
@@ -44,7 +44,10 @@
 -   flashing firmware roboRIO, Limelight, radio
 -   How to update software
 
-# WPI lib<a id="sec-3" name="sec-3"></a>
+
+<a id="orgc59ce52"></a>
+
+# WPI lib
 
 -   API overview
 -   Command based robot
@@ -112,7 +115,10 @@
         -   This allows you to have all of your configuration information in one place.
         -   This is also a good place to set up constant values to use in your code.
 
-# PID controllers<a id="sec-4" name="sec-4"></a>
+
+<a id="org3e07edf"></a>
+
+# PID controllers
 
 -   Bang-Bang controller
 -   define P, I, and D
@@ -120,7 +126,10 @@
 -   speed example
 -   steering
 
-# Motor Controllers and WPI built-in functions<a id="sec-5" name="sec-5"></a>
+
+<a id="org5707bcd"></a>
+
+# Motor Controllers and WPI built-in functions
 
 -   motor control
     -   setting motor settings
@@ -168,7 +177,10 @@
     -   <http://wpilib.screenstepslive.com/s/currentCS/m/84338/l/1021631-integrating-path-following-into-a-robot-program>
     -   Chief Delphi thread <https://www.chiefdelphi.com/t/help-with-pathweaver/342464>
 
-# Advanced Git and Github<a id="sec-6" name="sec-6"></a>
+
+<a id="orgfad67de"></a>
+
+# Advanced Git and Github
 
 -   <https://docs.wpilib.org/en/latest/docs/software/basic-programming/git-getting-started.html>
 -   Github Cheat Sheet <https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf>
@@ -177,7 +189,10 @@
 -   pull requests
 -   merging
 
-# VS Code<a id="sec-7" name="sec-7"></a>
+
+<a id="orgdff8698"></a>
+
+# VS Code
 
 -   work flow
 -   quick commands for building, saving,
@@ -192,7 +207,10 @@
 -   <https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf>
 -   Java formatting <https://github.com/redhat-developer/vscode-java/wiki/Formatter-settings>
 
-# Driver station<a id="sec-8" name="sec-8"></a>
+
+<a id="orgaad8d8b"></a>
+
+# Driver station
 
 -   install
 -   setup
@@ -201,7 +219,10 @@
     -   writing values
 -   exampe PID tuning with DS parameters
 
-# Networking Basics<a id="sec-9" name="sec-9"></a>
+
+<a id="org4138e15"></a>
+
+# Networking Basics
 
 -   <https://frc-docs.readthedocs.io/en/latest/docs/networking/networking-introduction/index.html>
 -   Wired vs WiFi
@@ -221,7 +242,10 @@
     -   allowed bandwidth
     -   effects of dropped packets & latency
 
-# General Computer Science<a id="sec-10" name="sec-10"></a>
+
+<a id="org2095214"></a>
+
+# General Computer Science
 
 -   data structures
     -   basic types, int, float double, char, strings
@@ -269,7 +293,10 @@
         -   <https://wpilib.screenstepslive.com/s/currentCS/m/java/l/145309-java-conventions-for-objects-methods-and-variables>
         -   automatic java style on file save w/ VSCode
 
-# Debugging code<a id="sec-11" name="sec-11"></a>
+
+<a id="org19f0d5e"></a>
+
+# Debugging code
 
 -   print to the console
     -   print values, weird conditions, errors, println()
@@ -285,7 +312,10 @@
     on. LEARN what's really happening, don't keep changing the code.
 -   debug tool for robot <https://github.com/wpilibsuite/robot-characterization>
 
-# What is it like to be a Programmer?<a id="sec-12" name="sec-12"></a>
+
+<a id="org1caa8d4"></a>
+
+# What is it like to be a Programmer?
 
 -   expect to spend lots of time googling and reading web pages
     -   always backup your code
@@ -303,7 +333,10 @@
 -   typing skills are important
 -   Peter Norvig on how to be a good programmer: <http://norvig.com/21-days.html>
 
-# Basic Physics<a id="sec-13" name="sec-13"></a>
+
+<a id="orge65e44a"></a>
+
+# Basic Physics
 
 -   speed, acceleration, gravity, motion
     -   newton's laws
@@ -315,7 +348,10 @@
 -   Elastic vs Inelastic collisions (?)
     -   <https://www.khanacademy.org/science/physics/linear-momentum/elastic-and-inelastic-collisions/v/elastic-and-inelastic-collisions>
 
-# Electronics, Wiring, and Control Systems<a id="sec-14" name="sec-14"></a>
+
+<a id="org86bdce2"></a>
+
+# Electronics, Wiring, and Control Systems
 
 -   roboRIO anatomy
     -   layout
@@ -330,7 +366,10 @@
     -   <https://phoenix-documentation.readthedocs.io/en/latest/ch03_PrimerPhoenixSoft.html#what-is-phoenix-tuner>
 -   Example wiring diagrams
 
-# Programming Projects<a id="sec-15" name="sec-15"></a>
+
+<a id="org9a9df10"></a>
+
+# Programming Projects
 
 -   the best way to learn is to have a project, a reason to learn and use the skills
 -   Clean room program last year's robot from scratch
@@ -345,7 +384,10 @@
     -   add LED lights
     -   monitor for brownout (alert w/ LED, turn something off, reduce power to motors)
 
-# Suggested Programming Calendar<a id="sec-16" name="sec-16"></a>
+
+<a id="org8796786"></a>
+
+# Suggested Programming Calendar
 
 -   Pre-Season
     -   practice robot, with basic drive and a few sensors
@@ -372,7 +414,10 @@
 -   Week 5
 -   Week n+1
 
-# Resources<a id="sec-17" name="sec-17"></a>
+
+<a id="org5efa846"></a>
+
+# Resources
 
 -   General
     -   <http://wpilib.screenstepslive.com/s/currentCS>
@@ -425,6 +470,8 @@
     -   <https://wpilib.screenstepslive.com/s/currentCS/m/java/c/88895>
     -   <https://pdocs.kauailabs.com/navx-mxp/examples/automatic-balancing/> (sample code)
     -   <https://pdocs.kauailabs.com/navx-mxp/>
+    -   Team 254 2019 code explained
+    -   <https://www.chiefdelphi.com/t/team-254-presents-2019-code-for-backlash/361571>
 -   CAN Bus programming:
     -   <https://frc-docs.readthedocs.io/en/develop/software.html#can-devices>
     -   Cross the Road Electronics documentation, CAN, APIs, installation
@@ -471,3 +518,6 @@
 -   Advanced Programming (not FRC specific):
     -   <https://www.toptal.com/robotics/programming-a-robot-an-introductory-tutorial>
     -   <https://www.coursera.org/learn/mobile-robot/>
+-   Sample Projects:
+    -   <https://github.com/CrossTheRoadElec/CTRE-Balance-Bot>
+
