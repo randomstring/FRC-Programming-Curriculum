@@ -366,6 +366,8 @@
    + https://wpilib.screenstepslive.com/s/currentCS/m/java/c/88895
    + https://pdocs.kauailabs.com/navx-mxp/examples/automatic-balancing/ (sample code)
    + https://pdocs.kauailabs.com/navx-mxp/
+   + Team 254 2019 code explained
+   + https://www.chiefdelphi.com/t/team-254-presents-2019-code-for-backlash/361571
  - CAN Bus programming:
    + https://frc-docs.readthedocs.io/en/develop/software.html#can-devices
    + Cross the Road Electronics documentation, CAN, APIs, installation
@@ -412,3 +414,5 @@
  - Advanced Programming (not FRC specific):
    + https://www.toptal.com/robotics/programming-a-robot-an-introductory-tutorial
    + https://www.coursera.org/learn/mobile-robot/
+ - Sample Projects:
+   + https://github.com/CrossTheRoadElec/CTRE-Balance-Bot
