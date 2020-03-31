@@ -23,7 +23,7 @@ Our team uses several different services to store and track changes in
    dedicated #programming channel for sharing programming
    announcements, discussions, and asking for help. Our team also uses
    Slack to communicate during events and competitions.
-3. [Microsoft Office 365/Teams](<login.microsoftonline.com>) is a
+3. [Microsoft Office 365/Teams](<https://login.microsoftonline.com/>) is a
    suite of services in which we are going to be moving into during
    the offseason to potentially replace Slack. This service has all of
    Slack's features as well as Email, online meetings, file sharing,
