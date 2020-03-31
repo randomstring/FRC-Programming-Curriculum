@@ -18,9 +18,10 @@ Our team uses several different services to store and track changes in
     
 1.  [Github](<https://github.com/>) to store our code, track changes,
         and collaborate
-2.  [Slack](<https://slack.com/>) is a chat service used by our whole robotics team. We have a dedicated #programming channel for sharing programming
+2.  [Slack](<https://slack.com/>) (To be deprecated when Teams is set up)is a chat service used by our whole robotics team. We have a dedicated #programming channel for sharing programming
         announcements, discussions, and asking for help. Our team also uses
         Slack to communicate during events and competitions.
+3. [Microsoft Office 365/Teams](<login.microsoftonline.com>) is a suite of services in which we are going to be moving into during the offseason to potentially replace Slack. This service has all of Slack's features as well as Email, online meetings, file sharing, as well as it being operated by one of our sponsors! To get an account, contact Jason Reiner and he can get you set up.
     
 Start by going to <https://github.com/join> and creating an
 account. When choosing an account name and avatar, keep in mind your
@@ -42,7 +43,14 @@ programming channel by sending the slack message "/join #programming".
     
 Slack has a desktop app and also native apps for the iPhone and
 Android.
-    
+
+For Microsoft Teams, if you arent already added to the groups inside the team,
+let Bryn or Jason know and they can add you to the group. This will autojoin you to the
+group chat channels that programming uses.
+
+Teams has a desktop app and also native apps for the iPhone and
+Android.
+
 While you're waiting to get added to the team's accounts, take a
 moment to browse your team's code on Github. Team 2930's code resides
 at <https://github.com/FRC-Sonic-Squirrels/> and last year's robot
