@@ -428,6 +428,17 @@
 -   Places to Ask for Help
     -   <https://www.chiefdelphi.com/tags/programming>
     -   <https://discord.gg/frc>
+- Why be Programmer/Software Engineer? What's it like?
+    -  Why become a Software Engineer?
+      + https://www.youtube.com/watch?v=62yWwWtUmTo Why You Should Be A Software Engineer 
+      + https://www.youtube.com/watch?v=DO12Ucq8jNA Reasons Why You Should Become A Software Engineer!
+        (Note: not hiring some one for how they dress is illegal.) 
+    - A day in the life of a programmer youtube videos
+      + https://www.youtube.com/watch?v=bX8hvldRx1M Day in the Life of a Software Engineer (First week!)
+      + https://www.youtube.com/watch?v=Q7xFiXahrBM Day in the Life of a Software Engineer (Coding & Meetings)
+      + https://www.youtube.com/watch?v=ivCbN12hf78 a day in the life of a Google software engineer
+   - A day in the life of an intern
+      + https://www.youtube.com/watch?v=VBiUE2d2Lsw A Day in the Life of a Microsoft Intern
 -   Programming Java
     -   <https://www.codecademy.com/learn/learn-java>
     -   <https://www.udemy.com/java-tutorial/> Java Tutorial for Complete Beginners
