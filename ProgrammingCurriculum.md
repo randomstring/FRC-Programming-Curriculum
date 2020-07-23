@@ -436,7 +436,6 @@
     - A day in the life of a programmer youtube videos
         - https://www.youtube.com/watch?v=bX8hvldRx1M Day in the Life of a Software Engineer (First week!)
         - https://www.youtube.com/watch?v=Q7xFiXahrBM Day in the Life of a Software Engineer (Coding & Meetings)
-        - https://www.youtube.com/watch?v=ivCbN12hf78 a day in the life of a Google software engineer
    - A day in the life of an intern
         - https://www.youtube.com/watch?v=VBiUE2d2Lsw A Day in the Life of a Microsoft Intern
 -   Programming Java
@@ -517,6 +516,7 @@
     -   <https://www.chiefdelphi.com/t/your-team-sucks-at-programming-heres-why/358026>
     -   <https://www.chiefdelphi.com/t/what-is-the-best-way-to-teach-incoming-freshmen/362661/16>
     -   <https://www.chiefdelphi.com/t/what-is-the-best-way-to-teach-incoming-freshmen/362661/23>
+    -   <https://www.chiefdelphi.com/t/robot-characterization-with-swerve-drive/386238>
 -   Misc Programming Resources:
     -   Python FRC robot simulator <https://github.com/robotpy/pyrobottraining>
 -   Other online FRC Courses/Lectures/Notes
