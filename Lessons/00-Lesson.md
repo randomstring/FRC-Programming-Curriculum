@@ -5,30 +5,34 @@ development environment so you can write code and run it on a FRC
 robot. 
 
 If you don't have access to a computer at home, the team and the
-schools have computers for use durings meetings and in their libraries
-or computer labs.
+schools have computers for use during meetings and in their libraries
+or computer labs. In special circumstances the team may have a spare
+laptop that can be loaned out to students in need.
+
+The software required can be installed on a Windows or a Mac. Laptops
+are preferable as it makes it easier to collaborate in programming
+meetings and to get code onto the robot. Windows and Mac are on even
+footing for programming (this is done using VS Code). However, many of
+the supporting programs, like the driver station for controlling the
+robot are Windows only. The team has dedicated Windows laptops for
+this, so it's only a minor inconvenience to use a Mac for coding and the
+shared team laptop as a driver station.
 
 If you get stuck or aren't sure how to proceed, ask me or the rest of
-the subteam for help!
+the sub-team for help!
 
 # Account setup
     
 Our team uses several different services to store and track changes in
     our code and to communicate with our fellow programmers.
     
-1. [Github](<https://github.com/>) to store our code, track changes,
-   and collaborate
-2. [Slack](<https://slack.com/>) (To be deprecated when Teams is set
-   up) is a chat service used by our whole robotics team. We have a
-   dedicated #programming channel for sharing programming
-   announcements, discussions, and asking for help. Our team also uses
-   Slack to communicate during events and competitions.
-3. [Microsoft Office 365/Teams](<https://login.microsoftonline.com/>) is a
-   suite of services in which we are going to be moving into during
-   the offseason to potentially replace Slack. This service has all of
-   Slack's features as well as Email, online meetings, file sharing,
-   as well as it being operated by one of our sponsors! To get an
-   account, contact Jason Reiner and he can get you set up.
+1. [Github](https://github.com/FRC-Sonic-Squirrels) to store our code,
+   track changes, and collaborate.
+
+2. [Microsoft Office 365/Teams](https://login.microsoftonline.com/) is
+   a suite of services including online meetings, chat, email, file
+   sharing. To get an account, contact Jason Reiner or Bryn Dole so
+   they can create an account for you.
     
 Start by going to <https://github.com/join> and creating an
 account. When choosing an account name and avatar, keep in mind your
@@ -39,32 +43,30 @@ your programming lead and/or mentor so they can grant you access to
 your team's Github repositories (that's what Github calls a project
 folder).
 	
-Next, you will need to join Slack and the #programming
-sub-channel. The easiest way to do this is to email the team
+Next, you will need to join the Sonic Squirrel Microsoft Teams and 
+the #programming Team. The easiest way to do this is to email the team
 (sonicsquirrels@gmail.com) and ask to be added. Make sure you include
 your name and email in the message so the admin knows who you are.
     
-If you already have a Slack account and are on the Team Slack work
-space <https://sonicsquirrels.slack.com/> then add yourself to the
-programming channel by sending the slack message "/join #programming".
-    
-Slack has a desktop app and also native apps for the iPhone and
-Android.
+If you already have a MS Teams account and a @sonicsquirels.com email
+you can log in via the website space <https://teams.microsoft.com/> or
+download and install the MS Teams app on your desktop and/or
+smartphone. Then add yourself to the programming Team. Click on
+"Teams" in the left side bar, then click on the "Join or Create Team"
+in the upper left. Next select the Programming Team to join. Feel free
+to join any other Teams that look interesting.
 
-For Microsoft Teams, if you arent already added to the groups inside the team,
-let Bryn or Jason know and they can add you to the group. This will autojoin you to the
-group chat channels that programming uses.
+Here is a [direct link to Programming Team discussion on Microsoft Teams](https://teams.microsoft.com/l/team/19%3a0b27cc1537dc4ea5b0b6a7387bacc1cd%40thread.tacv2/conversations?groupId=39c4b64e-fd6d-4f8f-9c24-a9369ee1f34d&tenantId=c193446f-2653-4470-a85b-3a5a94ee8ab5).
 
-Teams has a desktop app and also native apps for the iPhone and
-Android.
+Teams has a desktop app for both Mac and PC, and smartphone apps for
+both the iOS and Android. Installing 
 
 While you're waiting to get added to the team's accounts, take a
 moment to browse your team's code on Github. Team 2930's code resides
-at <https://github.com/FRC-Sonic-Squirrels/> and last year's robot
-code is at <https://github.com/FRC-Sonic-Squirrels/FRC-2019-Public>
-    
-If you're on a different team, try Googling "FRC YOURTEAMNUMBER
-github.com"
+at <https://github.com/FRC-Sonic-Squirrels/> for the code last two robots is at
+<https://github.com/FRC-Sonic-Squirrels/FRC-2019-Public> and
+<https://github.com/FRC-Sonic-Squirrels/2020-RobotCode>.
+
 
 # Software Installation Requirements
     
@@ -136,15 +138,25 @@ Next install the GitHub desktop software:
 
 <https://help.github.com/en/desktop/getting-started-with-github-desktop/installing-github-desktop>
 
+
+# Resources
+
+Background about the hardware of the robot can be found at this
+website about [control system
+hardware](https://docs.wpilib.org/en/latest/docs/getting-started/getting-started-frc-control-system/control-system-hardware.html).
+
+The official software guide can be found here: [getting started with
+FRC control
+systems](https://docs.wpilib.org/en/latest/docs/getting-started/getting-started-frc-control-system/intro.html).
+
 # Advanced Topics
     
 If you don't have a laptop you can try to install all the software
-      onto a portable thumb drive or some other type of portable
-      media. This will let you carry your entire programming
-      environment with you. You just need to borrow a computer with
-      the same operating system and run VS Code directly from your
-      thumb drive. The school has sets of classroom laptops we could
-      use for this purpose.
+onto a portable thumb drive or some other type of portable media. This
+will let you carry your entire programming environment with you. You
+just need to borrow a computer with the same operating system and run
+VS Code directly from your thumb drive. The school has sets of
+classroom laptops we could use for this purpose.
     
 WARNING: We haven't actually tried this yet!
 
