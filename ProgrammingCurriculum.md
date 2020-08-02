@@ -415,6 +415,12 @@
 -   Week n+1
 
 
+# Gotchas and Common Mistakes
+
+- Difference between '=' and '=='
+- making class variables 'static'
+- understading the scheduler (really just a difficult concept)
+
 <a id="org5efa846"></a>
 
 # Resources
@@ -529,6 +535,10 @@
 -   Advanced Programming (not FRC specific):
     -   <https://www.toptal.com/robotics/programming-a-robot-an-introductory-tutorial>
     -   <https://www.coursera.org/learn/mobile-robot/>
+- Kalman Filters
+    - https://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/
+    - https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python
+    - https://www.youtube.com/watch?v=CaCcOwJPytQ
 -   Sample Projects:
     -   <https://github.com/CrossTheRoadElec/CTRE-Balance-Bot>
 
