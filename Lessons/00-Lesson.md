@@ -119,25 +119,53 @@ detailed instructions there.
 <https://github.com/wpilibsuite/allwpilib/releases>
     
 You start by downloading the appropriate software bundle for your
-      computer and operating system. To do this scroll down to the
-      section of the page that looks like this:
+computer and operating system. To do this scroll down to the section
+of the page that looks like this:
 
 ![Download links look like this](https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/master/Lessons/imgs/Download_Links.png)
 
-Here is a direct link to the newer instructions from frc-readthedocs.io site:
+Download the bundle, extract it (TODO: specific instructions) , and
+then run the installer. Follow the installation steps outlined on the
+official FRC website:
 <https://frc-docs.readthedocs.io/en/latest/docs/getting-started/getting-started-frc-control-system/wpilib-setup.html>
+
 
 Here's a YouTube video installation
 guide: <https://www.youtube.com/watch?v=AWf_4dxKpT8> NOTE: This video
 is from January 2019, some file names will have changed due to new
 software releases.
 
+
+### TL;DR Quick Start Guide
+
+If you have all your accounts set up, you can jump straight to the installation.
+
+
+ 1. Follow instructions for your computer. Select download VS Code with all other installs. <https://frc-docs.readthedocs.io/en/latest/docs/getting-started/getting-started-frc-control-system/wpilib-setup.html>
+ 2. No need to install LabView.
+ 3. Install FRC tools *Windows Only* <https://docs.wpilib.org/en/latest/docs/getting-started/getting-started-frc-control-system/frc-game-tools.html>
+ 4. Install GitHub extention for VSCode <https://code.visualstudio.com/docs/editor/github>
+ 
+
+Notes:
+ - When finishing the FRC tools install, ignore the request for a serial number.
+
+### Install Git
+
+Go to <https://git-scm.com/> and download and install git.
+
+When installing use all the suggested defaults settings. 
+
 ### GitHub Desktop
 
-Next install the GitHub desktop software:
+Next install the GitHub desktop software. If given the choice, install CLI (Command Line Interface) tools.
+<https://desktop.github.com/>
 
-<https://help.github.com/en/desktop/getting-started-with-github-desktop/installing-github-desktop>
+To complete the installation of GitHub Desktop, you will be prompted to sign into your github accout.
 
+### GitHub VS Code Integration
+
+Follow directions to install the "GitHub Pull Requests and Issues" extention to VS Code. <https://code.visualstudio.com/docs/editor/github>
 
 # Resources
 
