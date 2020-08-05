@@ -158,8 +158,9 @@ When installing use all the suggested defaults settings.
 
 ### GitHub Desktop
 
-Next install the GitHub desktop software. If given the choice, install CLI (Command Line Interface) tools.
-<https://desktop.github.com/>
+If you have VS Code and git installed, you don't *have* to install the GitHub desktop app, but many find it useful when first starting to use GitHub.
+
+Next install the GitHub desktop software. <https://desktop.github.com/>
 
 To complete the installation of GitHub Desktop, you will be prompted to sign into your github accout.
 
