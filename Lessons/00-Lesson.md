@@ -163,15 +163,23 @@ Next install the GitHub desktop software. If given the choice, install CLI (Comm
 
 To complete the installation of GitHub Desktop, you will be prompted to sign into your github accout.
 
-### GitHub VS Code Integration
+### GitHub VSCode Integration
 
 Follow directions to install the "GitHub Pull Requests and Issues" extention to VS Code. <https://code.visualstudio.com/docs/editor/github>
 
 # Resources
 
+## GitHub and Git
+
+FIRST has a great introduction to Git and GitHub here: <https://docs.wpilib.org/en/latest/docs/software/basic-programming/git-getting-started.html>
+
+## Robot Harware
+
 Background about the hardware of the robot can be found at this
 website about [control system
 hardware](https://docs.wpilib.org/en/latest/docs/getting-started/getting-started-frc-control-system/control-system-hardware.html).
+
+## Robot Control
 
 The official software guide can be found here: [getting started with
 FRC control
