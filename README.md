@@ -29,6 +29,15 @@ Crash course to get students to the point that they can write, build, deploy, ru
 
 RC = Release Candidate, Beta = getting close to finished, Alpha = a work in progress
 
+## Notes
+
+I'm compiling notes to accompany some of the good YouTube tutorial
+videos I've found. I'm starting with this [three part introduction to
+command based programming by team
+4627](Notes/Java_Video_Tutorial_Notes.md) The idea being to add some
+depth in the form of additional discussion, links to supporting
+documentation, and updates for things that have changed.
+
 ## 2. Slides
 
 Next up, start creating a curriculum, slides, notes, and a lesson plan for instruction.
