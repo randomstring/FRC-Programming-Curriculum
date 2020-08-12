@@ -2,7 +2,7 @@
 # Notes for Java Command Based Tutorial
 
 YouTube video: FRC Java Tutorial – WPILib 2019 Command Based Framework
- Ep 1: Overview by team 4627. This is a three part video series.
+Ep 1: Overview by team 4627. This is a three part video series.
  
 
 ## Video 1: https://www.youtube.com/watch?v=64hPDvphcfA
@@ -26,7 +26,6 @@ YouTube video: FRC Java Tutorial – WPILib 2019 Command Based Framework
     - update WPILib and other libraries
     - create new Java Robot 
     - Control-Shift-P (or Command-Shift-P on MacOS) shortcut
-
   + 10:55
     - selecting a folder doesn't need your project name in it (as he
       mentions), because when you create a new project or
@@ -57,6 +56,11 @@ YouTube video: FRC Java Tutorial – WPILib 2019 Command Based Framework
 
   + 17:30 Subsystems
     - important, pay attention!
+
+## Video 2: https://www.youtube.com/watch?v=A43CDiXtEdY
+
+
+## Video 3: https://www.youtube.com/watch?v=0Mrc9GxUFhA
 
 
 
