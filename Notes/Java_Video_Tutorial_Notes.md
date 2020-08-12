@@ -1,5 +1,5 @@
 
-# Notes for Java Comand Based Tutorial
+# Notes for Java Command Based Tutorial
 
 YouTube video: FRC Java Tutorial – WPILib 2019 Command Based Framework
  Ep 1: Overview by team 4627. This is a three part video series.
@@ -18,20 +18,20 @@ YouTube video: FRC Java Tutorial – WPILib 2019 Command Based Framework
   + CTRE Framework:
     - http://www.ctr-electronics.com/installer-archive
     - documentation : http://www.ctr-electronics.com/control-system/hro.html
-  + For Git tab to work, you need to install Git Extentions
+  + For Git tab to work, you need to install Git Extensions
     - Git Pull Requests and Issues
     - GitLens
   + Command Pallet is your new best friend
     - use this to build code
     - update WPILib and other libraries
     - create new Java Robot 
-    - Control-Shift-P (or Command-Shift-P on macOS) shortcut
+    - Control-Shift-P (or Command-Shift-P on MacOS) shortcut
 
   + 10:55
     - selecting a folder doesn't need your project name in it (as he
       mentions), because when you create a new project or
       download/clone an existing project it already uses a named
-      directory (in this example TutorialBot). So he's creating nexted
+      directory (in this example TutorialBot). So he's creating nested
       directories called TutorialBot/TutorialBot, where all his code
       will go. That can get confusing, don't do that.
     - better to create/choose a common directory for all projects
@@ -50,8 +50,8 @@ YouTube video: FRC Java Tutorial – WPILib 2019 Command Based Framework
 
   + 15:10 OI.java
     - no more OI.java
-    - instead operator intraface/input is configured in
-      RobotContainer.java in the configureButtonBindings() method.
+    - instead operator interface/input is configured in
+      RobotContainer.java in the ''configureButtonBindings()'' method.
 
   + 16:10 RobotMap.java now called Constants.java
 
@@ -81,12 +81,12 @@ YouTube video: FRC Java Tutorial – WPILib 2019 Command Based Framework
 
 + Files and Directories in your workspace
   - Anything that begins with a "." (dot, also known as a period) are
-    usually configutation files or directories. That hold information
+    usually configuration files or directories. That hold information
     about how the code is built (.gradle), VS Code customizations
     (.vscode), WPILib settings (.wpilib that tracks your team number
     for example), .gitignore (what files git should not track), and
     depending on the project possibly several more.
-  - For the most part you can ignore all the files begining with a dot.
+  - For the most part you can ignore all the files beginning with a dot.
   - venderdeps hold information about third party code being used. For
     instance it will hold information about what version of the CTRE
     API you are using. These libraries are installed using the command
@@ -99,7 +99,7 @@ YouTube video: FRC Java Tutorial – WPILib 2019 Command Based Framework
   - frc/robot and subfolders correspond to the Java Class hierarchy
     + for example to include the Java class defined in
       src/main/java/frc/robot/subSystem/driveSubsystem.java you use
-      the line "import frc.robot.subsystems.driveSubsystem;"
+      the line '''import frc.robot.subsystems.driveSubsystem;'''
     + keeping filenames and directories in sync with your class names
       and hierarchy is important
 
@@ -107,11 +107,11 @@ YouTube video: FRC Java Tutorial – WPILib 2019 Command Based Framework
 + Gradle
   - gradle is a program that builds the robot code from JAVA into
     bytecode that can be deployed to the robot.
-  - The process of building can sometimes unocover errors that are not
+  - The process of building can sometimes uncover errors that are not
     apparent in the code from just looking at the syntax. Just because
     VS code doesn't report any errors, doesn't mean the code will
     build correctly. Always run build and correct any build errors
-    before commiting code to git.
+    before committing code to git.
   - Gradle is very powerful and does a lot of heavy lifting behind the
     scenes. The two most important things we need to know are the
     "Build Robot Code" and "Deploy Robot Code" commands.
