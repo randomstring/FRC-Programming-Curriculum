@@ -59,7 +59,50 @@ Ep 1: Overview by team 4627. This is a three part video series.
 
 ## Video 2: https://www.youtube.com/watch?v=A43CDiXtEdY
 
+  + Note: The template and code for 2020 looks slightly different.
 
+  + 5:00 - Subsystem creation is the same, make sure you choose
+  "Subsystem (new)" or "Command (new)" to use the newer 2020 command
+  based structure.
+
+  + 7:00 installation and managing Vendor libraries. See:
+     - CTRE https://phoenix-documentation.readthedocs.io/en/latest/ch05a_CppJava.html
+     - REV robotics: https://www.revrobotics.com/sparkmax-software/
+     - other vendors: https://docs.wpilib.org/en/stable/docs/software/wpilib-overview/3rd-party-libraries.html
+
+  + 17:40 Configuring Joystick controls has changed. See: <https://docs.wpilib.org/en/stable/docs/software/commandbased/binding-commands-to-triggers.html> for details on how to configure joystick and button controls.
+
+   I super simple example (not using Command based) can be found here: <https://github.com/wpilibsuite/allwpilib/blob/master/wpilibjExamples/src/main/java/edu/wpi/first/wpilibj/examples/arcadedrivexboxcontroller/Robot.java>
+
+  A command based example can be found here: <https://github.com/wpilibsuite/allwpilib/blob/dc9e560f9b85cb855d3ee50badac68781fc049f3/wpilibjExamples/src/main/java/edu/wpi/first/wpilibj/examples/ramsetecommand/RobotContainer.java#L46-L65>
+
+ + 21:20  Tank drive vs Arcade Drive
+    - Tank drive: the driver controls the left and right motor speeds directly using two separate joysticks (the left and right thumb sticks on the Xbox).
+    - Arcade drive: the left thumb stick controls the angle of the robot, rotating left/right. The right thumb stick controls the forward/reverse speed.
+
+ + 26:00 no need to define joystick constants. These constants are defined in WPILib GenericHID class. Use the constants there. 
+
+ + 33:40 Always run build before pushing code. It's a good idea to run build before committing changes to avoid committing code that doesn't work. Sometimes you know your code is not working yet, and you want to commit and checkpoint your progress so far. In that case it is OK if the code does not build without errors.
+
+### Choosing CAN id numbers:
+
+The CAN id is the address (like phone number of IP address) of devices
+on the CAN bus. The CAN bus is a type of wired network connecting the
+RoboRIO to other devices on the robot. Typically motor controllers are
+connected to the CAN bus. Each device needs it's own unique CAN id. If
+more than one device shares the same CAN Id, then one or more those
+devices sharing a CAN id will not be able to communicate.
+
+Be careful to assign unique CAN ids to each motor controller and
+sensor on the CAN bus!
+
+How do you know what the CAN ids are for a motor controller? The CAN ids can be set using either Phoenix Tuner software (for CTRE devices) or the SparkMax Client Application (for REV robotics devices).
+
+<https://phoenix-documentation.readthedocs.io/en/latest/ch03_PrimerPhoenixSoft.html?highlight=phoenix%20tuner#what-is-phoenix-tuner>
+<https://www.revrobotics.com/sparkmax-software/>
+
+Read more about the CAN bus: <https://docs.wpilib.org/en/stable/docs/software/can-devices/index.html>
+  
 ## Video 3: https://www.youtube.com/watch?v=0Mrc9GxUFhA
 
 
