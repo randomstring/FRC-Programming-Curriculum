@@ -6,7 +6,7 @@ Ep 1: Overview by team 4627. This is a three part video series.
 
 ## Prerequisite
 
-Complete the installation of software as outlined in [Lesson 0](Lessons/00-Lesson.md).
+Complete the installation of software as outlined in [Lesson 0](../Lessons/00-Lesson.md).
 
 ## Video 1: https://www.youtube.com/watch?v=64hPDvphcfA
 
