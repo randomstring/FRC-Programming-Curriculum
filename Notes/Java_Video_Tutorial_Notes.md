@@ -3,12 +3,14 @@
 
 YouTube video: FRC Java Tutorial – WPILib 2019 Command Based Framework
 Ep 1: Overview by team 4627. This is a three part video series.
- 
+
+## Prerequisite
+
+Complete the installation of software as outlined in [Lesson 0](Lessons/00-Lesson.md).
 
 ## Video 1: https://www.youtube.com/watch?v=64hPDvphcfA
 
-  + Prerequisites: do Lesson 0 and get software install
-  + Assumes you know Java
++ Assumes you know Java
     - syntax
     - classes
     - inheritance
