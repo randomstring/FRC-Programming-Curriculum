@@ -105,6 +105,20 @@ Read more about the CAN bus: <https://docs.wpilib.org/en/stable/docs/software/ca
   
 ## Video 3: https://www.youtube.com/watch?v=0Mrc9GxUFhA
 
++ 2:00 m_time variable
+  - in Java it is a good convention to give all your *member* variables that belong to a class the `m_` prefix.
+  - member variables are variables that are private to the class
+  - using the `m_` prefix also helps differentiate class variables, arguments, and global variables.
+
++ 6:30 Button Numbers
+  - w/ 2020 WPILib button numbers have named constants in the classes
+  - for Xbox controllers the Xbox `Button` class defined in [edu.wpi.first.wpilibj.XboxController.Button](https://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/XboxController.Button.html) has constants for all the button types.
+  - HID stands for Human Interface Device (joystick, Xbox controller, mouse, keyboard, etc)
+
++ 10:20 *WARNING* *WARNING*
+  - don't start by having your robot drive autonomously backwards at 70% power for 5 seconds
+  - robots can be crazy fast, start out *slow*
+  - Always be ready to hit the "kill switch", the space bar on the driver station at the first hint of problems
 
 
 # General Notes:
