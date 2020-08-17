@@ -295,7 +295,7 @@
     -   variable naming, camel case, underscores, capitalization, prefixes
         -   no funny joke names
         -   name variables for what they are
-        -   \_foo for local variables
+        -   `m_` prefix for private class member variables
         -   other conventions
     -   comments
         -   need to be accurate and up to date
