@@ -10,11 +10,12 @@ Complete the installation of software as outlined in [Lesson 0](../Lessons/00-Le
 
 ## Video 1: https://www.youtube.com/watch?v=64hPDvphcfA
 
-+ Assumes you know Java
+  + Assumes you know Java 
     - syntax
     - classes
     - inheritance
     - polymorphism
+    - READ: [Object Oriented Code notes](ProgrammingCurriculum.md#general-computer-science)
   + UPDATE: new URL for instructions replaces screensteps
     - https://docs.wpilib.org/en/latest/docs/getting-started/getting-started-frc-control-system/index.html
   + CTRE Framework:
