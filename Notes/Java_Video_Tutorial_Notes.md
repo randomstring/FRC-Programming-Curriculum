@@ -44,7 +44,7 @@ Ep 1: Overview by team 4627. This is a three part video series.
     - added RobotContainer.java (this is where the main loop of the robot runs from)
 
   + 12:57 Robot.java
-    - Robot.java is now RobotContainer.java
+    - Robot.java still exists, but much of its code now lives in RobotContainer.java
     - Everything covered in the video is the same
 
   + 15:10 OI.java
