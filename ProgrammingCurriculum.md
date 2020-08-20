@@ -255,6 +255,7 @@
 - Constants
 - Abstract Data Types and functions
    - Object Oriented Code
+      - https://beginnersbook.com/2013/04/oops-concepts/
       - Article: https://info.keylimeinteractive.com/the-four-pillars-of-object-oriented-programming
       - **Classes:** definition of an object. Defines the object's capabilities. Typically the contents of a single .java file
       - **Objects:** the instances of a class
@@ -474,6 +475,7 @@
     -   Part 5: <https://youtu.be/oGMy4FJLKy4>
 -   Installing 3rd Party Software
     -   <https://phoenix-documentation.readthedocs.io/en/latest/ch05a_CppJava.html>
+    -   <https://pdocs.kauailabs.com/navx-mxp/software/roborio-libraries/java/>
     -   <https://wpilib.screenstepslive.com/s/currentCS/m/getting_started/l/682619-3rd-party-libraries>
 -   FRC Robobuilder Tool
     -   Brad Miller, 6 part video series
