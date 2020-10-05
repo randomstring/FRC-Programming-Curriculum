@@ -538,6 +538,13 @@
     -   <https://www.chiefdelphi.com/t/what-is-the-best-way-to-teach-incoming-freshmen/362661/16>
     -   <https://www.chiefdelphi.com/t/what-is-the-best-way-to-teach-incoming-freshmen/362661/23>
     -   <https://www.chiefdelphi.com/t/robot-characterization-with-swerve-drive/386238>
+- Projectiles, shooting, flywheels
+    - https://www.wired.com/2012/01/projectile-motion-primer-for-first-robotics/
+    - https://www.chiefdelphi.com/t/trajectory-analysis-how-to-choose-the-best-shot/364567
+    - https://vamfun.wordpress.com/2015/05/28/vex-note-how-a-single-flywheel-ball-shooter-minimizes-the-effect-of-ball-mass-variations/
+    - https://www.vexforum.com/t/physics-of-the-flywheel-launcher/29357  More flywheel mass decreases error in ball velocity due to variance in ball mass
+    - https://www.desmos.com/calculator/jjuluadswh
+    - https://docs.google.com/spreadsheets/d/1Wt2Td-WieC93AOBwqdL5zRwgQKFoeNFFwqqaB2kYguY/edit#gid=0
 -   Misc Programming Resources:
     -   Python FRC robot simulator <https://github.com/robotpy/pyrobottraining>
 -   Other online FRC Courses/Lectures/Notes
