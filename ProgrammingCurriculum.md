@@ -442,6 +442,7 @@
 -   General
     -   <http://wpilib.screenstepslive.com/s/currentCS>
     -   <https://frc-docs.readthedocs.io/en/latest/>
+    -   <http://training.spectrum3847.org/>  Team 3847 Training videos and slides
     -   <https://www.team254.com/resources/>
     -   <https://betawolves.org/resources/>
     -   <https://github.com/FRCTeam3255/FRC-Java-Tutorial>
@@ -538,6 +539,9 @@
     -   <https://www.chiefdelphi.com/t/what-is-the-best-way-to-teach-incoming-freshmen/362661/16>
     -   <https://www.chiefdelphi.com/t/what-is-the-best-way-to-teach-incoming-freshmen/362661/23>
     -   <https://www.chiefdelphi.com/t/robot-characterization-with-swerve-drive/386238>
+- PID, PIDF tuning
+    - https://trickingrockstothink.com/blog_posts/2019/10/26/controls_supp_arm.html
+    - https://trickingrockstothink.com/blog_posts/2019/10/19/tuning_pid.html
 - Projectiles, shooting, flywheels
     - https://www.wired.com/2012/01/projectile-motion-primer-for-first-robotics/
     - https://www.chiefdelphi.com/t/trajectory-analysis-how-to-choose-the-best-shot/364567
