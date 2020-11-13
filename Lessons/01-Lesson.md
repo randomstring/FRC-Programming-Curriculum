@@ -178,5 +178,40 @@ building that.
 Start by creating a new window. In VS Code open a new window
 (Control-Shift-N) and then in the command palette type "git clone" and
 give the URL
-https://github.com/FRC-Sonic-Squirrels/FRC-2019-Public.git
+https://github.com/FRC-Sonic-Squirrels/2020-RobotCode.git
+
+## Importing 3rd Party Libraries
+
+Much of the code that interfaces directly with the robot's hardware
+(motor controllers and sensors) is supplied by the manufacturers of
+those device. To make use of those devices on your robot, you will
+need to download and install the 3rd party software. VS Code has a
+fuction "Manage Vendor Libraries" that can be access through the
+WPILib command pallet. Check this [comprehensive list of 3rd party
+softare](https://docs.wpilib.org/en/latest/docs/software/vscode-overview/3rd-party-libraries.html#rd-party-libraries).
+
+Chances are your robot will use sensors and motors from Rev Robotics,
+Cross the Road Electronics (CTRE), or both. Here are the instructions
+for installing these two major 3rd party libraries.
+
+### Rev Robotics
+
+Go to the "JAVA API Installer" section on
+https://www.revrobotics.com/sparkmax-software/ and follow the
+instductions.
+
+1. In VS Code, open a project and from the command pallet choose
+"Manage Vendor Libraries", check "install new (online)", and then
+enter this url:
+https://www.revrobotics.com/content/sw/max/sdk/REVRobotics.json
+
+### Cross the Road Electronics
+
+1. Download latest installer from
+https://github.com/CrossTheRoadElec/Phoenix-Releases/releases and run it.
+
+2. Then in VS Code, open a project and from the command pallet
+choose "Manage Vendor Libraries", check "install new (offline)", and
+then select CTRE.
+
 
