@@ -141,7 +141,7 @@ software releases.
 If you have all your accounts set up, you can jump straight to the installation.
 
 
- 1. Follow instructions for your computer. Select download VS Code with all other installs. <https://frc-docs.readthedocs.io/en/latest/docs/getting-started/getting-started-frc-control-system/wpilib-setup.html>
+ 1. Follow instructions for your computer. Select download VS Code with all other installs. <https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/wpilib-setup.html>
  2. No need to install LabView.
  3. Install FRC tools *Windows Only* <https://docs.wpilib.org/en/latest/docs/getting-started/getting-started-frc-control-system/frc-game-tools.html>
  4. Install GitHub extention for VSCode <https://code.visualstudio.com/docs/editor/github>
