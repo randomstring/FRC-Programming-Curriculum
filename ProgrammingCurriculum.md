@@ -43,7 +43,7 @@
 -   motor controller utilities
 -   flashing firmware roboRIO, Limelight, radio
 -   How to update software
-
+-   Java style <https://code.visualstudio.com/docs/java/java-linting>
 
 <a id="orgc59ce52"></a>
 
@@ -443,6 +443,7 @@
     -   <http://wpilib.screenstepslive.com/s/currentCS>
     -   <https://frc-docs.readthedocs.io/en/latest/>
     -   <http://training.spectrum3847.org/>  Team 3847 Training videos and slides
+    -   <https://frc-pdr.readthedocs.io/en/latest/index.html>
     -   <https://www.team254.com/resources/>
     -   <https://betawolves.org/resources/>
     -   <https://github.com/FRCTeam3255/FRC-Java-Tutorial>
@@ -482,6 +483,8 @@
     -   Brad Miller, 6 part video series
         <https://www.youtube.com/playlist?list=PLYA9eZLlgz7t9Oleid2wtlgnvhGObeKzp>
 -   Online Lessons
+    -   <https://www.firstinspires.org/robotics/frc/blog/2021-skill-building-update-intro-to-programming-module>
+    -   <http://programming.sdarobotics.org/>
     -   <https://github.com/FRCTeam3255/FRC-Java-Tutorial>
     -   <https://frc-west.github.io/>
     -   <http://team2363.org/2016/11/command-based-java-for-frc/>
@@ -508,6 +511,11 @@
     -   <https://frc-docs.readthedocs.io/en/develop/software.html#can-devices>
     -   Cross the Road Electronics documentation, CAN, APIs, installation
     -   <https://phoenix-documentation.readthedocs.io/en/latest/index.html>
+    -   <https://www.hi-im.kim/canbus>
+    -   <https://docs.wpilib.org/en/stable/docs/software/can-devices/can-addressing.html>
+    -   Controlling Status Frame Rates to reduce CAN Bus utilization
+        + <https://docs.ctre-phoenix.com/en/latest/ch18_CommonAPI.html>
+        + <https://andymark-weblinc.netdna-ssl.com/media/W1siZiIsIjIwMjAvMDUvMTkvMTQvMDYvNDMvNDUyNGFkOTMtZjYwZi00ODgyLWFlNzQtNjAxMzU5MzQyMjBiL2FtLTQyNjEgU1BBUksgTUFYIC0gVXNlciBNYW51YWwuaHRtbCJdXQ/am-4261%20SPARK%20MAX%20-%20User%20Manual.html?sha=7c9ea7a1ed73eb42#section-3-3-2-1>
 -   Control:
     -   <https://www.team254.com/documents/control/>
 -   Vision:
@@ -530,6 +538,7 @@
     -   pure pursuit: <https://www.chiefdelphi.com/t/paper-implementation-of-the-adaptive-pure-pursuit-controller/166552>
     -   <https://github.com/Dawgma-1712/FRC-2018/wiki/pure-pursuit>
 -   Swerve Drive Resources:
+    -   <https://www.first1684.com/uploads/2/0/1/6/20161347/chimiswerve_whitepaper__2_.pdf>
     -   <https://www.chiefdelphi.com/t/team-4048-swerve-drive-code-release/166605>
     -   <https://www.strykeforce.org/resources/Mechanical_Design_Description_of_Stryke_Force_Swerve_Drive_Units.pdf>
     -   <https://github.com/strykeforce/cookiecutter-robot>
