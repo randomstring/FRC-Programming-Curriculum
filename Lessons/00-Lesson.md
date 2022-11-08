@@ -112,8 +112,7 @@ USB-to-Ethernet adapter, is a nice to have but not necessary.
 ## Software Installation
 
 Follow the instructions outlined here. Note, the main instruction is
-to follow the link to wpilib.screenstepslive.com and follow the
-detailed instructions there.
+to follow the link to `wpilib.org` and follow the detailed instructions there.
 
 <https://github.com/wpilibsuite/allwpilib/releases>
 
