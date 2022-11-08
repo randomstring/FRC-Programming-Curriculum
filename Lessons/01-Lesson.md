@@ -98,7 +98,7 @@ projects. Leave the setting the ".gitignore" option to "None."
 Click the green "Clone or download" button and copy the URL. You'll
 need that for the next step. For me the URL looks like
 "https://github.com/randomstring/MyFirstRobot.git" yours will have
-your own username instead of "randmstring."
+your own username instead of "randomstring."
 
 
 In the VS Code terminal (from the top menu select View > Terminal or press Ctrl+` ) then run the following command:
