@@ -154,7 +154,14 @@ Notes:
 
 Go to <https://git-scm.com/> and download and install git.
 
-When installing use all the suggested defaults settings. 
+When installing use all the suggested defaults settings.
+
+After installing git, you will need to set the git default email and username. git will use these defaults when fetching and pushing changes from github. The email you use needs to match the email you use for your github.com account. Use your real name, or an identifiable abbreviation,  as this shows next to your code changes.
+
+```bash
+git config --global user.email "yourname@email.com"
+git config --global user.name "your username"
+```
 
 ### GitHub Desktop
 
@@ -166,7 +173,7 @@ To complete the installation of GitHub Desktop, you will be prompted to sign int
 
 ### GitHub VSCode Integration
 
-Follow directions to install the "GitHub Pull Requests and Issues" extention to VS Code. <https://code.visualstudio.com/docs/editor/github>
+Follow directions to install the "GitHub Pull Requests and Issues" extension to VS Code. <https://code.visualstudio.com/docs/editor/github>
 
 # Resources
 
