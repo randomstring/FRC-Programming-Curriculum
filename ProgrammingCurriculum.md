@@ -551,6 +551,7 @@
 - PID, PIDF tuning
     - https://trickingrockstothink.com/blog_posts/2019/10/26/controls_supp_arm.html
     - https://trickingrockstothink.com/blog_posts/2019/10/19/tuning_pid.html
+    - https://blog.wesleyac.com/posts/intro-to-control-part-one-pid
 - Projectiles, shooting, flywheels
     - https://www.wired.com/2012/01/projectile-motion-primer-for-first-robotics/
     - https://www.chiefdelphi.com/t/trajectory-analysis-how-to-choose-the-best-shot/364567
