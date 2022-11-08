@@ -176,6 +176,13 @@ To complete the installation of GitHub Desktop, you will be prompted to sign int
 
 Follow directions to install the "GitHub Pull Requests and Issues" extension to VS Code. <https://code.visualstudio.com/docs/editor/github>
 
+### Other Useful VSCode Integrations
+
+The following are useful VS Code extension that make writing good code easier. Fixing spelling errors, writing with good style, and debugging JSON files. Click on the extensions icon on the left bar in VS Code (looks like 4 squares), search for the extensions by name and install them.
+
+ * Code Spell Checker - help catch spelling errors in comments, variable names, etc
+ * Checkstyle for Java - for finding style problems in code, makes code easier to read.
+ * json - "Json for Visual Studio Code" to make JSON files easier to read.
 # Resources
 
 ## GitHub and Git
