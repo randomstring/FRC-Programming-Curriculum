@@ -22,18 +22,17 @@ If you get stuck or aren't sure how to proceed, ask me or the rest of
 the sub-team for help!
 
 # Account setup
-    
+
 Our team uses several different services to store and track changes in
     our code and to communicate with our fellow programmers.
-    
+
 1. [Github](https://github.com/FRC-Sonic-Squirrels) to store our code,
    track changes, and collaborate.
 
 2. [Microsoft Office 365/Teams](https://login.microsoftonline.com/) is
    a suite of services including online meetings, chat, email, file
-   sharing. To get an account, contact Jason Reiner or Bryn Dole so
-   they can create an account for you.
-    
+   sharing. To get an account, contact Bryn Dole so he can create an account for you.
+
 Start by going to <https://github.com/join> and creating an
 account. When choosing an account name and avatar, keep in mind your
 GitHub account will be visible to all and should meet team and school
@@ -42,12 +41,12 @@ and can act as a coding resume. Next, email your GitHub username to
 your programming lead and/or mentor so they can grant you access to
 your team's Github repositories (that's what Github calls a project
 folder).
-	
+
 Next, you will need to join the Sonic Squirrel Microsoft Teams and 
 the #programming Team. The easiest way to do this is to email the team
 (sonicsquirrels@gmail.com) and ask to be added. Make sure you include
 your name and email in the message so the admin knows who you are.
-    
+
 If you already have a MS Teams account and a @sonicsquirels.com email
 you can log in via the website space <https://teams.microsoft.com/> or
 download and install the MS Teams app on your desktop and/or
@@ -69,12 +68,12 @@ at <https://github.com/FRC-Sonic-Squirrels/> for the code last two robots is at
 
 
 # Software Installation Requirements
-    
+
 Next we need to setup the development environment on your
       computer. This is a set of tools for editing, building, testing,
       and deploying code. The software is all free. The tools we will
       install are:
-    
+
 1. *VS Code* This is an IDE (Integrated Development Environment) that
         is a file editor with added intelligence that understands the code
         you write and helps automates much of the process of editing,
@@ -91,7 +90,7 @@ Next we need to setup the development environment on your
         github.com. Most of your interactions with GitHub will be handled
         by VS Code and this installs the programs VS Code will use behind
         the scenes.
-    
+
 To install the software you'll need a computer or access to
 one. Pretty much any PC, Mac, or Linux computer or laptop will work. A
 laptop you can bring to programming meetings is ideal. Almost any
@@ -99,25 +98,25 @@ laptop, even very old and slow ones, will work. The team has a few
 laptops that can be shared. The team can help you setup an old cast
 off laptop. And our high schools have libraries and computer labs for
 after-school computer time.
-	  
+
 If you don't have a laptop that you can bring to meetings, we're
 working on possible solutions to allow students to keep their working
 environment on a portable thumb drive. If this sounds useful to you,
 speak up so we can put time into making this solution work for anyone.
-    
+
 Your laptop will need WiFi in order to connect to the school network
 and also to connect to the robot. A USB 2.0/3.0 port is useful for
 hardwired connections to the robot. Having an Ethernet port, or
 USB-to-Ethernet adapter, is a nice to have but not necessary.
 
 ## Software Installation
-    
+
 Follow the instructions outlined here. Note, the main instruction is
 to follow the link to wpilib.screenstepslive.com and follow the
 detailed instructions there.
-    
+
 <https://github.com/wpilibsuite/allwpilib/releases>
-    
+
 You start by downloading the appropriate software bundle for your
 computer and operating system. To do this scroll down to the section
 of the page that looks like this:
@@ -144,7 +143,7 @@ If you have all your accounts set up, you can jump straight to the installation.
  1. Follow instructions for your computer. Select download VS Code with all other installs. <https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/wpilib-setup.html>
  2. No need to install LabView.
  3. Install FRC tools *Windows Only* <https://docs.wpilib.org/en/latest/docs/getting-started/getting-started-frc-control-system/frc-game-tools.html>
- 4. Install GitHub extention for VSCode <https://code.visualstudio.com/docs/editor/github>
+ 4. Install GitHub extensions for VSCode <https://code.visualstudio.com/docs/editor/github>
  
 
 Notes:
@@ -154,9 +153,11 @@ Notes:
 
 Go to <https://git-scm.com/> and download and install git.
 
-When installing use all the suggested defaults settings.
+When installing use all the suggested defaults settings. The installer asks a *lot* of questions, the default answer is always the best choice.
 
-After installing git, you will need to set the git default email and username. git will use these defaults when fetching and pushing changes from github. The email you use needs to match the email you use for your github.com account. Use your real name, or an identifiable abbreviation,  as this shows next to your code changes.
+After installing git, you will need to set the git default email and username. git will use these defaults when fetching and pushing changes from github. The email you use needs to match the email you use for your github.com account. Use your real name, an identifiable abbreviation, or your github username for `user.name` as this shows next to your code changes.
+
+Run the following in the *Terminal* window in VS Code. You can open a new terminal in VSCode by running the `>Terminal:Create New Terminal` in the command prompt.
 
 ```bash
 git config --global user.email "yourname@email.com"
@@ -169,7 +170,7 @@ If you have VS Code and git installed, you don't *have* to install the GitHub de
 
 Next install the GitHub desktop software. <https://desktop.github.com/>
 
-To complete the installation of GitHub Desktop, you will be prompted to sign into your github accout.
+To complete the installation of GitHub Desktop, you will be prompted to sign into your github account.
 
 ### GitHub VSCode Integration
 
@@ -181,7 +182,7 @@ Follow directions to install the "GitHub Pull Requests and Issues" extension to 
 
 FIRST has a great introduction to Git and GitHub here: <https://docs.wpilib.org/en/latest/docs/software/basic-programming/git-getting-started.html>
 
-## Robot Harware
+## Robot Hardware
 
 Background about the hardware of the robot can be found at this
 website about [control system
@@ -192,17 +193,4 @@ hardware](https://docs.wpilib.org/en/latest/docs/getting-started/getting-started
 The official software guide can be found here: [getting started with
 FRC control
 systems](https://docs.wpilib.org/en/latest/docs/getting-started/getting-started-frc-control-system/intro.html).
-
-# Advanced Topics
-    
-If you don't have a laptop you can try to install all the software
-onto a portable thumb drive or some other type of portable media. This
-will let you carry your entire programming environment with you. You
-just need to borrow a computer with the same operating system and run
-VS Code directly from your thumb drive. The school has sets of
-classroom laptops we could use for this purpose.
-    
-WARNING: We haven't actually tried this yet!
-
-<https://www.chiefdelphi.com/t/portable-vscode-install/356115>
 
