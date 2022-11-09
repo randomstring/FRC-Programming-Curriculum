@@ -132,8 +132,15 @@ little cloud icon in the lower left.
 
 You will be prompted for your github username and password by VS Code.
 
-The next step has to be done from the command line. The easiest way is
-to access the built in terminal in VS Code.
+Run the following in the *Terminal* window in VS Code. You can open a new terminal in VSCode by pressing `Ctr-\`` or running the `>Terminal:Create New Terminal` in the command prompt.
+
+```bash
+git config --global user.email "yourname@email.com"
+git config --global user.name "your username"
+```
+
+![Terminal Example](https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/master/Lessons/imgs/terminal_set_git_config.png)
+
 
 
 You have now pushed your code to GitHub! You can now go to your

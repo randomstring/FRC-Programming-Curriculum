@@ -156,7 +156,7 @@ When installing use all the suggested defaults settings. The installer asks a *l
 
 After installing git, you will need to set the git default email and username. git will use these defaults when fetching and pushing changes from github. The email you use needs to match the email you use for your github.com account. Use your real name, an identifiable abbreviation, or your github username for `user.name` as this shows next to your code changes.
 
-Run the following in the *Terminal* window in VS Code. You can open a new terminal in VSCode by running the `>Terminal:Create New Terminal` in the command prompt.
+Run the following in the *Terminal* window in VS Code. You can open a new terminal in VSCode by pressing `Ctr-\`` or running the `>Terminal:Create New Terminal` in the command prompt.
 
 ```bash
 git config --global user.email "yourname@email.com"
