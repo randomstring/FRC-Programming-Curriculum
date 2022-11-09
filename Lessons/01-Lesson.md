@@ -42,9 +42,9 @@ select "WPILib: Create a new project" from the list of suggestions.
 Work your way through the options, feel free to explore, but for this lesson select:
 
 ```
-  Project Type: example
+  Project Type: Template
   Language: Java
-  Project Base: tank drive
+  Project Base: Command Robot
   Project Name: MyFirstRobot
   Team Number: 2930
 ```
@@ -109,10 +109,7 @@ git remote add origin https://github.com/YOUR_USERNAME/MyFirstRobot.git
 
 This command connects your local git repository where you will be
 making changes, to your remote repository hosted on github.com.
-
-
 ### 5. Commit your Code
-
 
 For your first commit message use "WPILib generated code"
 
@@ -193,9 +190,9 @@ Much of the code that interfaces directly with the robot's hardware
 (motor controllers and sensors) is supplied by the manufacturers of
 those device. To make use of those devices on your robot, you will
 need to download and install the 3rd party software. VS Code has a
-fuction "Manage Vendor Libraries" that can be access through the
+function "Manage Vendor Libraries" that can be access through the
 WPILib command pallet. Check this [comprehensive list of 3rd party
-softare](https://docs.wpilib.org/en/latest/docs/software/vscode-overview/3rd-party-libraries.html#rd-party-libraries).
+software](https://docs.wpilib.org/en/latest/docs/software/vscode-overview/3rd-party-libraries.html#rd-party-libraries).
 
 Chances are your robot will use sensors and motors from Rev Robotics,
 Cross the Road Electronics (CTRE), or both. Here are the instructions
@@ -205,7 +202,7 @@ for installing these two major 3rd party libraries.
 
 Go to the "JAVA API Installer" section on
 https://www.revrobotics.com/sparkmax-software/ and follow the
-instductions.
+instructions.
 
 1. In VS Code, open a project and from the command pallet choose
 "Manage Vendor Libraries", check "install new (online)", and then
