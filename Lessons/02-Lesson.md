@@ -1,6 +1,6 @@
 # Lesson 2
 
-## Introduction to Java and Command Based Programming. 
+## Introduction to Java and Command Based Programming.
 
 This lesson is self-paced and is an ongoing project. You will continue
 to learn and improve your programming skills for the rest of your

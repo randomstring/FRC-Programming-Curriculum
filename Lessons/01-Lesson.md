@@ -138,17 +138,37 @@ git config --global user.name "your username"
 
 ![Terminal Example](https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/main/Lessons/imgs/terminal_set_git_config.png)
 
-
-
 You have now pushed your code to GitHub! You can now go to your
 github.com page and navigate to your new online repo.
-
 ### 6. Customize the code
+
+
+#### Adding Vendor a Dependency
+
+Most robots use motor and controls electronics from [Rev Robotics](https://www.revrobotics.com/), [Cross the Road Electronics](https://store.ctr-electronics.com/) or both. Each of these vendors for FRC parts provide their own code for controlling their respective electronics. These are not included in your WPILib installation by default and must be added to your code repository before you can use them. 
+
+For this project we will be using REV Neo motors for our simple robot. So we will add the REV Robotics vender dependency. These vender dependency files get put in the `venderdeps` directory in your code repo. 
+
+We will want to add the REV vender dependency file from `https://software-metadata.revrobotics.com/REVLib.json` you can copy it by hand, or follow the [instructions on installing vender dependencies](https://docs.wpilib.org/en/stable/docs/software/vscode-overview/3rd-party-libraries.html).
+
+*NOTE: Vender libraries are updated each competition year and sometimes mid season, so confirm you are installing the latest version.*
+
+#### Creating a Subsystem
 
 TODO: modify the code to use the correct motor classes and motor ids
 as our actual robot. These will differ from those in the example code.
 
 Open src/main/java/frc/robot/Robot.java and scroll down to the function robotInit()
+
+1. create `Drivetrain.java` subsystem in subsystem folder
+2. edit `Drivetrain.java` to have
+  * two motors, using the SPARKMax 
+
+
+#### Adding a XBox Controller
+
+TODO: add XBOX controller to `RobotContainer.java`
+#### Putting it Together
 
 TODO: new code, explanation
 
