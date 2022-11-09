@@ -132,7 +132,7 @@ little cloud icon in the lower left.
 
 You will be prompted for your github username and password by VS Code.
 
-Run the following in the *Terminal* window in VS Code. You can open a new terminal in VSCode by pressing `Ctr-\`` or running the `>Terminal:Create New Terminal` in the command prompt.
+Run the following in the *Terminal* window in VS Code. You can open a new terminal in VSCode by pressing ``Ctr-` `` or running the `>Terminal:Create New Terminal` in the command prompt.
 
 ```bash
 git config --global user.email "yourname@email.com"
