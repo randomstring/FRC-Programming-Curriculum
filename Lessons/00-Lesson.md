@@ -120,7 +120,7 @@ You start by downloading the appropriate software bundle for your
 computer and operating system. To do this scroll down to the section
 of the page that looks like this:
 
-![Download links look like this](https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/master/Lessons/imgs/Download_Links.png)
+![Download links look like this](https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/main/Lessons/imgs/Download_Links.png)
 
 Download the bundle, extract it (TODO: specific instructions) , and
 then run the installer. Follow the installation steps outlined on the

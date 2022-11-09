@@ -18,11 +18,11 @@ desktop top run VS Code.
 
 Next open a new window by pressing Ctrl+Shift+N (or Command+Shift+N on the mac)
 
-![VS Code New Window](https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/master/Lessons/imgs/VSCode_New_Window.png)
+![VS Code New Window](https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/main/Lessons/imgs/VSCode_New_Window.png)
 
 ### 2. Press Control+Shift+P (or it may be Command+Shift+P on a Mac) This will open the Command Palette. Or just click on the "W" in a red hexagon icon in the upper right corner.
 
-![VS Code Command Palette](https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/master/Lessons/imgs/Command_Palette.png)
+![VS Code Command Palette](https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/main/Lessons/imgs/Command_Palette.png)
 
 This is a text window where you can execute commands to build code,
 update vendor libraries, set your team number, change the the Java
@@ -37,7 +37,7 @@ The command Palette will try to auto-complete and guess what
 command. So you can just type "new project" for instance and then
 select "WPILib: Create a new project" from the list of suggestions.
 
-![WPILib Project Creator](https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/master/Lessons/imgs/WPILib_Project_Creator.png)
+![WPILib Project Creator](https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/main/Lessons/imgs/WPILib_Project_Creator.png)
 
 Work your way through the options, feel free to explore, but for this lesson select:
 
@@ -57,13 +57,13 @@ click the "Generate Project" button at the bottom.
   
 Then click on "Generate Project"
 
-![WPILib New Project](https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/master/Lessons/imgs/WPILib_New_Project.png)
+![WPILib New Project](https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/main/Lessons/imgs/WPILib_New_Project.png)
 
 VS Code will ask you if you want to open the project. Select "Yes (Current Window)"
 
 Things should look like this:
 
-![WPILib project init](https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/master/Lessons/imgs/WPILib_init.png)
+![WPILib project init](https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/main/Lessons/imgs/WPILib_init.png)
 
 ### 4. Initialize Git and Connect your repo to GitHub.com
 
@@ -77,7 +77,7 @@ GitHub also acts as a backup of our code so we don't lose it. GitHub
 also let's us share our code with other members of the team so we can
 collaborate.
 
-![Initialize local directory to use git](https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/master/Lessons/imgs/Git_init.png)
+![Initialize local directory to use git](https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/main/Lessons/imgs/Git_init.png)
 
 Open the VS Code command palette and type "git init" and select the
 "Git: Initialize Repository" option. Select the current directory
@@ -87,7 +87,7 @@ Go to GitHub.com, make sure you're logged in and navigate to your
 Repositories page/tab. In the upper right of the page there should be
 a green "New" button for creating a new repo. Click it.
 
-![New GitHub repo](https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/master/Lessons/imgs/GitHub_new_repo.png)
+![New GitHub repo](https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/main/Lessons/imgs/GitHub_new_repo.png)
 
 Fill out the form just like it is in the picture. The repository name
 should match the name of the local project directory. In this case
@@ -120,12 +120,12 @@ icon at the top to commit all the changed files at once.
 
 Next you click the check mark at the top to finish the commit. 
 
-![Git commit](https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/master/Lessons/imgs/VSCode_git_commit.png)
+![Git commit](https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/main/Lessons/imgs/VSCode_git_commit.png)
 
 Now you can publish your changes back to GitHub.com. Just click the
 little cloud icon in the lower left.
 
-![Publish changes to GitHub](https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/master/Lessons/imgs/VSCode_git_publish.png)
+![Publish changes to GitHub](https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/main/Lessons/imgs/VSCode_git_publish.png)
 
 You will be prompted for your github username and password by VS Code.
 
@@ -136,7 +136,7 @@ git config --global user.email "yourname@email.com"
 git config --global user.name "your username"
 ```
 
-![Terminal Example](https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/master/Lessons/imgs/terminal_set_git_config.png)
+![Terminal Example](https://raw.githubusercontent.com/randomstring/FRC-Programming-Curriculum/main/Lessons/imgs/terminal_set_git_config.png)
 
 
 
