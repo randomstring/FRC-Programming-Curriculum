@@ -36,13 +36,12 @@ introduced the "New" Command based API.
 
 If you're new to programming Java or looking to improve your programming skills. Here are some resources.
 
-   * [CSAwesome](https://csawesome.runestone.academy/runestone/books/published/csawesome/index.html) is a great interactive introduction to Java that parallels the AP CS Java course.
-   * Official FRC Programming documentation: https://frc-pdr.readthedocs.io/en/latest/
++ [CSAwesome](https://csawesome.runestone.academy/runestone/books/published/csawesome/index.html) is a great interactive introduction to Java that parallels the AP CS Java course.
++ Official FRC Programming documentation: <https://frc-pdr.readthedocs.io/en/latest/>
       Start with "Good Practices" and read your way through the rest of the sections.
-   * https://www.codecademy.com/learn/learn-java
-   * https://www.udemy.com/java-tutorial/ Java Tutorial for Complete Beginners
-   * Programming practice: https://codingbat.com/java
-   * Programming practice: https://practiceit.cs.washington.edu/
-   * Free Online Java Textbook: http://math.hws.edu/javanotes/
-   * This is the textbook used by the AP CS class: https://www.amazon.com/Building-Java-Programs-Basics-Approach/dp/0136091814/
-
++ <https://www.codecademy.com/learn/learn-java>
++ <https://www.udemy.com/java-tutorial/> Java Tutorial for Complete Beginners
++ Programming practice: <https://codingbat.com/java>
++ Programming practice: <https://practiceit.cs.washington.edu/>
++ Free Online Java Textbook: <http://math.hws.edu/javanotes/>
++ This is the textbook used by the AP CS class: <https://www.amazon.com/Building-Java-Programs-Basics-Approach/dp/0136091814/>
