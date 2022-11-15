@@ -153,6 +153,19 @@ public class DriveSubsystem extends SubsystemBase {
   
 ```
 
+Next we will add [methods](https://www.w3schools.com/java/java_class_methods.asp) to drive the robot. We will add two options, a [tank drive](https://first.wpi.edu/wpilib/allwpilib/docs/release/java/edu/wpi/first/wpilibj/drive/DifferentialDrive.html#tankDrive(double,double)) method and an [arcadeDrive](https://first.wpi.edu/wpilib/allwpilib/docs/release/java/edu/wpi/first/wpilibj/drive/DifferentialDrive.html#arcadeDrive(double,double))
+
+
+```Java
+  public void arcadeDrive(double xSpeed, double zRotation) {
+    drive.arcadeDrive(xSpeed, zRotation);
+  }
+
+  public void tankDrive(double leftSpeed, double rightSpeed) {
+    drive.tankDrive(leftSpeed, rightSpeed);
+  }
+```
+
 As you type VSCode will suggest autocompletions for classes, functions, and variables. You can select them with the mouse, or hit tab if the correct suggestions is at the top of the list. This is a great way to cut down on typing and to avoid typos. VSCode will also helpfully add `import` directives at the top of your Java class. The imports tell Java what external class definitions are being used in this file. Double check to make sure all of the following imports appear at the top of `Drivetrain.java`. 
 
 ```Java
@@ -214,6 +227,18 @@ public class DriveCommand extends CommandBase {
     addRequirements(driveSubsystem);
   }
 ```
+
+Lastly we need to tell the robot to run our command when it starts up. We do this by setting the DriveSubsystem's default command. Edit `RobotContainer.java` to look like this:
+
+```Java
+  public RobotContainer() {
+    // Configure the button bindings
+    configureButtonBindings();
+    m_driveSubsystem.setDefaultCommand(new DriveCommand(m_driveSubsystem, m_driveController));
+  }
+```
+
+Now you're ready to test your code!
 
 ### 7. build code
 
