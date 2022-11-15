@@ -71,7 +71,15 @@ This is a great time to start using GitHub. For instructions on creating your fi
 
 ### 5. Customize the code
 
-Next you will customize the code so it works with your robot.
+Next you will customize the code so it works with your robot. If you get stuck, consult the reference [MiniBot Code](https://github.com/FRC-Sonic-Squirrels/MinibotCode) in the team's Github repo.
+
+The outline of the steps will be:
+1. Install required vendor code to control motors.
+2. Create a [subsystem](https://docs.wpilib.org/en/stable/docs/software/commandbased/subsystems.html) to control the drivetrain motors.
+3. Instantiate a class to get user input from an [XboxController](https://first.wpi.edu/wpilib/allwpilib/docs/release/java/edu/wpi/first/wpilibj/XboxController.html).
+4. Create a [command](https://docs.wpilib.org/en/stable/docs/software/commandbased/commands.html) that takes input from the Xbox controller and tells the drivetrain to move the robot.
+5. [Build and deploy](https://docs.wpilib.org/en/stable/docs/software/vscode-overview/deploying-robot-code.html) the code to the robot.
+6. Drive a robot!
 
 #### Adding Vendor a Dependency
 
@@ -83,16 +91,31 @@ We will want to add the REV vender dependency file from `https://software-metada
 
 *NOTE: Vender libraries are updated each competition year and sometimes mid season, so confirm you are installing the latest version.*
 
+
+#### Creating Constants
+
+Open the file `Constants.java` and edit it to look like this:
+
+[MinBot Constants](https://github.com/FRC-Sonic-Squirrels/MinibotCode/blob/5667e958312aba5ce13b4ff313da0657d39875fa/src/main/java/frc/robot/Constants.java#L18-L24)
+
+<script src="https://gist.github.com/randomstring/6b8e9610ccbfb1b70901472a5fcda9c8.js"></script>
+
 #### Creating a Subsystem
 
-TODO: modify the code to use the correct motor classes and motor ids
-as our actual robot. These will differ from those in the example code.
+[Subsystems](https://docs.wpilib.org/en/stable/docs/software/commandbased/subsystems.html) are Java classes that control a specific part of the robot. Read the [WPIlib documenation on subsystems](https://docs.wpilib.org/en/stable/docs/software/commandbased/subsystems.html) for more detailed information. They have a very good explanation.
+
+The first, and most important, subsystem for any robot is for the drivetrain. Otherwise we have a robot that can't move, and a stationary robot isn't very useful.
 
 Open src/main/java/frc/robot/Robot.java and scroll down to the function robotInit()
 
 1. create `Drivetrain.java` subsystem in subsystem folder
 2. edit `Drivetrain.java` to have
-  * two motors, using the SPARKMax 
+  * two motors, using the [CANSparkMax](https://codedocs.revrobotics.com/java/com/revrobotics/cansparkmax) class
+  * create a [DifferentialDrive](https://first.wpi.edu/wpilib/allwpilib/docs/release/java/edu/wpi/first/wpilibj/drive/DifferentialDrive.html) class
+
+Create the Drivetrain.java file, but right clicking (or Ctr-clicking if you're using a Mac) the `subsystems` directory name in VSCode's file explorer. Then select the `Create new class/command` option. In the selector box that appears, type in `Subsystem` and make sure to select `Subsystem (new)`. Next it will ask you for a name for the new subsystem, this will be both the name of the file and the name of the class that is created. Classes should always start with a capital letter. Type `Drivetrain` into the box and continue. 
+
+Now a file names `Drivetrain.java` will appear in your subsystem folder. Click on it to open it (if it isn't already) and edit it as follows.
 
 
 #### Adding a XBox Controller
