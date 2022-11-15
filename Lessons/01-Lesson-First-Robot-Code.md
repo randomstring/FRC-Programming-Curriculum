@@ -96,9 +96,18 @@ We will want to add the REV vender dependency file from `https://software-metada
 
 Open the file `Constants.java` and edit it to look like this:
 
-[MinBot Constants](https://github.com/FRC-Sonic-Squirrels/MinibotCode/blob/5667e958312aba5ce13b4ff313da0657d39875fa/src/main/java/frc/robot/Constants.java#L18-L24)
 
-<script src="https://gist.github.com/randomstring/6b8e9610ccbfb1b70901472a5fcda9c8.js"></script>
+```Java
+public final class Constants {
+    public static final class DriveConstants {
+        public static final int LEFT_NEO_CANID = 2;
+        public static final int RIGHT_NEO_CANID = 1;
+        public static final int DRIVECONTROLLER_ID = 0;
+    }
+}
+```
+
+The full file is [MinBot Constants.java](https://github.com/FRC-Sonic-Squirrels/MinibotCode/blob/master/src/main/java/frc/robot/Constants.java)
 
 #### Creating a Subsystem
 
