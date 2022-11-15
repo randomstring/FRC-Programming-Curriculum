@@ -2,6 +2,8 @@
 
 In this lesson you will learn how use [GitHub.com](https://github.com/) to track changes to your coding projects. GitHub is a website that makes it easier to use the source control system called [Git](https://git-scm.com/). Github also serves as a way to share your code and work collaboratively with your fellow programmers.
 
+This lesson presumes you've already complete [Lesson 0 - Setup](00-Lesson-Setup.md), in particular installing `git`.
+
 These instructions are meant to augment [Lesson 1](./01-Lesson-First-Robot-Code.md) giving the opportunity to learn the workflow of using Git. These github instructions should be started right after you've created your initial WPILib project.
 
 ## 1. Initialize Git and Connect your repo to GitHub.com
