@@ -193,19 +193,40 @@ public class RobotContainer {
   public static XboxController m_driveController = new XboxController(DriveConstants.DRIVECONTROLLER_ID);
 ```
 
-#### Putting it Together
+#### Create a Command
 
-TODO: new code, explanation
+We have a subsystem to control the driving motors and we have user input from the Xbox controller. Now we just need to connect the two, so when a user pushes on the Xbox joysticks the robot moves. For this we will create a [command](https://docs.wpilib.org/en/stable/docs/software/commandbased/commands.html).
+
+Similar to creating a new subsystem, right click on the `commands` directory and select `Create new class/command` and this time select `Command (new)` and name the new class `DriveCommand`. Open the file and edit it so that it looks like this:
+
+```Java
+public class DriveCommand extends CommandBase {
+  private DriveSubsystem m_driveSubsystem;
+  private XboxController m_driveController;
+
+  /**
+   * Creates a new DriveCommand.
+   */
+  public DriveCommand(DriveSubsystem driveSubsystem, XboxController driveController) {
+    m_driveSubsystem = driveSubsystem;
+    m_driveController = driveController;
+    // Use addRequirements() here to declare subsystem dependencies.
+    addRequirements(driveSubsystem);
+  }
+```
 
 ### 7. build code
 
 From the command pallet type "build" and select "WPILib: Build Robot Code"
 
-TODO: Check for errors. 
-
+TODO: Check for errors. List common errors here
 
 ### 8. deploy code to robot (in class)
 
+From the command pallet type "deploy" and select "WPILib: Deploy Robot Code". For this to work, you need to first be connected to the robot. The robot will need to be powered on and you will need to either connect to the robot's Wifi, or physically connect with an Ethernet cable, or with a USB cable. If you have problems check the [WPILib network troubleshooting guide](https://docs.wpilib.org/en/stable/docs/networking/networking-introduction/roborio-network-troubleshooting.html).
+
+
+TODO: list common problems here.
 
 # Resources
 
@@ -216,9 +237,7 @@ TODO: Check for errors.
    + pushing a new repo to GitHub.com:  https://gist.github.com/c0ldlimit/4089101
    + about remote repos:  https://help.github.com/en/github/using-git/managing-remote-repositories
 
-
 # Next Steps
-
 ## Getting a Copy of the Team's Robot Code
 
 The next thing to try is to download the team's current robot code and
