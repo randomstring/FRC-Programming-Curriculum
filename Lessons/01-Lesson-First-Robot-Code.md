@@ -240,6 +240,16 @@ Lastly we need to tell the robot to run our command when it starts up. We do thi
 
 Now you're ready to test your code!
 
+#### Removing References to Example Subsystem and Command
+
+You may have noticed that all the reference code for this project has removed all the references to `ExampleSubsystem` and `ExampleCommand`. This can be done by just deleting the two corresponding `.java` files and all the lines of code that reference them. However this will leave you with one error having to do with the assignment of the autonomous command. It's too early to get into that here, but just edit the `getAutonomousCommand` function to be the following. This just replaces the `ExampleCommand` with a "do nothing" command.
+
+```Java
+  public Command getAutonomousCommand() {
+    // placeholder do nothing instant command
+    return new InstantCommand();
+  }
+```
 ### 7. build code
 
 From the command pallet type "build" and select "WPILib: Build Robot Code"
