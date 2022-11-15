@@ -126,10 +126,73 @@ Create the Drivetrain.java file, but right clicking (or Ctr-clicking if you're u
 
 Now a file names `Drivetrain.java` will appear in your subsystem folder. Click on it to open it (if it isn't already) and edit it as follows.
 
+```Java
+public class DriveSubsystem extends SubsystemBase {
+
+  private static CANSparkMax leftNEO;
+  private static CANSparkMax rightNEO;
+  private static MotorController leftSide;
+  private static MotorController rightSide;
+  private static DifferentialDrive drive;
+
+  public DriveSubsystem() {
+    leftNEO = new CANSparkMax(Constants.DriveConstants.LEFT_NEO_CANID, MotorType.kBrushless);
+    rightNEO = new CANSparkMax(Constants.DriveConstants.RIGHT_NEO_CANID, MotorType.kBrushless);
+   
+    // set all NEOs to factory defaults
+    leftNEO.restoreFactoryDefaults();
+    rightNEO.restoreFactoryDefaults();
+
+    // assign each motor to a MotorControllerGroup
+    leftSide = new MotorControllerGroup(leftNEO);
+    rightSide = new MotorControllerGroup(rightNEO);
+
+    // create our DifferentialDrive class
+    drive = new DifferentialDrive(leftSide, rightSide);
+  }
+  
+```
+
+As you type VSCode will suggest autocompletions for classes, functions, and variables. You can select them with the mouse, or hit tab if the correct suggestions is at the top of the list. This is a great way to cut down on typing and to avoid typos. VSCode will also helpfully add `import` directives at the top of your Java class. The imports tell Java what external class definitions are being used in this file. Double check to make sure all of the following imports appear at the top of `Drivetrain.java`. 
+
+```Java
+package frc.robot.subsystems;
+
+import edu.wpi.first.wpilibj2.command.SubsystemBase;
+import frc.robot.Constants;
+
+import com.revrobotics.CANSparkMax;
+import com.revrobotics.CANSparkMaxLowLevel.MotorType;
+
+import edu.wpi.first.wpilibj.drive.DifferentialDrive;
+import edu.wpi.first.wpilibj.motorcontrol.MotorController;
+import edu.wpi.first.wpilibj.motorcontrol.MotorControllerGroup;
+```
+
+Lastly, we need to [instantiate](https://www.javatpoint.com/instantiation-in-java) our drivetrain class so our robot can use it. Open `RobotContainer.java` and edit it to add the line to create the `m_driveSubsystem` variable.
+
+```Java
+public class RobotContainer {
+  // The robot's subsystems and commands are defined here...
+  private final DriveSubsystem m_driveSubsystem = new DriveSubsystem();
+
+```
 
 #### Adding a XBox Controller
 
-TODO: add XBOX controller to `RobotContainer.java`
+Next we will add a XBOX controller to `RobotContainer.java`. Add a line to create a `m_driveController` variable.
+
+```Java
+public class RobotContainer {
+  // The robot's subsystems and commands are defined here...
+  private final DriveSubsystem m_driveSubsystem = new DriveSubsystem();
+
+  /**
+   * The container for the robot.  Contains subsystems, OI devices, and commands.
+   */
+  public static XboxController m_driveController = new XboxController(DriveConstants.DRIVECONTROLLER_ID);
+```
+
 #### Putting it Together
 
 TODO: new code, explanation
