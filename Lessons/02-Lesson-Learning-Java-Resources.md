@@ -11,7 +11,7 @@ practice will make you a better programmer.
 ## Command Based, VS Code, and Java intro
 
 Here is a YouTube Tutorial series that is a good introduction to
-command based programming, using VS Code and ava.
+command based programming, using VS Code and Java.
 
    + Part 1: https://youtu.be/wW_djLkD1B8
    + Part 2: https://youtu.be/9MpJgUUsLZw
