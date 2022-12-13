@@ -150,9 +150,16 @@ Notes:
 
 ### Install Git
 
-Go to <https://git-scm.com/> and download and install git.
+Go to <https://git-scm.com/> and download and install git using the GUI installer. 
 
 When installing use all the suggested defaults settings. The installer asks a *lot* of questions, the default answer is always the best choice.
+
+On Windows you can install git from the command line:
+
+```Powershell
+winget install git.git
+# Type y if asked
+```
 
 After installing git, you will need to set the git default email and username. git will use these defaults when fetching and pushing changes from github. The email you use needs to match the email you use for your github.com account. Use your real name, an identifiable abbreviation, or your github username for `user.name` as this shows next to your code changes.
 
